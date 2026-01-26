@@ -1,0 +1,15 @@
+<map id="add_symbol_with_token" name="add_symbol_with_token">
+<area shape="rect" id="Node000001" title="Adds a symbol with definition token location." alt="" coords="5,81,184,107"/>
+<area shape="rect" id="Node000002" href="$parser__utils_8c.html#ac975129ccc940a5eb9a6c7ba4d114ed6" title="Enters a new scope (pushes to scope stack)." alt="" coords="247,5,348,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="129,79,249,33,250,38,130,84"/>
+<area shape="rect" id="Node000003" href="$utils_8c.html#af7b6b8fd37a3c4b944c71b783d50fc96" title="Allocate memory." alt="" coords="414,56,489,81"/>
+<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="184,85,400,70,400,75,185,90"/>
+<area shape="rect" id="Node000004" href="$utils_8c.html#abba8c1389aa9dd93fb9027562f9c5920" title="Warning reporting for shadowing." alt="" coords="232,156,363,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="131,104,250,149,248,154,129,109"/>
+<area shape="rect" id="Node000006" href="$utils_8c.html#a417e1e9b1022a2f475a8a6005726bf53" title="Duplicate a string." alt="" coords="262,107,333,132"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="185,103,249,111,248,116,184,108"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="338,28,402,50,400,55,336,33"/>
+<area shape="rect" id="Node000005" href="$utils_8c.html#a6e40d3098bac044a971d3f2d784404a9" title="Warning reporting with token location." alt="" coords="411,156,492,181"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="363,166,397,166,397,171,363,171"/>
+<area shape="poly" id="edge7_Node000006_Node000003" title=" " alt="" coords="332,105,400,83,401,88,334,110"/>
+</map>

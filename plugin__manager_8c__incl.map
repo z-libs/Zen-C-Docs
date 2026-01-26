@@ -1,0 +1,18 @@
+<map id="src/plugins/plugin_manager.c" name="src/plugins/plugin_manager.c">
+<area shape="rect" id="Node000001" title=" " alt="" coords="184,5,320,45"/>
+<area shape="rect" id="Node000002" href="$plugin__manager_8h.html" title=" " alt="" coords="5,93,144,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="211,48,114,90,112,85,208,43"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="141,255,208,280"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="238,47,222,69,209,94,196,133,187,173,179,241,173,241,182,173,191,132,204,92,218,66,234,44"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="219,93,285,119"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="255,46,255,79,249,79,249,46"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="310,93,381,119"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="276,44,322,82,319,86,273,48"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="405,93,475,119"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="298,43,401,85,399,90,296,48"/>
+<area shape="rect" id="Node000003" href="$zprep__plugin_8h.html" title=" " alt="" coords="9,167,143,207"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="78,119,78,153,73,153,72,119"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="39,255,113,280"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="79,207,79,241,73,241,73,207"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="102,205,151,244,148,248,98,209"/>
+</map>

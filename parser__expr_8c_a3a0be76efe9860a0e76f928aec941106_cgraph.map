@@ -1,0 +1,7 @@
+<map id="check_move_usage" name="check_move_usage">
+<area shape="rect" id="Node000001" title="Checks if a type is copyable." alt="" coords="5,31,156,56"/>
+<area shape="rect" id="Node000002" href="$parser__utils_8c.html#af6803d6083387489a1c7425481cd9b6c" title="Finds a symbol&#39;s entry." alt="" coords="204,5,347,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,31,190,26,191,32,157,36"/>
+<area shape="rect" id="Node000003" href="$utils_8c.html#a7ba31bec7001af6813ab29631fbd9760" title="Error reporting with token location." alt="" coords="233,55,317,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="157,50,220,58,219,63,156,55"/>
+</map>

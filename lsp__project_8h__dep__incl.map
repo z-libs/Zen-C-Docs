@@ -1,0 +1,9 @@
+<map id="src/lsp/lsp_project.h" name="src/lsp/lsp_project.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="167,5,318,31"/>
+<area shape="rect" id="Node000002" href="$json__rpc_8c.html" title=" " alt="" coords="5,79,139,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,38,101,81,99,76,201,33"/>
+<area shape="rect" id="Node000003" href="$lsp__analysis_8c.html" title=" " alt="" coords="163,79,322,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="245,44,245,79,240,79,240,44"/>
+<area shape="rect" id="Node000004" href="$lsp__project_8c.html" title=" " alt="" coords="346,79,497,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="285,33,393,76,391,81,283,38"/>
+</map>

@@ -1,0 +1,14 @@
+<map id="plugins/befunge.c" name="plugins/befunge.c">
+<area shape="rect" id="Node000001" title=" " alt="" coords="127,5,265,31"/>
+<area shape="rect" id="Node000002" href="$zprep__plugin_8h.html" title=" " alt="" coords="5,79,123,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="176,33,99,74,96,70,174,28"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="125,152,192,177"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="196,32,168,139,162,138,190,30"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="198,79,269,104"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="205,30,223,65,219,68,200,32"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="293,79,363,104"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="218,28,296,70,293,74,216,33"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="27,152,101,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="67,104,67,138,61,138,61,104"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="81,102,134,141,131,146,78,106"/>
+</map>

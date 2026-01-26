@@ -1,0 +1,9 @@
+<map id="plugins/brainfuck.c" name="plugins/brainfuck.c">
+<area shape="rect" id="Node000001" title=" " alt="" coords="17,5,162,31"/>
+<area shape="rect" id="Node000002" href="$zprep__plugin_8h.html" title=" " alt="" coords="31,79,148,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,31,92,65,87,65,87,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,152,80,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="84,106,60,142,56,139,79,103"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="104,152,171,177"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="99,103,124,139,120,142,95,106"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="register_slice" name="register_slice">
+<area shape="rect" id="Node000001" title="Registers a slice type." alt="" coords="5,81,115,107"/>
+<area shape="rect" id="Node000002" href="$ast_8c.html#a3e6cca014bf90f3ffa91c0e78fc6883f" title=" " alt="" coords="355,5,445,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,79,120,62,162,47,255,28,341,19,341,24,256,34,163,53,122,67,87,84"/>
+<area shape="rect" id="Node000003" href="$utils_8c.html#af7b6b8fd37a3c4b944c71b783d50fc96" title="Allocate memory." alt="" coords="493,81,568,107"/>
+<area shape="poly" id="edge7_Node000001_Node000003" title=" " alt="" coords="115,88,264,84,445,85,480,87,479,92,445,90,264,89,115,94"/>
+<area shape="rect" id="Node000004" href="$parser__utils_8c.html#a5a4b6e3fcd98680fc5bba179412b098a" title="Registers a struct definition." alt="" coords="163,107,307,132"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="115,99,149,104,148,110,114,105"/>
+<area shape="rect" id="Node000005" href="$utils_8c.html#a417e1e9b1022a2f475a8a6005726bf53" title="Duplicate a string." alt="" coords="365,157,435,183"/>
+<area shape="poly" id="edge8_Node000001_Node000005" title=" " alt="" coords="83,104,119,124,163,142,212,154,263,161,351,167,351,172,262,166,211,159,162,147,117,129,80,109"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="424,29,497,72,495,76,422,33"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="307,111,479,96,480,101,307,116"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="278,130,352,153,350,158,276,135"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="422,155,495,112,497,116,424,159"/>
+</map>

@@ -1,0 +1,20 @@
+<map id="parse_macro_call" name="parse_macro_call">
+<area shape="rect" id="Node000001" title="Parses a macro call." alt="" coords="5,157,141,183"/>
+<area shape="rect" id="Node000002" href="$ast_8c.html#a3e6cca014bf90f3ffa91c0e78fc6883f" title=" " alt="" coords="207,5,297,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,155,125,105,155,75,188,48,208,35,211,39,191,52,159,79,129,109,87,159"/>
+<area shape="rect" id="Node000003" href="$utils_8c.html#af7b6b8fd37a3c4b944c71b783d50fc96" title="Allocate memory." alt="" coords="371,39,445,64"/>
+<area shape="poly" id="edge8_Node000001_Node000003" title=" " alt="" coords="102,155,188,119,357,63,358,69,190,125,104,160"/>
+<area shape="rect" id="Node000004" href="$token_8c.html#acef16c0d0323bb30dd3fa3d195c5e868" title="Get the next token." alt="" coords="363,125,453,151"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="126,155,189,143,273,137,349,135,349,140,273,142,190,149,127,160"/>
+<area shape="rect" id="Node000005" href="$token_8c.html#a8320bc8be882141368454ed13897c342" title="Get the next token without advancing." alt="" coords="205,157,299,183"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="142,167,191,167,191,173,142,173"/>
+<area shape="rect" id="Node000006" href="$parser__utils_8c.html#aadc3c635eebe9bac0dc9a9565d3ced42" title="Resolves a plugin by name or alias." alt="" coords="193,207,311,232"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="121,180,192,200,191,205,119,185"/>
+<area shape="rect" id="Node000007" href="$utils_8c.html#a7ba31bec7001af6813ab29631fbd9760" title="Error reporting with token location." alt="" coords="210,256,294,281"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="93,181,137,210,191,242,203,248,201,253,188,247,134,215,90,185"/>
+<area shape="rect" id="Node000008" href="$plugin__manager_8c.html#a9f9625de7cc8b54952cbdf8ce4839b21" title="Find a registered plugin by name." alt="" coords="189,305,315,331"/>
+<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="86,181,128,234,157,265,191,292,200,297,197,302,188,296,154,269,124,238,82,185"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="298,25,358,38,357,43,297,30"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="382,127,376,117,379,107,390,101,408,99,429,102,438,111,435,115,427,107,408,104,392,106,384,111,382,116,386,124"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="298,158,348,147,350,153,299,163"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="parse_plugin" name="parse_plugin">
+<area shape="rect" id="Node000001" title="Parses a plugin statement." alt="" coords="5,107,111,132"/>
+<area shape="rect" id="Node000002" href="$ast_8c.html#a3e6cca014bf90f3ffa91c0e78fc6883f" title=" " alt="" coords="160,5,251,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="76,104,173,36,176,41,79,109"/>
+<area shape="rect" id="Node000003" href="$utils_8c.html#af7b6b8fd37a3c4b944c71b783d50fc96" title="Allocate memory." alt="" coords="308,39,383,64"/>
+<area shape="poly" id="edge7_Node000001_Node000003" title=" " alt="" coords="110,104,294,61,295,66,112,110"/>
+<area shape="rect" id="Node000004" href="$token_8c.html#acef16c0d0323bb30dd3fa3d195c5e868" title="Get the next token." alt="" coords="300,125,391,151"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="111,120,286,132,286,137,111,125"/>
+<area shape="rect" id="Node000005" href="$token_8c.html#a8320bc8be882141368454ed13897c342" title="Get the next token without advancing." alt="" coords="159,157,252,183"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="97,130,156,150,154,155,95,135"/>
+<area shape="rect" id="Node000006" href="$utils_8c.html#a7ba31bec7001af6813ab29631fbd9760" title="Error reporting with token location." alt="" coords="163,207,247,232"/>
+<area shape="poly" id="edge8_Node000001_Node000006" title=" " alt="" coords="76,130,113,160,160,193,168,198,165,202,157,198,110,164,73,134"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="252,26,295,37,294,42,250,31"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="322,126,317,117,319,107,329,101,345,99,365,102,373,111,369,114,362,107,345,104,331,106,324,111,322,116,326,124"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="251,157,286,149,287,154,253,162"/>
+</map>

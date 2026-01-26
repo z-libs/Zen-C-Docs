@@ -1,0 +1,5 @@
+<map id="xstrdup" name="xstrdup">
+<area shape="rect" id="Node000001" title="Duplicate a string." alt="" coords="5,5,76,31"/>
+<area shape="rect" id="Node000002" href="$utils_8c.html#af7b6b8fd37a3c4b944c71b783d50fc96" title="Allocate memory." alt="" coords="124,5,199,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="76,15,110,15,110,21,76,21"/>
+</map>

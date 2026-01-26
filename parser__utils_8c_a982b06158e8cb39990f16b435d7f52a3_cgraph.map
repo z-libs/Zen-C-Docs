@@ -1,0 +1,17 @@
+<map id="add_symbol" name="add_symbol">
+<area shape="rect" id="Node000001" title="Adds a symbol to the current scope." alt="" coords="5,81,107,107"/>
+<area shape="rect" id="Node000002" href="$parser__utils_8c.html#affc1913faf593139fe42a7d2f41d7f7c" title="Adds a symbol with definition token location." alt="" coords="155,81,333,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,91,141,91,141,97,107,97"/>
+<area shape="rect" id="Node000003" href="$parser__utils_8c.html#ac975129ccc940a5eb9a6c7ba4d114ed6" title="Enters a new scope (pushes to scope stack)." alt="" coords="396,5,497,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="278,79,398,33,400,38,280,84"/>
+<area shape="rect" id="Node000004" href="$utils_8c.html#af7b6b8fd37a3c4b944c71b783d50fc96" title="Allocate memory." alt="" coords="563,56,638,81"/>
+<area shape="poly" id="edge6_Node000002_Node000004" title=" " alt="" coords="334,85,549,70,550,75,334,90"/>
+<area shape="rect" id="Node000005" href="$utils_8c.html#abba8c1389aa9dd93fb9027562f9c5920" title="Warning reporting for shadowing." alt="" coords="381,156,512,181"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="281,104,400,149,398,154,279,109"/>
+<area shape="rect" id="Node000007" href="$utils_8c.html#a417e1e9b1022a2f475a8a6005726bf53" title="Duplicate a string." alt="" coords="411,107,482,132"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="334,103,398,111,397,116,333,108"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="487,28,551,50,549,55,485,33"/>
+<area shape="rect" id="Node000006" href="$utils_8c.html#a6e40d3098bac044a971d3f2d784404a9" title="Warning reporting with token location." alt="" coords="560,156,641,181"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="512,166,546,166,546,171,512,171"/>
+<area shape="poly" id="edge8_Node000007_Node000004" title=" " alt="" coords="481,105,549,83,551,88,483,110"/>
+</map>

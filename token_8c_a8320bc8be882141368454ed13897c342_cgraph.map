@@ -1,0 +1,6 @@
+<map id="lexer_peek" name="lexer_peek">
+<area shape="rect" id="Node000001" title="Get the next token without advancing." alt="" coords="5,29,99,55"/>
+<area shape="rect" id="Node000002" href="$token_8c.html#acef16c0d0323bb30dd3fa3d195c5e868" title="Get the next token." alt="" coords="147,29,237,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,39,133,39,133,45,99,45"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="168,30,163,21,166,11,176,5,192,3,211,6,220,15,216,18,209,11,192,8,178,10,170,15,169,20,173,28"/>
+</map>

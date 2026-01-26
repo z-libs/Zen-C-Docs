@@ -1,0 +1,8 @@
+<map id="register_template" name="register_template">
+<area shape="rect" id="Node000001" title="Registers a template." alt="" coords="5,5,144,31"/>
+<area shape="rect" id="Node000002" href="$utils_8c.html#af7b6b8fd37a3c4b944c71b783d50fc96" title="Allocate memory." alt="" coords="311,5,385,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="144,15,297,15,297,21,144,21"/>
+<area shape="rect" id="Node000003" href="$utils_8c.html#a417e1e9b1022a2f475a8a6005726bf53" title="Duplicate a string." alt="" coords="192,31,263,56"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="145,27,179,33,178,38,144,32"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="262,33,297,26,298,31,263,39"/>
+</map>

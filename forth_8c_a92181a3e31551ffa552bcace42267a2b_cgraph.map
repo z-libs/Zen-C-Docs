@@ -1,0 +1,14 @@
+<map id="zprep_forth_plugin_fn" name="zprep_forth_plugin_fn">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,168,80"/>
+<area shape="rect" id="Node000002" href="$forth_8c.html#a2244424f29e54dac69962d27afabf983" title=" " alt="" coords="216,29,376,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="168,55,202,51,202,56,169,60"/>
+<area shape="rect" id="Node000005" href="$utils_8c.html#a417e1e9b1022a2f475a8a6005726bf53" title="Duplicate a string." alt="" coords="603,80,673,105"/>
+<area shape="poly" id="edge7_Node000001_Node000005" title=" " alt="" coords="168,68,589,88,589,93,168,74"/>
+<area shape="rect" id="Node000003" href="$forth_8c.html#a603583758a519b84f1ed4e24850a6dd4" title=" " alt="" coords="424,29,555,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="377,39,410,39,410,45,377,45"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="464,31,459,21,462,11,472,5,489,3,510,6,518,15,515,18,507,11,489,8,474,10,466,15,465,20,469,28"/>
+<area shape="rect" id="Node000004" href="$utils_8c.html#af7b6b8fd37a3c4b944c71b783d50fc96" title="Allocate memory." alt="" coords="721,55,796,80"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="555,45,708,60,707,65,555,51"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="528,52,591,74,589,79,527,57"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="673,83,707,75,709,81,674,88"/>
+</map>

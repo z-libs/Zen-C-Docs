@@ -1,0 +1,31 @@
+<map id="consume_and_rewrite" name="consume_and_rewrite">
+<area shape="rect" id="Node000001" title="Consumes and rewrites tokens." alt="" coords="5,205,171,231"/>
+<area shape="rect" id="Node000002" href="$parser__utils_8c.html#ad0bdedbd785ab29dc8c84f1f6336d704" title="Consumes tokens until a semicolon is found." alt="" coords="219,105,409,131"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,203,271,134,273,139,119,208"/>
+<area shape="rect" id="Node000007" href="$parser__utils_8c.html#a18c3e17f12972a28bf0f2dabd9fc6966" title="Rewrites expression methods." alt="" coords="230,281,398,307"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="128,228,263,274,262,279,126,233"/>
+<area shape="rect" id="Node000003" href="$token_8c.html#acef16c0d0323bb30dd3fa3d195c5e868" title="Get the next token." alt="" coords="643,29,733,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="331,103,385,69,420,52,457,39,501,31,547,28,629,32,629,37,547,34,502,37,458,45,422,57,388,74,334,107"/>
+<area shape="rect" id="Node000004" href="$token_8c.html#a8320bc8be882141368454ed13897c342" title="Get the next token without advancing." alt="" coords="479,55,573,80"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="368,103,466,79,467,84,369,108"/>
+<area shape="rect" id="Node000005" href="$utils_8c.html#af7b6b8fd37a3c4b944c71b783d50fc96" title="Allocate memory." alt="" coords="651,181,725,207"/>
+<area shape="poly" id="edge6_Node000002_Node000005" title=" " alt="" coords="410,114,501,121,549,129,595,141,629,155,658,171,656,176,626,159,594,146,548,134,500,127,409,120"/>
+<area shape="rect" id="Node000006" href="$utils_8c.html#a417e1e9b1022a2f475a8a6005726bf53" title="Duplicate a string." alt="" coords="491,156,561,181"/>
+<area shape="poly" id="edge7_Node000002_Node000006" title=" " alt="" coords="369,128,478,155,476,160,368,133"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="661,31,655,21,658,11,670,5,688,3,710,6,719,15,716,19,708,11,688,8,671,10,663,15,661,20,666,28"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="573,57,629,49,629,54,573,63"/>
+<area shape="poly" id="edge8_Node000006_Node000005" title=" " alt="" coords="562,171,637,183,636,189,561,177"/>
+<area shape="poly" id="edge16_Node000007_Node000005" title=" " alt="" coords="347,279,457,242,552,218,636,201,637,206,553,223,458,247,349,284"/>
+<area shape="poly" id="edge17_Node000007_Node000006" title=" " alt="" coords="332,279,386,241,456,198,482,185,484,190,459,203,389,246,335,283"/>
+<area shape="rect" id="Node000008" href="$parser__utils_8c.html#a3e2a09afba6413b69ba5201d76ee55ff" title="Finds a function." alt="" coords="485,257,567,283"/>
+<area shape="poly" id="edge10_Node000007_Node000008" title=" " alt="" coords="398,282,471,273,472,279,398,287"/>
+<area shape="rect" id="Node000009" href="$parser__utils_8c.html#a77b4126090401c6096670e9713d9054b" title="Finds a module." alt="" coords="475,307,577,332"/>
+<area shape="poly" id="edge12_Node000007_Node000009" title=" " alt="" coords="398,301,461,309,461,314,398,307"/>
+<area shape="rect" id="Node000010" href="$parser__utils_8c.html#a3bafdd5155eec735a0cbac2b90af62cb" title="Finds a struct definition." alt="" coords="467,356,585,381"/>
+<area shape="poly" id="edge13_Node000007_Node000010" title=" " alt="" coords="352,304,477,349,475,354,350,309"/>
+<area shape="rect" id="Node000011" href="$parser__utils_8c.html#ae24e5dddaaaf394395e9a47bc5cb234f" title="Finds a symbol&#39;s type." alt="" coords="457,405,595,431"/>
+<area shape="poly" id="edge14_Node000007_Node000011" title=" " alt="" coords="333,305,387,346,459,390,474,398,472,403,456,395,384,350,330,309"/>
+<area shape="rect" id="Node000012" href="$parser__utils_8c.html#a6e57b76e5cfbbb7bbc8c756751a49e9e" title="Finds a type alias." alt="" coords="466,455,586,480"/>
+<area shape="poly" id="edge15_Node000007_Node000012" title=" " alt="" coords="327,305,378,369,416,406,459,440,471,447,468,451,456,444,413,410,375,372,322,309"/>
+<area shape="poly" id="edge11_Node000008_Node000005" title=" " alt="" coords="553,255,594,236,647,210,649,215,596,240,555,260"/>
+</map>

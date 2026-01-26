@@ -1,0 +1,26 @@
+<map id="add_to_enum_list" name="add_to_enum_list">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1333,55,1471,80"/>
+<area shape="rect" id="Node000002" href="$parser__struct_8c.html#a88213a2cd5985533a2426bd67ed61c2a" title="Parses an enum definition." alt="" coords="1183,55,1285,80"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1319,70,1285,70,1285,65,1319,65"/>
+<area shape="rect" id="Node000003" href="$parser__core_8c.html#af215858d72007ab525c1bbb1a1028bea" title="Main loop to parse top&#45;level nodes in a file." alt="" coords="968,55,1135,80"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1169,70,1135,70,1135,65,1169,65"/>
+<area shape="rect" id="Node000004" href="$parser__stmt_8c.html#a6f30ce89b3f7474b82297216c8039b43" title="Parses a comptime statement." alt="" coords="789,5,920,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="954,55,880,33,882,28,955,49"/>
+<area shape="rect" id="Node000005" href="$parser__stmt_8c.html#a53e7d00a54abf6f5e082c0bbc80582f4" title="Parses an import statement." alt="" coords="801,55,909,80"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="954,79,909,78,909,73,954,74"/>
+<area shape="rect" id="Node000006" href="$parser__core_8c.html#adfb1ad52064a20f99789abd003986ec0" title="Parses a program." alt="" coords="795,104,915,129"/>
+<area shape="poly" id="edge7_Node000003_Node000006" title=" " alt="" coords="988,86,907,107,905,101,986,81"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="934,26,1025,52,1024,57,933,31"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="923,56,968,56,968,61,923,61"/>
+<area shape="rect" id="Node000007" href="$lsp__project_8c.html#a14f0d7a1c6d0a9077e908ae80b3cc633" title=" " alt="" coords="569,79,741,104"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="780,110,741,105,742,100,781,105"/>
+<area shape="rect" id="Node000011" href="$main_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,104,60,129"/>
+<area shape="poly" id="edge13_Node000006_Node000011" title=" " alt="" coords="781,127,636,139,466,145,297,145,163,137,60,123,60,118,164,131,297,139,466,139,635,133,781,122"/>
+<area shape="rect" id="Node000008" href="$lsp__analysis_8c.html#a75f3f6faa0aea404e11f569be0e33eca" title=" " alt="" coords="408,79,521,104"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="555,94,522,94,522,89,555,89"/>
+<area shape="rect" id="Node000009" href="$json__rpc_8c.html#ad284af82d5e4c69729c2ee916bf90fc2" title="Handle a raw JSON&#45;RPC request string." alt="" coords="237,79,360,104"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="394,94,361,94,361,89,394,89"/>
+<area shape="rect" id="Node000010" href="$lsp__main_8c.html#aac1b8e59e20ecd81d23a82f62cdf4e3d" title=" " alt="" coords="108,79,189,104"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="223,94,189,94,189,89,223,89"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="95,106,61,113,60,108,94,101"/>
+</map>

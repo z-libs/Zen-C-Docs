@@ -1,0 +1,15 @@
+<map id="register_tuple" name="register_tuple">
+<area shape="rect" id="Node000001" title="Registers a tuple type." alt="" coords="5,81,117,107"/>
+<area shape="rect" id="Node000002" href="$ast_8c.html#a3e6cca014bf90f3ffa91c0e78fc6883f" title=" " alt="" coords="357,5,448,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,79,123,62,165,47,258,28,343,19,344,24,259,34,166,53,125,67,88,84"/>
+<area shape="rect" id="Node000003" href="$utils_8c.html#af7b6b8fd37a3c4b944c71b783d50fc96" title="Allocate memory." alt="" coords="496,81,571,107"/>
+<area shape="poly" id="edge7_Node000001_Node000003" title=" " alt="" coords="117,88,267,83,448,85,482,87,482,92,448,90,267,89,118,94"/>
+<area shape="rect" id="Node000004" href="$parser__utils_8c.html#a5a4b6e3fcd98680fc5bba179412b098a" title="Registers a struct definition." alt="" coords="165,107,309,132"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="118,99,152,104,151,110,117,105"/>
+<area shape="rect" id="Node000005" href="$utils_8c.html#a417e1e9b1022a2f475a8a6005726bf53" title="Duplicate a string." alt="" coords="367,157,438,183"/>
+<area shape="poly" id="edge8_Node000001_Node000005" title=" " alt="" coords="84,104,122,124,166,142,215,154,265,161,354,167,353,172,265,166,214,159,165,147,119,129,82,109"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="427,29,500,72,497,76,424,33"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="309,111,482,96,482,101,310,116"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="281,130,354,153,353,158,279,135"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="424,155,497,112,500,116,427,159"/>
+</map>

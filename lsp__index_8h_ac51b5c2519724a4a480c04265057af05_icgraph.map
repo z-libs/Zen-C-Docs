@@ -1,0 +1,18 @@
+<map id="lsp_index_add_ref" name="lsp_index_add_ref">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1127,29,1267,55"/>
+<area shape="rect" id="Node000002" href="$lsp__index_8c.html#ab113e8b68ab24bed95ab4308c0f8e808" title=" " alt="" coords="960,29,1079,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1113,45,1079,45,1079,39,1113,39"/>
+<area shape="poly" id="edge8_Node000002_Node000002" title=" " alt="" coords="1049,19,1040,11,1019,8,1002,10,993,15,991,20,996,28,991,31,985,21,988,11,1000,5,1019,3,1042,6,1052,15"/>
+<area shape="rect" id="Node000003" href="$lsp__index_8c.html#af665f016926b59358a0df763907bcda6" title=" " alt="" coords="789,29,912,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="946,45,913,45,913,39,946,39"/>
+<area shape="rect" id="Node000004" href="$lsp__project_8c.html#a14f0d7a1c6d0a9077e908ae80b3cc633" title=" " alt="" coords="569,29,741,55"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="775,45,742,45,742,39,775,39"/>
+<area shape="rect" id="Node000005" href="$lsp__analysis_8c.html#a75f3f6faa0aea404e11f569be0e33eca" title=" " alt="" coords="408,29,521,55"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="555,45,522,45,522,39,555,39"/>
+<area shape="rect" id="Node000006" href="$json__rpc_8c.html#ad284af82d5e4c69729c2ee916bf90fc2" title="Handle a raw JSON&#45;RPC request string." alt="" coords="237,29,360,55"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="394,45,361,45,361,39,394,39"/>
+<area shape="rect" id="Node000007" href="$lsp__main_8c.html#aac1b8e59e20ecd81d23a82f62cdf4e3d" title=" " alt="" coords="108,29,189,55"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="223,45,189,45,189,39,223,39"/>
+<area shape="rect" id="Node000008" href="$main_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,29,60,55"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="94,45,60,45,60,39,94,39"/>
+</map>

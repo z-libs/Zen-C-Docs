@@ -1,0 +1,8 @@
+<map id="register_struct_def" name="register_struct_def">
+<area shape="rect" id="Node000001" title="Registers a struct definition." alt="" coords="5,5,149,31"/>
+<area shape="rect" id="Node000002" href="$utils_8c.html#af7b6b8fd37a3c4b944c71b783d50fc96" title="Allocate memory." alt="" coords="316,5,391,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,15,302,15,302,21,149,21"/>
+<area shape="rect" id="Node000003" href="$utils_8c.html#a417e1e9b1022a2f475a8a6005726bf53" title="Duplicate a string." alt="" coords="197,31,268,56"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="150,27,184,33,183,38,149,32"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="268,33,302,26,303,31,269,39"/>
+</map>

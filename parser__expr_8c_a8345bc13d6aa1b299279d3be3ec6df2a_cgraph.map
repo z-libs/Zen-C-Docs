@@ -1,0 +1,14 @@
+<map id="analyze_lambda_captures" name="analyze_lambda_captures">
+<area shape="rect" id="Node000001" title="Analyzes lambda captures." alt="" coords="5,80,197,105"/>
+<area shape="rect" id="Node000002" href="$parser__utils_8c.html#a98cbae7a42e5c4f72202d6dcf0656510" title="Finds a symbol&#39;s type information." alt="" coords="245,5,415,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="136,77,245,39,269,32,271,37,246,45,138,82"/>
+<area shape="rect" id="Node000003" href="$ast_8c.html#aa6f5b8b822e02fef9807d51b2b38c2ba" title=" " alt="" coords="273,55,387,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="198,79,258,73,259,78,198,85"/>
+<area shape="rect" id="Node000004" href="$utils_8c.html#af7b6b8fd37a3c4b944c71b783d50fc96" title="Allocate memory." alt="" coords="581,105,656,131"/>
+<area shape="poly" id="edge6_Node000001_Node000004" title=" " alt="" coords="149,103,222,120,318,136,425,145,480,144,533,139,568,132,569,137,534,145,480,150,425,150,317,141,221,125,147,108"/>
+<area shape="rect" id="Node000005" href="$utils_8c.html#a417e1e9b1022a2f475a8a6005726bf53" title="Duplicate a string." alt="" coords="463,105,533,131"/>
+<area shape="poly" id="edge7_Node000001_Node000005" title=" " alt="" coords="198,96,449,112,448,118,197,101"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="388,69,458,77,534,90,569,99,568,104,533,95,457,82,387,74"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="374,78,450,101,449,106,372,83"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="533,115,568,115,568,121,533,121"/>
+</map>

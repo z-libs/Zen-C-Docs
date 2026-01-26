@@ -1,0 +1,19 @@
+<map id="rewrite_expr_methods" name="rewrite_expr_methods">
+<area shape="rect" id="Node000001" title="Rewrites expression methods." alt="" coords="5,156,173,181"/>
+<area shape="rect" id="Node000002" href="$parser__utils_8c.html#a3e2a09afba6413b69ba5201d76ee55ff" title="Finds a function." alt="" coords="249,5,331,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,154,150,104,220,48,243,34,246,39,223,52,153,108,104,158"/>
+<area shape="rect" id="Node000003" href="$utils_8c.html#af7b6b8fd37a3c4b944c71b783d50fc96" title="Allocate memory." alt="" coords="407,56,481,81"/>
+<area shape="poly" id="edge7_Node000001_Node000003" title=" " alt="" coords="106,154,156,122,187,105,220,91,265,80,311,72,393,66,393,71,312,77,266,85,222,97,190,110,158,126,109,158"/>
+<area shape="rect" id="Node000004" href="$parser__utils_8c.html#a77b4126090401c6096670e9713d9054b" title="Finds a module." alt="" coords="239,107,341,132"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="141,153,225,133,226,138,142,159"/>
+<area shape="rect" id="Node000005" href="$parser__utils_8c.html#a3bafdd5155eec735a0cbac2b90af62cb" title="Finds a struct definition." alt="" coords="231,156,349,181"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="173,166,217,166,217,171,173,171"/>
+<area shape="rect" id="Node000006" href="$parser__utils_8c.html#ae24e5dddaaaf394395e9a47bc5cb234f" title="Finds a symbol&#39;s type." alt="" coords="221,205,359,231"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="142,179,225,199,224,205,141,184"/>
+<area shape="rect" id="Node000007" href="$parser__utils_8c.html#a6e57b76e5cfbbb7bbc8c756751a49e9e" title="Finds a type alias." alt="" coords="230,255,350,280"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="112,179,162,208,222,240,240,247,238,252,220,244,159,213,110,184"/>
+<area shape="rect" id="Node000008" href="$utils_8c.html#a417e1e9b1022a2f475a8a6005726bf53" title="Duplicate a string." alt="" coords="255,304,325,329"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="103,180,152,232,186,262,223,289,243,299,241,304,220,294,182,266,148,236,99,183"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="330,28,394,50,393,55,329,33"/>
+<area shape="poly" id="edge9_Node000008_Node000003" title=" " alt="" coords="325,307,342,300,357,289,376,267,391,243,415,189,430,137,437,95,442,96,435,138,420,191,396,245,380,271,360,293,345,305,327,312"/>
+</map>

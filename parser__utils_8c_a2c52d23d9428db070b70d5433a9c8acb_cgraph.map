@@ -1,0 +1,33 @@
+<map id="register_builtins" name="register_builtins">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,232,132,257"/>
+<area shape="rect" id="Node000002" href="$parser__utils_8c.html#a982b06158e8cb39990f16b435d7f52a3" title="Adds a symbol to the current scope." alt="" coords="185,105,286,131"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="82,230,124,192,178,148,197,136,200,140,182,152,127,196,85,234"/>
+<area shape="rect" id="Node000008" href="$utils_8c.html#a417e1e9b1022a2f475a8a6005726bf53" title="Duplicate a string." alt="" coords="595,156,666,181"/>
+<area shape="poly" id="edge19_Node000001_Node000008" title=" " alt="" coords="109,229,179,211,292,193,404,180,582,168,582,173,405,186,293,198,181,217,111,235"/>
+<area shape="rect" id="Node000009" href="$ast_8c.html#a3e6cca014bf90f3ffa91c0e78fc6883f" title=" " alt="" coords="190,257,281,283"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="132,252,177,258,176,264,132,257"/>
+<area shape="rect" id="Node000010" href="$parser__utils_8c.html#a5a4b6e3fcd98680fc5bba179412b098a" title="Registers a struct definition." alt="" coords="356,207,500,232"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="132,238,342,223,342,228,132,243"/>
+<area shape="rect" id="Node000011" href="$ast_8c.html#a1b11669c3659d51ddc503e1495b2f404" title=" " alt="" coords="385,308,471,333"/>
+<area shape="poly" id="edge15_Node000001_Node000011" title=" " alt="" coords="93,255,133,275,181,293,230,304,281,311,372,318,372,323,281,316,230,309,179,298,131,280,91,260"/>
+<area shape="rect" id="Node000012" href="$ast_8c.html#acbd2057838d9577fb359ffa1e863e84f" title=" " alt="" coords="180,359,291,384"/>
+<area shape="poly" id="edge17_Node000001_Node000012" title=" " alt="" coords="85,256,127,294,182,337,200,349,197,354,178,341,124,298,82,260"/>
+<area shape="rect" id="Node000003" href="$parser__utils_8c.html#affc1913faf593139fe42a7d2f41d7f7c" title="Adds a symbol with definition token location." alt="" coords="339,105,517,131"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="286,115,325,115,325,121,286,121"/>
+<area shape="rect" id="Node000004" href="$parser__utils_8c.html#ac975129ccc940a5eb9a6c7ba4d114ed6" title="Enters a new scope (pushes to scope stack)." alt="" coords="580,107,681,132"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="518,116,566,116,566,122,518,121"/>
+<area shape="rect" id="Node000005" href="$utils_8c.html#af7b6b8fd37a3c4b944c71b783d50fc96" title="Allocate memory." alt="" coords="747,181,822,207"/>
+<area shape="poly" id="edge7_Node000003_Node000005" title=" " alt="" coords="461,103,509,89,569,78,634,77,666,82,697,93,721,108,742,127,772,168,768,171,738,131,718,112,695,98,665,88,634,82,570,83,510,94,463,108"/>
+<area shape="rect" id="Node000006" href="$utils_8c.html#abba8c1389aa9dd93fb9027562f9c5920" title="Warning reporting for shadowing." alt="" coords="565,5,696,31"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="454,103,590,34,593,39,456,108"/>
+<area shape="poly" id="edge8_Node000003_Node000008" title=" " alt="" coords="480,128,583,154,582,159,479,133"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="668,130,697,142,752,172,750,177,695,147,666,134"/>
+<area shape="rect" id="Node000007" href="$utils_8c.html#a6e40d3098bac044a971d3f2d784404a9" title="Warning reporting with token location." alt="" coords="744,5,825,31"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="696,15,730,15,730,21,696,21"/>
+<area shape="poly" id="edge9_Node000008_Node000005" title=" " alt="" coords="667,172,734,183,733,188,666,177"/>
+<area shape="poly" id="edge11_Node000009_Node000005" title=" " alt="" coords="281,264,389,256,517,242,607,229,695,211,734,203,735,208,697,217,607,234,518,247,389,261,281,270"/>
+<area shape="poly" id="edge13_Node000010_Node000005" title=" " alt="" coords="500,212,734,195,734,200,500,217"/>
+<area shape="poly" id="edge14_Node000010_Node000008" title=" " alt="" coords="479,204,582,178,583,183,480,209"/>
+<area shape="poly" id="edge16_Node000011_Node000005" title=" " alt="" coords="471,322,519,322,576,319,637,308,695,286,717,272,736,254,766,216,771,220,740,258,720,276,697,291,639,313,577,324,519,328,471,327"/>
+<area shape="poly" id="edge18_Node000012_Node000011" title=" " alt="" coords="284,356,371,333,373,338,285,361"/>
+</map>

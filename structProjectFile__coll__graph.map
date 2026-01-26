@@ -1,0 +1,17 @@
+<map id="ProjectFile" name="ProjectFile">
+<area shape="rect" id="Node000001" title="Represents a tracked file in the LSP project." alt="" coords="55,571,146,596"/>
+<area shape="poly" id="edge9_Node000001_Node000001" title=" " alt="" coords="160,574,169,577,173,584,164,592,146,594,146,589,162,587,167,583,166,581,159,579"/>
+<area shape="rect" id="Node000002" href="$structLSPIndex.html" title="Index of a single file." alt="" coords="60,483,141,508"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,522,103,570,98,570,98,522"/>
+<area shape="rect" id="Node000003" href="$structLSPRange.html" title="A range in the source code mapping to semantic info." alt="" coords="57,380,144,405"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="103,419,103,483,98,483,98,419"/>
+<area shape="poly" id="edge8_Node000003_Node000003" title=" " alt="" coords="158,383,167,386,171,393,162,401,144,403,144,398,160,396,165,392,164,391,157,388"/>
+<area shape="rect" id="Node000004" href="$structASTNode.html" title=" " alt="" coords="60,224,141,249"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="103,263,103,380,98,380,98,263"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="127,215,141,213,154,216,164,224,168,237,163,252,149,260,131,259,114,252,116,247,132,254,148,254,159,249,163,237,160,226,152,220,141,218,127,221"/>
+<area shape="rect" id="Node000005" href="$structType.html" title="Represents a formal type in the type system." alt="" coords="5,7,57,33"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="33,47,36,87,45,131,69,183,94,223,90,225,64,186,39,133,31,88,28,47"/>
+<area shape="poly" id="edge6_Node000005_Node000005" title=" " alt="" coords="67,4,79,9,84,20,81,29,73,35,53,35,53,30,72,30,77,26,79,20,75,12,66,9"/>
+<area shape="rect" id="Node000006" href="$structToken.html" title="Represents a source token." alt="" coords="139,7,198,33"/>
+<area shape="poly" id="edge7_Node000004_Node000006" title=" " alt="" coords="164,47,137,133,107,225,102,223,131,131,159,45"/>
+</map>

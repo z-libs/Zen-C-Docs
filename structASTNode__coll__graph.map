@@ -1,0 +1,9 @@
+<map id="ASTNode" name="ASTNode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="60,224,141,249"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="121,213,137,208,153,210,164,220,168,237,162,256,147,265,128,263,109,252,112,247,130,258,146,260,158,253,163,237,159,222,150,215,138,213,123,218"/>
+<area shape="rect" id="Node000002" href="$structType.html" title="Represents a formal type in the type system." alt="" coords="5,7,57,33"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="33,47,36,87,45,131,69,183,94,223,90,225,64,186,39,133,31,88,28,47"/>
+<area shape="poly" id="edge3_Node000002_Node000002" title=" " alt="" coords="67,4,79,9,84,20,81,29,73,35,53,35,53,30,72,30,77,26,79,20,75,12,66,9"/>
+<area shape="rect" id="Node000003" href="$structToken.html" title="Represents a source token." alt="" coords="139,7,198,33"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="164,47,137,133,107,225,102,223,131,131,159,45"/>
+</map>

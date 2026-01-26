@@ -1,0 +1,23 @@
+<map id="lsp_index_add" name="lsp_index_add">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1317,31,1432,56"/>
+<area shape="rect" id="Node000002" href="$lsp__index_8c.html#a93f446fa1ee52ba7c531d2258cfca30a" title=" " alt="" coords="1127,5,1269,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1304,36,1270,31,1270,26,1304,31"/>
+<area shape="rect" id="Node000010" href="$lsp__index_8c.html#ac51b5c2519724a4a480c04265057af05" title=" " alt="" coords="1128,55,1268,80"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="1304,56,1268,60,1268,55,1303,50"/>
+<area shape="rect" id="Node000003" href="$lsp__index_8c.html#ab113e8b68ab24bed95ab4308c0f8e808" title=" " alt="" coords="960,31,1079,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1114,33,1080,38,1079,32,1113,27"/>
+<area shape="poly" id="edge9_Node000003_Node000003" title=" " alt="" coords="1049,20,1040,12,1019,9,1002,11,993,16,991,22,996,29,991,32,985,22,988,13,1000,6,1019,4,1042,7,1052,16"/>
+<area shape="rect" id="Node000004" href="$lsp__index_8c.html#af665f016926b59358a0df763907bcda6" title=" " alt="" coords="789,31,912,56"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="946,46,913,46,913,41,946,41"/>
+<area shape="rect" id="Node000005" href="$lsp__project_8c.html#a14f0d7a1c6d0a9077e908ae80b3cc633" title=" " alt="" coords="569,31,741,56"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="775,46,742,46,742,41,775,41"/>
+<area shape="rect" id="Node000006" href="$lsp__analysis_8c.html#a75f3f6faa0aea404e11f569be0e33eca" title=" " alt="" coords="408,31,521,56"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="555,46,522,46,522,41,555,41"/>
+<area shape="rect" id="Node000007" href="$json__rpc_8c.html#ad284af82d5e4c69729c2ee916bf90fc2" title="Handle a raw JSON&#45;RPC request string." alt="" coords="237,31,360,56"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="394,46,361,46,361,41,394,41"/>
+<area shape="rect" id="Node000008" href="$lsp__main_8c.html#aac1b8e59e20ecd81d23a82f62cdf4e3d" title=" " alt="" coords="108,31,189,56"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="223,46,189,46,189,41,223,41"/>
+<area shape="rect" id="Node000009" href="$main_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,31,60,56"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="94,46,60,46,60,41,94,41"/>
+<area shape="poly" id="edge11_Node000010_Node000003" title=" " alt="" coords="1114,59,1078,54,1079,49,1115,53"/>
+</map>

@@ -1,0 +1,27 @@
+<map id="emit_protos" name="emit_protos">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,195,105,221"/>
+<area shape="rect" id="Node000002" href="$codegen__utils_8c.html#a4e08d48a2d5896e3f7e09e0cf89adfb2" title=" " alt="" coords="166,119,321,145"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,193,197,147,200,152,89,198"/>
+<area shape="rect" id="Node000005" href="$utils_8c.html#af7b6b8fd37a3c4b944c71b783d50fc96" title="Allocate memory." alt="" coords="1013,94,1088,119"/>
+<area shape="poly" id="edge15_Node000001_Node000005" title=" " alt="" coords="64,194,99,150,124,126,152,104,233,55,302,24,374,7,469,3,688,3,768,4,830,10,891,24,966,51,997,66,1024,84,1021,88,994,71,964,56,890,29,829,15,768,9,688,8,469,8,375,13,303,29,236,60,155,109,127,130,103,154,68,197"/>
+<area shape="rect" id="Node000008" href="$codegen__utils_8c.html#a02fb96f9998ee6a83d5d23504abc50bb" title=" " alt="" coords="153,297,333,322"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="73,219,109,246,155,275,188,290,186,295,152,280,106,251,70,223"/>
+<area shape="rect" id="Node000009" href="$codegen__utils_8c.html#a4b93522b77d8b2a909089a2add5d215a" title=" " alt="" coords="815,221,965,246"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="105,207,153,209,801,228,801,234,153,215,105,213"/>
+<area shape="rect" id="Node000010" href="$codegen__utils_8c.html#ad87ecf3dfd46c02b327e47a8b24d87ec" title=" " alt="" coords="607,145,767,170"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="106,205,304,199,431,191,558,179,613,170,614,175,559,184,431,196,304,204,106,210"/>
+<area shape="rect" id="Node000003" href="$codegen__utils_8c.html#aa5a41770e31c6751b77b74acfec06094" title=" " alt="" coords="381,43,559,69"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="281,117,417,71,419,76,283,122"/>
+<area shape="rect" id="Node000006" href="$utils_8c.html#a417e1e9b1022a2f475a8a6005726bf53" title="Duplicate a string." alt="" coords="855,94,925,119"/>
+<area shape="poly" id="edge8_Node000002_Node000006" title=" " alt="" coords="321,126,841,106,841,111,321,132"/>
+<area shape="rect" id="Node000007" href="$codegen__utils_8c.html#a7bdd3f63bbdd681b56222800fabea95f" title=" " alt="" coords="420,145,520,170"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="321,138,407,148,406,153,321,143"/>
+<area shape="rect" id="Node000004" href="$ast_8c.html#a17ada34efad8ec9d4065c6543cb9d4a8" title=" " alt="" coords="622,43,751,69"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="559,53,608,53,608,59,559,59"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="752,56,853,63,966,79,1001,87,999,93,965,84,852,68,752,61"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="739,66,842,92,841,97,738,71"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="926,104,999,104,999,109,926,109"/>
+<area shape="poly" id="edge11_Node000009_Node000005" title=" " alt="" coords="907,218,964,174,1022,126,1025,130,967,178,910,222"/>
+<area shape="poly" id="edge13_Node000010_Node000005" title=" " alt="" coords="767,151,862,143,965,128,1000,120,1001,125,966,133,862,148,767,156"/>
+<area shape="poly" id="edge14_Node000010_Node000006" title=" " alt="" coords="738,142,841,116,842,121,739,147"/>
+</map>

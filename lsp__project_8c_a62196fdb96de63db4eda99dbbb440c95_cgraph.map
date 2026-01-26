@@ -1,0 +1,11 @@
+<map id="lsp_project_init" name="lsp_project_init">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,127,80"/>
+<area shape="rect" id="Node000002" href="$lsp__project_8c.html#a104750456b6318969d10cae0c085c929" title=" " alt="" coords="175,5,329,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,52,189,32,190,37,115,57"/>
+<area shape="rect" id="Node000003" href="$utils_8c.html#a9753e8ae6b7748944ccc04388c7fd857" title="Allocate and zero memory." alt="" coords="218,55,286,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="127,65,204,65,204,70,127,70"/>
+<area shape="rect" id="Node000004" href="$utils_8c.html#a417e1e9b1022a2f475a8a6005726bf53" title="Duplicate a string." alt="" coords="217,104,287,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="115,77,204,101,202,106,114,83"/>
+<area shape="rect" id="Node000005" href="$utils_8c.html#af7b6b8fd37a3c4b944c71b783d50fc96" title="Allocate memory." alt="" coords="377,104,452,129"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="288,114,363,114,363,119,288,119"/>
+</map>

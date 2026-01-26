@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['param_5fnames_0',['param_names',['../structASTNode.html#a3c1d0d3829f9fe32670da89980f1003a',1,'ASTNode']]],
+  ['param_5ftypes_1',['param_types',['../structASTNode.html#a939116936b75e23c4270d2e8bf281cca',1,'ASTNode']]],
+  ['parent_2',['parent',['../structASTNode.html#a217cb6e44fd3dd9df42dd4d982fc3e28',1,'ASTNode::parent'],['../structScope.html#a95a57b4fad52820413c7188026195651',1,'Scope::parent']]],
+  ['parsed_5fenums_5flist_3',['parsed_enums_list',['../structParserContext.html#ae484f3b4f76b3fa0227ef4c88f66fc9f',1,'ParserContext']]],
+  ['parsed_5ffuncs_5flist_4',['parsed_funcs_list',['../structParserContext.html#ad94a416a990c80a6a1f66aec9888a5ec',1,'ParserContext']]],
+  ['parsed_5fglobals_5flist_5',['parsed_globals_list',['../structParserContext.html#ab2fb2e29368ece54eb1b310243d7ed6c',1,'ParserContext']]],
+  ['parsed_5fimpls_5flist_6',['parsed_impls_list',['../structParserContext.html#a9de1cf98e3d02c1e70d38c1d8be7755d',1,'ParserContext']]],
+  ['parsed_5fstructs_5flist_7',['parsed_structs_list',['../structParserContext.html#a35c819e7174651d51035f0d857d98231',1,'ParserContext']]],
+  ['path_8',['path',['../structModule.html#acb61e1c118ca4a05d85aac4a6145e7a7',1,'Module::path'],['../structImportedFile.html#a842bf7103fc60792815e4033cb3c5b17',1,'ImportedFile::path'],['../structProjectFile.html#a5d23163968e3799fa7e75408d527aa71',1,'ProjectFile::path'],['../structASTNode.html#ad8ca918ceb9b30f423fdb50bf1985201',1,'ASTNode::path']]],
+  ['pattern_9',['pattern',['../structASTNode.html#add883f5dd1aa19960205df79bc9feb2d',1,'ASTNode']]],
+  ['payload_10',['payload',['../structASTNode.html#a1e92d2b6e616c62270037e19be3c2f3e',1,'ASTNode']]],
+  ['pctx_11',['pctx',['../structTypeChecker.html#a0e2e18fbfa62d9208518156c735acdc4',1,'TypeChecker']]],
+  ['pending_5ftype_5fvalidations_12',['pending_type_validations',['../structParserContext.html#ac7f6ff0ec8fd0bcdfa886930227ab587',1,'ParserContext']]],
+  ['plugin_13',['plugin',['../structPluginNode.html#ad64bd1a70267fecb0f988c55d289f211',1,'PluginNode']]],
+  ['plugin_5fname_14',['plugin_name',['../structASTNode.html#a3900010580dcd71d7db738366eb493fa',1,'ASTNode']]],
+  ['plugin_5fstmt_15',['plugin_stmt',['../structASTNode.html#ac46766b907549f882eb1eac06fce183e',1,'ASTNode']]],
+  ['pos_16',['pos',['../structLexer.html#aecee5b337104d58494ea6708c3b5df15',1,'Lexer']]],
+  ['position_17',['position',['../structerror.html#a24de70a4d517ab351d80c18582cadb66',1,'error']]],
+  ['prebuffer_18',['prebuffer',['../cJSON_8h.html#a039dc262c2ae63f95cfe193245f8ee7e',1,'cJSON.h']]],
+  ['prev_19',['prev',['../structcJSON.html#a488a393f610347821fce8e985e79fc2f',1,'cJSON']]],
+  ['pure_20',['pure',['../structASTNode.html#ad5c37f8b8d9108fbc2b1e14a3defed10',1,'ASTNode']]]
+];

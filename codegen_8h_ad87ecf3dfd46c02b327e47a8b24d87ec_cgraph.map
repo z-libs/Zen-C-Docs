@@ -1,0 +1,8 @@
+<map id="strip_template_suffix" name="strip_template_suffix">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,165,31"/>
+<area shape="rect" id="Node000002" href="$utils_8c.html#af7b6b8fd37a3c4b944c71b783d50fc96" title="Allocate memory." alt="" coords="332,5,407,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="165,15,318,15,318,21,165,21"/>
+<area shape="rect" id="Node000003" href="$utils_8c.html#a417e1e9b1022a2f475a8a6005726bf53" title="Duplicate a string." alt="" coords="213,31,284,56"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="166,28,200,33,199,38,165,33"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="284,33,318,26,319,31,285,39"/>
+</map>

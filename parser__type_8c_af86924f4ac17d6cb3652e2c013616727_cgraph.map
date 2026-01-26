@@ -1,0 +1,14 @@
+<map id="parse_array_literal" name="parse_array_literal">
+<area shape="rect" id="Node000001" title="Parses an array literal." alt="" coords="5,80,149,105"/>
+<area shape="rect" id="Node000002" href="$token_8c.html#acef16c0d0323bb30dd3fa3d195c5e868" title="Get the next token." alt="" coords="339,29,429,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,77,144,56,197,39,263,32,325,33,325,39,263,38,198,45,146,61,102,82"/>
+<area shape="rect" id="Node000003" href="$token_8c.html#a8320bc8be882141368454ed13897c342" title="Get the next token without advancing." alt="" coords="197,55,291,80"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="149,79,184,74,184,79,150,84"/>
+<area shape="rect" id="Node000004" href="$utils_8c.html#af7b6b8fd37a3c4b944c71b783d50fc96" title="Allocate memory." alt="" coords="347,131,421,156"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="150,102,333,132,333,138,149,107"/>
+<area shape="rect" id="Node000005" href="$utils_8c.html#a2c7e21d69519f63744628a4ddd863a85" title="Reallocate memory." alt="" coords="207,156,281,181"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="107,103,204,148,202,153,105,108"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="360,30,355,21,358,11,368,5,384,3,403,6,412,15,408,18,401,11,384,8,370,10,362,15,361,20,365,28"/>
+<area shape="poly" id="edge4_Node000003_Node000002" title=" " alt="" coords="290,56,325,50,326,55,291,62"/>
+<area shape="poly" id="edge7_Node000005_Node000004" title=" " alt="" coords="281,159,333,150,334,155,282,165"/>
+</map>

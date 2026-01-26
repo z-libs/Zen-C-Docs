@@ -1,0 +1,7 @@
+<map id="type_new_ptr" name="type_new_ptr">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,116,31"/>
+<area shape="rect" id="Node000002" href="$ast_8c.html#a1b11669c3659d51ddc503e1495b2f404" title=" " alt="" coords="164,5,249,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,15,150,15,150,21,116,21"/>
+<area shape="rect" id="Node000003" href="$utils_8c.html#af7b6b8fd37a3c4b944c71b783d50fc96" title="Allocate memory." alt="" coords="297,5,372,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="249,15,284,15,284,21,249,21"/>
+</map>

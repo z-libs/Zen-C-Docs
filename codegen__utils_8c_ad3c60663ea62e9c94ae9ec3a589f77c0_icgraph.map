@@ -1,0 +1,12 @@
+<map id="parse_original_method_name" name="parse_original_method_name">
+<area shape="rect" id="Node000001" title=" " alt="" coords="463,31,677,56"/>
+<area shape="rect" id="Node000002" href="$codegen__decl_8c.html#a66cf5f03eef9a8bda415df7af8d21b86" title=" " alt="" coords="272,5,415,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="449,32,415,29,416,23,449,27"/>
+<area shape="rect" id="Node000005" href="$codegen__decl_8c.html#af13d7ebf2e5b430c14e1fb20be93ce07" title=" " alt="" coords="283,55,404,80"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="449,59,404,64,404,58,449,54"/>
+<area shape="rect" id="Node000003" href="$codegen__main_8c.html#a7554f02ed0383573fbb7730d53ce5469" title="Generates code for a given AST node." alt="" coords="108,31,224,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="259,33,225,38,224,32,258,27"/>
+<area shape="rect" id="Node000004" href="$main_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,31,60,56"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="94,46,60,46,60,41,94,41"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="269,60,224,54,225,49,269,55"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="enter_scope" name="enter_scope">
+<area shape="rect" id="Node000001" title="Enters a new scope (pushes to scope stack)." alt="" coords="5,5,107,31"/>
+<area shape="rect" id="Node000002" href="$utils_8c.html#af7b6b8fd37a3c4b944c71b783d50fc96" title="Allocate memory." alt="" coords="155,5,229,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,15,141,15,141,21,107,21"/>
+</map>

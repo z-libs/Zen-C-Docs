@@ -1,0 +1,8 @@
+<map id="PluginNode" name="PluginNode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,181,101,207"/>
+<area shape="poly" id="edge3_Node000001_Node000001" title=" " alt="" coords="116,185,128,194,120,202,102,205,101,199,117,197,123,194,114,190"/>
+<area shape="rect" id="Node000002" href="$structZPlugin.html" title="Plugin definition structure." alt="" coords="18,93,89,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="56,133,56,181,51,181,51,133"/>
+<area shape="rect" id="Node000003" href="$structZApi.html" title="Host API provided to plugins." alt="" coords="27,5,79,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="56,45,56,93,51,93,51,45"/>
+</map>

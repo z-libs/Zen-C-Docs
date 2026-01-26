@@ -1,0 +1,14 @@
+<map id="emit_trait_defs" name="emit_trait_defs">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,81,127,107"/>
+<area shape="rect" id="Node000002" href="$codegen__utils_8c.html#afd7120015049a4a149f0ff2c680924ae" title=" " alt="" coords="215,5,349,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,79,174,47,221,32,223,37,176,53,97,84"/>
+<area shape="rect" id="Node000003" href="$utils_8c.html#af7b6b8fd37a3c4b944c71b783d50fc96" title="Allocate memory." alt="" coords="556,56,631,81"/>
+<area shape="poly" id="edge6_Node000001_Node000003" title=" " alt="" coords="127,96,299,103,403,100,508,90,542,83,543,88,508,95,404,105,299,108,127,102"/>
+<area shape="rect" id="Node000004" href="$utils_8c.html#a417e1e9b1022a2f475a8a6005726bf53" title="Duplicate a string." alt="" coords="437,56,508,81"/>
+<area shape="poly" id="edge7_Node000001_Node000004" title=" " alt="" coords="127,88,424,69,424,74,127,93"/>
+<area shape="rect" id="Node000005" href="$codegen__utils_8c.html#ad3c60663ea62e9c94ae9ec3a589f77c0" title=" " alt="" coords="175,157,389,183"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="97,104,176,135,223,151,221,156,174,141,95,109"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="349,20,426,27,509,41,544,50,542,55,507,46,425,33,348,25"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="331,28,425,53,423,58,330,33"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="508,66,542,66,542,71,508,71"/>
+</map>

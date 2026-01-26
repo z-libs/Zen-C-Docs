@@ -1,0 +1,14 @@
+<map id="consume_until_semicolon" name="consume_until_semicolon">
+<area shape="rect" id="Node000001" title="Consumes tokens until a semicolon is found." alt="" coords="5,80,196,105"/>
+<area shape="rect" id="Node000002" href="$token_8c.html#acef16c0d0323bb30dd3fa3d195c5e868" title="Get the next token." alt="" coords="385,29,476,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,77,181,56,244,39,310,33,372,34,372,40,310,39,244,45,182,61,130,82"/>
+<area shape="rect" id="Node000003" href="$token_8c.html#a8320bc8be882141368454ed13897c342" title="Get the next token without advancing." alt="" coords="244,55,337,80"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="196,77,230,73,231,78,197,83"/>
+<area shape="rect" id="Node000004" href="$utils_8c.html#af7b6b8fd37a3c4b944c71b783d50fc96" title="Allocate memory." alt="" coords="393,131,468,156"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="185,103,380,133,379,138,184,108"/>
+<area shape="rect" id="Node000005" href="$utils_8c.html#a417e1e9b1022a2f475a8a6005726bf53" title="Duplicate a string." alt="" coords="255,156,326,181"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="134,103,246,148,244,153,132,108"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="407,30,402,21,405,11,415,5,431,3,450,6,458,15,454,18,447,11,431,8,416,10,409,15,407,20,412,28"/>
+<area shape="poly" id="edge4_Node000003_Node000002" title=" " alt="" coords="337,56,371,50,372,55,338,62"/>
+<area shape="poly" id="edge7_Node000005_Node000004" title=" " alt="" coords="326,160,379,150,380,155,327,165"/>
+</map>

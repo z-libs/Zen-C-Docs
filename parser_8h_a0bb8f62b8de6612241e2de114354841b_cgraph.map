@@ -1,0 +1,13 @@
+<map id="parse_condition_raw" name="parse_condition_raw">
+<area shape="rect" id="Node000001" title="Parses a condition." alt="" coords="5,80,161,105"/>
+<area shape="rect" id="Node000002" href="$token_8c.html#acef16c0d0323bb30dd3fa3d195c5e868" title="Get the next token." alt="" coords="351,29,441,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,77,153,56,209,39,275,33,337,34,337,39,275,38,210,45,155,61,109,82"/>
+<area shape="rect" id="Node000003" href="$token_8c.html#a8320bc8be882141368454ed13897c342" title="Get the next token without advancing." alt="" coords="209,55,303,80"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="161,79,195,74,196,79,162,84"/>
+<area shape="rect" id="Node000004" href="$utils_8c.html#af7b6b8fd37a3c4b944c71b783d50fc96" title="Allocate memory." alt="" coords="219,104,293,129"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="162,101,205,107,205,112,161,106"/>
+<area shape="rect" id="Node000005" href="$utils_8c.html#a7ba31bec7001af6813ab29631fbd9760" title="Error reporting with token location." alt="" coords="214,153,298,179"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="115,103,213,145,211,150,113,108"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="372,30,367,21,370,11,380,5,396,3,415,6,424,15,420,18,413,11,396,8,382,10,374,15,373,20,377,28"/>
+<area shape="poly" id="edge4_Node000003_Node000002" title=" " alt="" coords="302,56,337,50,338,55,303,62"/>
+</map>

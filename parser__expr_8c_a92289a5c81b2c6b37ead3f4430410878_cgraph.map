@@ -1,0 +1,5 @@
+<map id="is_type_copy" name="is_type_copy">
+<area shape="rect" id="Node000001" title="Checks if a type is copyable." alt="" coords="5,5,112,31"/>
+<area shape="rect" id="Node000002" href="$parser__utils_8c.html#a804b3b4f2c3704d8fd7731c3d04960c0" title="Checks if a type implements a trait." alt="" coords="160,5,256,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,15,146,15,146,21,112,21"/>
+</map>

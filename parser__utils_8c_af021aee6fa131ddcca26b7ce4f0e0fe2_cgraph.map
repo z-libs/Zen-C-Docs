@@ -1,0 +1,8 @@
+<map id="mark_file_imported" name="mark_file_imported">
+<area shape="rect" id="Node000001" title="Marks a file as imported." alt="" coords="5,5,155,31"/>
+<area shape="rect" id="Node000002" href="$utils_8c.html#af7b6b8fd37a3c4b944c71b783d50fc96" title="Allocate memory." alt="" coords="321,5,396,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="155,15,307,15,307,21,155,21"/>
+<area shape="rect" id="Node000003" href="$utils_8c.html#a417e1e9b1022a2f475a8a6005726bf53" title="Duplicate a string." alt="" coords="203,31,273,56"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="155,27,190,33,189,38,154,33"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="273,33,307,26,309,31,274,39"/>
+</map>

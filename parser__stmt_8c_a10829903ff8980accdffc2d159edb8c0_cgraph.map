@@ -1,0 +1,14 @@
+<map id="parse_include" name="parse_include">
+<area shape="rect" id="Node000001" title="Parses an include statement." alt="" coords="5,93,117,119"/>
+<area shape="rect" id="Node000002" href="$ast_8c.html#a3e6cca014bf90f3ffa91c0e78fc6883f" title=" " alt="" coords="165,5,256,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,91,175,35,178,40,86,95"/>
+<area shape="rect" id="Node000003" href="$utils_8c.html#af7b6b8fd37a3c4b944c71b783d50fc96" title="Allocate memory." alt="" coords="304,56,379,81"/>
+<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="117,96,290,73,291,78,118,101"/>
+<area shape="rect" id="Node000004" href="$token_8c.html#acef16c0d0323bb30dd3fa3d195c5e868" title="Get the next token." alt="" coords="165,131,256,156"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="113,116,152,126,151,131,112,121"/>
+<area shape="rect" id="Node000005" href="$utils_8c.html#a417e1e9b1022a2f475a8a6005726bf53" title="Duplicate a string." alt="" coords="175,180,246,205"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="85,116,167,165,176,171,174,175,164,170,82,121"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="245,28,296,48,294,53,243,33"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="188,132,184,122,186,113,195,106,211,104,229,107,237,116,233,119,226,112,211,109,197,111,190,116,189,122,193,129"/>
+<area shape="poly" id="edge7_Node000005_Node000003" title=" " alt="" coords="236,178,254,165,292,128,321,91,325,94,296,132,258,169,239,182"/>
+</map>
