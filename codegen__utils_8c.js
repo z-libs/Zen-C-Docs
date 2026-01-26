@@ -1,0 +1,26 @@
+var codegen__utils_8c =
+[
+    [ "codegen_expression_with_move", "codegen__utils_8c.html#a135ab6d7125bb7265f4f56576d7ce569", null ],
+    [ "codegen_type_to_string", "codegen__utils_8c.html#aa5a41770e31c6751b77b74acfec06094", null ],
+    [ "emit_auto_type", "codegen__utils_8c.html#ab4002bec38e299ebb29719048d8121a9", null ],
+    [ "emit_c_decl", "codegen__utils_8c.html#a7bdd3f63bbdd681b56222800fabea95f", null ],
+    [ "emit_func_signature", "codegen__utils_8c.html#a4e08d48a2d5896e3f7e09e0cf89adfb2", null ],
+    [ "emit_move_invalidation", "codegen__utils_8c.html#a4741aa6235c9282d0fe25c454b6da0b5", null ],
+    [ "emit_var_decl_type", "codegen__utils_8c.html#a100717fa1b07219ac894f4beb8cc264f", null ],
+    [ "extract_call_args", "codegen__utils_8c.html#afd7120015049a4a149f0ff2c680924ae", null ],
+    [ "find_struct_def_codegen", "codegen__utils_8c.html#a02fb96f9998ee6a83d5d23504abc50bb", null ],
+    [ "get_field_type_str", "codegen__utils_8c.html#a1aee14a0ea72417bb5d4f4a394822bad", null ],
+    [ "infer_type", "codegen__utils_8c.html#ae47ec0b8127c352a102091ffb16f3fd2", null ],
+    [ "parse_original_method_name", "codegen__utils_8c.html#ad3c60663ea62e9c94ae9ec3a589f77c0", null ],
+    [ "replace_string_type", "codegen__utils_8c.html#a4b93522b77d8b2a909089a2add5d215a", null ],
+    [ "strip_template_suffix", "codegen__utils_8c.html#ad87ecf3dfd46c02b327e47a8b24d87ec", null ],
+    [ "defer_count", "codegen__utils_8c.html#a4e61dce3cf77c94124c805a99d95f366", null ],
+    [ "defer_stack", "codegen__utils_8c.html#a5f511a940885b09cfa88e97558fb7fd1", null ],
+    [ "func_defer_boundary", "codegen__utils_8c.html#a812a12c93ea7b3393db4f8eddab134ab", null ],
+    [ "g_current_impl_type", "codegen__utils_8c.html#abfc618d1fab66badee81ee46c39adee8", null ],
+    [ "g_current_lambda", "codegen__utils_8c.html#ae3ac2ddaf421c3422490510526e5bc58", null ],
+    [ "global_user_structs", "codegen__utils_8c.html#aea5d060392f2a3dac35a898bdf0c04bb", null ],
+    [ "loop_defer_boundary", "codegen__utils_8c.html#a879196a39ca4f76e2e557af9a89dfcf0", null ],
+    [ "loop_depth", "codegen__utils_8c.html#aad04f30ca440d07ae68f4a612eb7d586", null ],
+    [ "tmp_counter", "codegen__utils_8c.html#afb0d637c3f355119b4d494b5d2c78050", null ]
+];
