@@ -864,6 +864,14 @@ Decorate functions and structs to modify compiler behavior.
 | `@weak` | Fn | Weak symbol linkage. |
 | `@section("name")` | Fn | Place code in specific section. |
 | `@noreturn` | Fn | Function does not return (e.g. exit). |
+| `@pure` | Fn | Function has no side effects (optimization hint). |
+| `@cold` | Fn | Function is unlikely to be executed (branch prediction hint). |
+| `@hot` | Fn | Function is frequently executed (optimization hint). |
+| `@export` | Fn/Struct | Export symbol (visibility default). |
+| `@global` | Fn | CUDA: Kernel entry point (`__global__`). |
+| `@device` | Fn | CUDA: Device function (`__device__`). |
+| `@host` | Fn | CUDA: Host function (`__host__`). |
+| `@comptime` | Fn | Helper function available for compile-time execution. |
 | `@derive(...)` | Struct | Auto-implement traits. Supports `Debug`, `Eq` (Smart Derive), `Copy`, `Clone`. |
 
 ### Smart Derives
