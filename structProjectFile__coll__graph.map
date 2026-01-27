@@ -1,17 +1,20 @@
 <map id="ProjectFile" name="ProjectFile">
-<area shape="rect" id="Node000001" title="Represents a tracked file in the LSP project." alt="" coords="55,571,146,596"/>
-<area shape="poly" id="edge9_Node000001_Node000001" title=" " alt="" coords="160,574,169,577,173,584,164,592,146,594,146,589,162,587,167,583,166,581,159,579"/>
-<area shape="rect" id="Node000002" href="$structLSPIndex.html" title="Index of a single file." alt="" coords="60,483,141,508"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,522,103,570,98,570,98,522"/>
-<area shape="rect" id="Node000003" href="$structLSPRange.html" title="A range in the source code mapping to semantic info." alt="" coords="57,380,144,405"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="103,419,103,483,98,483,98,419"/>
-<area shape="poly" id="edge8_Node000003_Node000003" title=" " alt="" coords="158,383,167,386,171,393,162,401,144,403,144,398,160,396,165,392,164,391,157,388"/>
-<area shape="rect" id="Node000004" href="$structASTNode.html" title=" " alt="" coords="60,224,141,249"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="103,263,103,380,98,380,98,263"/>
-<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="127,215,141,213,154,216,164,224,168,237,163,252,149,260,131,259,114,252,116,247,132,254,148,254,159,249,163,237,160,226,152,220,141,218,127,221"/>
+<area shape="rect" id="Node000001" title="Represents a tracked file in the LSP project." alt="" coords="123,571,214,596"/>
+<area shape="poly" id="edge11_Node000001_Node000001" title=" " alt="" coords="228,574,237,577,241,584,232,592,214,594,214,589,230,587,235,583,234,581,227,579"/>
+<area shape="rect" id="Node000002" href="$structLSPIndex.html" title="Index of a single file." alt="" coords="128,483,209,508"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="171,522,171,570,166,570,166,522"/>
+<area shape="rect" id="Node000003" href="$structLSPRange.html" title="A range in the source code mapping to semantic info." alt="" coords="125,380,212,405"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="171,419,171,483,166,483,166,419"/>
+<area shape="poly" id="edge10_Node000003_Node000003" title=" " alt="" coords="226,383,235,386,239,393,230,401,212,403,212,398,228,396,233,392,232,391,225,388"/>
+<area shape="rect" id="Node000004" href="$structASTNode.html" title=" " alt="" coords="128,224,209,249"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="171,263,171,380,166,380,166,263"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="195,215,209,213,222,216,232,224,236,237,231,252,217,260,199,259,182,252,184,247,200,254,216,254,227,249,231,237,228,226,220,220,209,218,195,221"/>
 <area shape="rect" id="Node000005" href="$structType.html" title="Represents a formal type in the type system." alt="" coords="5,7,57,33"/>
-<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="33,47,36,87,45,131,69,183,94,223,90,225,64,186,39,133,31,88,28,47"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="41,45,57,86,79,131,120,183,158,222,154,226,116,187,74,133,52,89,36,47"/>
 <area shape="poly" id="edge6_Node000005_Node000005" title=" " alt="" coords="67,4,79,9,84,20,81,29,73,35,53,35,53,30,72,30,77,26,79,20,75,12,66,9"/>
 <area shape="rect" id="Node000006" href="$structToken.html" title="Represents a source token." alt="" coords="139,7,198,33"/>
-<area shape="poly" id="edge7_Node000004_Node000006" title=" " alt="" coords="164,47,137,133,107,225,102,223,131,131,159,45"/>
+<area shape="poly" id="edge7_Node000004_Node000006" title=" " alt="" coords="171,46,171,224,166,224,166,46"/>
+<area shape="rect" id="Node000007" href="$structAttribute.html" title=" " alt="" coords="269,7,348,33"/>
+<area shape="poly" id="edge8_Node000004_Node000007" title=" " alt="" coords="309,47,300,89,282,133,260,163,235,189,188,226,184,222,231,185,256,159,277,131,295,87,303,46"/>
+<area shape="poly" id="edge9_Node000007_Node000007" title=" " alt="" coords="350,3,367,8,375,20,371,29,362,35,336,35,336,30,360,30,367,26,369,20,364,12,349,9"/>
 </map>

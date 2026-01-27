@@ -1,8 +1,10 @@
 var ast_8h =
 [
     [ "Type", "structType.html", "structType" ],
+    [ "Attribute", "structAttribute.html", "structAttribute" ],
     [ "ASTNode", "structASTNode.html", "structASTNode" ],
     [ "ASTNode", "ast_8h.html#a6b9026f45e950e06b76db629f9563f3a", null ],
+    [ "Attribute", "ast_8h.html#abc0b9323e60af5e90ac524718d959b41", null ],
     [ "Type", "ast_8h.html#a1ac75f8fee198af783521627f1fecfbc", null ],
     [ "LiteralKind", "ast_8h.html#a8cb9fbb7d80c9134ae81ee008d7b33d6", [
       [ "LITERAL_INT", "ast_8h.html#a8cb9fbb7d80c9134ae81ee008d7b33d6a367587472aac8972e23d135df7511d9b", null ],

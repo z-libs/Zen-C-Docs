@@ -12,6 +12,7 @@ var structASTNode =
     [ "array_literal", "structASTNode.html#a75de0b942646e951ce60a30f40005bfd", null ],
     [ "asm_stmt", "structASTNode.html#ae190e832aa70fda5a5139aaa1910d095", null ],
     [ "assert_stmt", "structASTNode.html#a3576ddb6e48f2a5328d5e56507001bde", null ],
+    [ "attributes", "structASTNode.html#ab4c3fe287f15108a48803f7f3f5a3caf", null ],
     [ "binary", "structASTNode.html#acc0a28ac47b635e9567bc99a4dca0803", null ],
     [ "binding_count", "structASTNode.html#a14a2c9d6b5e11c88863b664955b96122", null ],
     [ "binding_names", "structASTNode.html#a22d84cb476da892b300fb7c5fd15fc88", null ],

@@ -17,13 +17,13 @@ var searchData=
   ['deprecated_5ffuncs_14',['deprecated_funcs',['../structParserContext.html#a025c37ae2be0cf356c49bc6aa1b4151d',1,'ParserContext']]],
   ['deprecatedfunc_15',['deprecatedfunc',['../parser_8h.html#ac6ae000c37044220caa657f160563077',1,'DeprecatedFunc:&#160;parser.h'],['../structDeprecatedFunc.html',1,'DeprecatedFunc']]],
   ['depth_16',['depth',['../structprintbuffer.html#aa7311b5da38ff8d1737824c611b48732',1,'printbuffer::depth'],['../structparse__buffer.html#af613c4ed7d73f76c60c50d1bcf4c67a0',1,'parse_buffer::depth']]],
-  ['derives_17',['Smart Derives',['../index.html#autotoc_md64',1,'']]],
+  ['derives_17',['Smart Derives',['../index.html#autotoc_md66',1,'']]],
   ['dest_18',['dest',['../structASTNode.html#a42ade6fd6e1a0c50a690ae3a4223ee66',1,'ASTNode']]],
   ['destruct_19',['destruct',['../structASTNode.html#a46ee0ae4e8d111daa527256335b8e922',1,'ASTNode']]],
   ['destructor_20',['destructor',['../structASTNode.html#ae8bbf5889f48f26cfc216493624101f4',1,'ASTNode']]],
   ['diagnostic_21',['diagnostic',['../lsp__analysis_8c.html#acbcabcf6f150dadd930e2c31eb08ae3d',1,'Diagnostic:&#160;lsp_analysis.c'],['../structDiagnostic.html',1,'Diagnostic']]],
   ['diagnosticlist_22',['DiagnosticList',['../structDiagnosticList.html',1,'']]],
-  ['directives_23',['15. Build Directives',['../index.html#autotoc_md69',1,'']]],
+  ['directives_23',['15. Build Directives',['../index.html#autotoc_md71',1,'']]],
   ['do_5fwhile_5fstmt_24',['do_while_stmt',['../structASTNode.html#afc17e097dba6289c3c1257662bf36d4a',1,'ASTNode']]],
   ['drop_20trait_25',['RAII / Drop Trait',['../index.html#autotoc_md50',1,'']]]
 ];

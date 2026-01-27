@@ -2,6 +2,7 @@ var annotated_dup =
 [
     [ "ArenaBlock", "structArenaBlock.html", "structArenaBlock" ],
     [ "ASTNode", "structASTNode.html", "structASTNode" ],
+    [ "Attribute", "structAttribute.html", "structAttribute" ],
     [ "cJSON", "structcJSON.html", "structcJSON" ],
     [ "cJSON_Hooks", "structcJSON__Hooks.html", "structcJSON__Hooks" ],
     [ "Col", "structCol.html", "structCol" ],

@@ -1,7 +1,7 @@
 var searchData=
 [
   ['base_5fname_0',['base_name',['../structModule.html#a718aa06c6369d11b7bc8d6ef2a39958b',1,'Module']]],
-  ['basic_20usage_1',['Basic Usage',['../index.html#autotoc_md66',1,'']]],
+  ['basic_20usage_1',['Basic Usage',['../index.html#autotoc_md68',1,'']]],
   ['befunge_2ec_2',['befunge.c',['../befunge_8c.html',1,'']]],
   ['befunge_5fplugin_3',['befunge_plugin',['../befunge_8c.html#a6060261bee7b970c1c9a41dba633558d',1,'befunge.c']]],
   ['befunge_5ftranspile_4',['befunge_transpile',['../befunge_8c.html#a3ecdf5afdd1772408ac1d7a5a9cd8234',1,'befunge.c']]],
@@ -15,7 +15,7 @@ var searchData=
   ['binding_5frefs_12',['binding_refs',['../structASTNode.html#a7b2bf82a34413efc0339207945d01912',1,'ASTNode']]],
   ['bit_5fwidth_13',['bit_width',['../structASTNode.html#aff4c7e65c0cbac2f04292013489664b8',1,'ASTNode']]],
   ['block_14',['block',['../structASTNode.html#aaa015f22286b015be951219d3b9120d1',1,'ASTNode::block'],['../structASTNode.html#af38d862838cf8543c467d74aee13f46c',1,'ASTNode::block']]],
-  ['blockquote_15',['&lt;/blockquote&gt;',['../index.html#autotoc_md91',1,'']]],
+  ['blockquote_15',['&lt;/blockquote&gt;',['../index.html#autotoc_md93',1,'']]],
   ['body_16',['body',['../structForthWord.html#a2c989730dd3656a7b0b74dd52b46cf4c',1,'ForthWord::body'],['../structASTNode.html#a929795ceba1c65aa2797fc06ff3fd566',1,'ASTNode::body'],['../structASTNode.html#a069d17badc10f9c3cb227a08fe0b388e',1,'ASTNode::body']]],
   ['brainfuck_2ec_17',['brainfuck.c',['../brainfuck_8c.html',1,'']]],
   ['brainfuck_5fplugin_18',['brainfuck_plugin',['../brainfuck_8c.html#a1ed51015f0946f7be743917f8445dc26',1,'brainfuck.c']]],
@@ -24,7 +24,7 @@ var searchData=
   ['buffer_5fat_5foffset_21',['buffer_at_offset',['../cJSON_8c.html#ac538057ef78677344d222b763251af5e',1,'cJSON.c']]],
   ['buffer_5flength_22',['buffer_length',['../cJSON_8h.html#a7beaf9b4ef5e4c7254cc3298a3424354',1,'cJSON.h']]],
   ['build_20ape_23',['Portable Build (APE)',['../index.html#autotoc_md9',1,'']]],
-  ['build_20directives_24',['15. Build Directives',['../index.html#autotoc_md69',1,'']]],
-  ['building_20with_20zig_25',['Building with Zig',['../index.html#autotoc_md83',1,'']]],
+  ['build_20directives_24',['15. Build Directives',['../index.html#autotoc_md71',1,'']]],
+  ['building_20with_20zig_25',['Building with Zig',['../index.html#autotoc_md85',1,'']]],
   ['by_20default_26',['Resource Semantics (Move by Default)',['../index.html#autotoc_md49',1,'']]]
 ];

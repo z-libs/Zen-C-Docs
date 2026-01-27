@@ -5,6 +5,6 @@ var searchData=
   ['11_20concurrency_20async_20await_2',['11. Concurrency (Async/Await)',['../index.html#autotoc_md57',1,'']]],
   ['12_20metaprogramming_3',['12. Metaprogramming',['../index.html#autotoc_md58',1,'']]],
   ['13_20attributes_4',['13. Attributes',['../index.html#autotoc_md63',1,'']]],
-  ['14_20inline_20assembly_5',['14. Inline Assembly',['../index.html#autotoc_md65',1,'']]],
-  ['15_20build_20directives_6',['15. Build Directives',['../index.html#autotoc_md69',1,'']]]
+  ['14_20inline_20assembly_5',['14. Inline Assembly',['../index.html#autotoc_md67',1,'']]],
+  ['15_20build_20directives_6',['15. Build Directives',['../index.html#autotoc_md71',1,'']]]
 ];

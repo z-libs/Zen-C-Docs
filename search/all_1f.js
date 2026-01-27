@@ -19,6 +19,6 @@ var searchData=
   ['weak_16',['weak',['../structASTNode.html#aa183af71f480a2f2941fc30e6f42f84e',1,'ASTNode']]],
   ['which_17',['which',['../cJSON_8h.html#aa2a4dae2a14de4093826005f9bdfd3bb',1,'cJSON.h']]],
   ['while_5fstmt_18',['while_stmt',['../structASTNode.html#abf17f04b705baa790b0a0c444829b060',1,'ASTNode']]],
-  ['with_20zig_19',['Building with Zig',['../index.html#autotoc_md83',1,'']]],
-  ['writing_20cuda_20kernels_20',['Writing CUDA Kernels',['../index.html#autotoc_md89',1,'']]]
+  ['with_20zig_19',['Building with Zig',['../index.html#autotoc_md85',1,'']]],
+  ['writing_20cuda_20kernels_20',['Writing CUDA Kernels',['../index.html#autotoc_md91',1,'']]]
 ];

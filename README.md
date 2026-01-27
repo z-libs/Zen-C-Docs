@@ -84,6 +84,8 @@ Join the discussion, share demos, ask questions, or report bugs in the official 
         - [Plugins](#plugins)
         - [Generic C Macros](#generic-c-macros)
     - [13. Attributes](#13-attributes)
+    - [Custom Attributes](#custom-attributes)
+    - [Smart Derives](#smart-derives)
     - [14. Inline Assembly](#14-inline-assembly)
         - [Basic Usage](#basic-usage)
         - [Volatile](#volatile)
@@ -873,6 +875,19 @@ Decorate functions and structs to modify compiler behavior.
 | `@host` | Fn | CUDA: Host function (`__host__`). |
 | `@comptime` | Fn | Helper function available for compile-time execution. |
 | `@derive(...)` | Struct | Auto-implement traits. Supports `Debug`, `Eq` (Smart Derive), `Copy`, `Clone`. |
+| `@<custom>` | Any | Passes generic attributes to C (e.g. `@flatten`, `@alias("name")`). |
+
+### Custom Attributes
+
+Zen C supports a powerful **Custom Attribute** system that allows you to use any GCC/Clang `__attribute__` directly in your code. Any attribute that is not explicitly recognized by the Zen C compiler is treated as a generic attribute and passed through to the generated C code.
+
+This provides access to advanced compiler features, optimizations, and linker directives without needing explicit support in the language core.
+
+#### Syntax Mapping
+Zen C attributes are mapped directly to C attributes:
+- `@name` → `__attribute__((name))`
+- `@name(args)` → `__attribute__((name(args)))`
+- `@name("string")` → `__attribute__((name("string")))`
 
 ### Smart Derives
 
