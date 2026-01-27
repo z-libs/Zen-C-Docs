@@ -103,54 +103,57 @@ $(document).ready(function(){initNavTree('constants_8h_source.html',''); initRes
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#define ZEN_CONSTANTS_H</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">// Buffer sizes</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment">// Buffer sizes</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="constants_8h.html#a2b5112254a307d0fb60af076af2fc581">    7</a></span><span class="preprocessor">#define MAX_TYPE_NAME_LEN 256     </span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="constants_8h.html#ab828d014832ed7c8d13a1da1aae972cb">    8</a></span><span class="preprocessor">#define MAX_FUNC_NAME_LEN 512     </span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="constants_8h.html#a37de40cecb9e99d4a298d67f780f5e31">    9</a></span><span class="preprocessor">#define MAX_ERROR_MSG_LEN 1024    </span></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="constants_8h.html#adb0010a225821fd363ae84343c4436bb">   10</a></span><span class="preprocessor">#define MAX_MANGLED_NAME_LEN 512  </span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="constants_8h.html#abdd33f362ae3bbdacb5de76473aa8a2f">   11</a></span><span class="preprocessor">#define MAX_PATH_LEN 4096         </span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="comment">// Type checking helpers</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="constants_8h.html#a2f88fa30aecaaef0e00b3b4f8abc5809">   14</a></span><span class="preprocessor">#define IS_INT_TYPE(t) ((t) &amp;&amp; strcmp((t), &quot;int&quot;) == 0)      </span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="constants_8h.html#a041a8bf541c15b43402cc767b03d3cb6">   15</a></span><span class="preprocessor">#define IS_BOOL_TYPE(t) ((t) &amp;&amp; strcmp((t), &quot;bool&quot;) == 0)    </span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="constants_8h.html#a7121431dfae77f07be032c3725ccc344">   16</a></span><span class="preprocessor">#define IS_CHAR_TYPE(t) ((t) &amp;&amp; strcmp((t), &quot;char&quot;) == 0)    </span></div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="constants_8h.html#a1a36523405dd7d295d0d65000806b69d">   17</a></span><span class="preprocessor">#define IS_VOID_TYPE(t) ((t) &amp;&amp; strcmp((t), &quot;void&quot;) == 0)    </span></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="constants_8h.html#a7354220acfbb13727d11ec9aab833d4f">   18</a></span><span class="preprocessor">#define IS_FLOAT_TYPE(t) ((t) &amp;&amp; strcmp((t), &quot;float&quot;) == 0)  </span></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="constants_8h.html#a1d05f4edb2eedc30a92122828cd7799e">   19</a></span><span class="preprocessor">#define IS_DOUBLE_TYPE(t) ((t) &amp;&amp; strcmp((t), &quot;double&quot;) == 0)</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="constants_8h.html#ad22a59179e3343e6da40a0f0f8299194">   20</a></span><span class="preprocessor">#define IS_USIZE_TYPE(t) ((t) &amp;&amp; (strcmp((t), &quot;usize&quot;) == 0 || strcmp((t), &quot;size_t&quot;) == 0)) </span></div>
-<div class="foldopen" id="foldopen00024" data-start="" data-end="">
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="constants_8h.html#a8bcf32d7712c02c4bf088b754028b778">   24</a></span><span class="preprocessor">#define IS_STRING_TYPE(t)                                                                          \</span></div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">    ((t) &amp;&amp;                                                                                        \</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">     (strcmp((t), &quot;string&quot;) == 0 || strcmp((t), &quot;char*&quot;) == 0 || strcmp((t), &quot;const char*&quot;) == 0))</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno"><a class="line" href="constants_8h.html#a2b5112254a307d0fb60af076af2fc581">    6</a></span><span class="preprocessor">#define MAX_TYPE_NAME_LEN 256    </span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="constants_8h.html#ab828d014832ed7c8d13a1da1aae972cb">    7</a></span><span class="preprocessor">#define MAX_FUNC_NAME_LEN 512    </span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="constants_8h.html#a37de40cecb9e99d4a298d67f780f5e31">    8</a></span><span class="preprocessor">#define MAX_ERROR_MSG_LEN 1024   </span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="constants_8h.html#adb0010a225821fd363ae84343c4436bb">    9</a></span><span class="preprocessor">#define MAX_MANGLED_NAME_LEN 512 </span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="constants_8h.html#abdd33f362ae3bbdacb5de76473aa8a2f">   10</a></span><span class="preprocessor">#define MAX_PATH_LEN 4096        </span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="comment">// Type checking helpers</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="constants_8h.html#a2f88fa30aecaaef0e00b3b4f8abc5809">   13</a></span><span class="preprocessor">#define IS_INT_TYPE(t) ((t) &amp;&amp; strcmp((t), &quot;int&quot;) == 0)       </span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="constants_8h.html#a041a8bf541c15b43402cc767b03d3cb6">   14</a></span><span class="preprocessor">#define IS_BOOL_TYPE(t) ((t) &amp;&amp; strcmp((t), &quot;bool&quot;) == 0)     </span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="constants_8h.html#a7121431dfae77f07be032c3725ccc344">   15</a></span><span class="preprocessor">#define IS_CHAR_TYPE(t) ((t) &amp;&amp; strcmp((t), &quot;char&quot;) == 0)     </span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="constants_8h.html#a1a36523405dd7d295d0d65000806b69d">   16</a></span><span class="preprocessor">#define IS_VOID_TYPE(t) ((t) &amp;&amp; strcmp((t), &quot;void&quot;) == 0)     </span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="constants_8h.html#a7354220acfbb13727d11ec9aab833d4f">   17</a></span><span class="preprocessor">#define IS_FLOAT_TYPE(t) ((t) &amp;&amp; strcmp((t), &quot;float&quot;) == 0)   </span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="constants_8h.html#a1d05f4edb2eedc30a92122828cd7799e">   18</a></span><span class="preprocessor">#define IS_DOUBLE_TYPE(t) ((t) &amp;&amp; strcmp((t), &quot;double&quot;) == 0) </span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#define IS_USIZE_TYPE(t)                                                                           \</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">    ((t) &amp;&amp; (strcmp((t), &quot;usize&quot;) == 0 ||                                                          \</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">             strcmp((t), &quot;size_t&quot;) == 0)) </span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#define IS_STRING_TYPE(t)                                                                          \</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">    ((t) &amp;&amp;                                                                                        \</span></div>
+<div class="foldopen" id="foldopen00027" data-start="" data-end="">
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="constants_8h.html#a8bcf32d7712c02c4bf088b754028b778">   27</a></span><span class="preprocessor">     (strcmp((t), &quot;string&quot;) == 0 || strcmp((t), &quot;char*&quot;) == 0 || strcmp((t), &quot;const char*&quot;) == 0))</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="comment">// Composite type checks</span></div>
 </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="comment">// Composite type checks</span></div>
-<div class="foldopen" id="foldopen00032" data-start="" data-end="">
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="constants_8h.html#a3f343b14783adad7bf9a4ad906abe953">   32</a></span><span class="preprocessor">#define IS_BASIC_TYPE(t)                                                                           \</span></div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">    ((t) &amp;&amp; (IS_INT_TYPE(t) || IS_BOOL_TYPE(t) || IS_CHAR_TYPE(t) || IS_VOID_TYPE(t) ||            \</span></div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">             IS_FLOAT_TYPE(t) || IS_DOUBLE_TYPE(t) || IS_USIZE_TYPE(t) ||                          \</span></div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="preprocessor">             strcmp((t), &quot;ssize_t&quot;) == 0 || strcmp((t), &quot;__auto_type&quot;) == 0))</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#define IS_BASIC_TYPE(t)                                                                           \</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">    ((t) &amp;&amp; (IS_INT_TYPE(t) || IS_BOOL_TYPE(t) || IS_CHAR_TYPE(t) || IS_VOID_TYPE(t) ||            \</span></div>
+<div class="foldopen" id="foldopen00035" data-start="" data-end="">
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="constants_8h.html#a3f343b14783adad7bf9a4ad906abe953">   35</a></span><span class="preprocessor">             IS_FLOAT_TYPE(t) || IS_DOUBLE_TYPE(t) || IS_USIZE_TYPE(t) ||                          \</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">             strcmp((t), &quot;ssize_t&quot;) == 0 || strcmp((t), &quot;__auto_type&quot;) == 0))</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
 </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="foldopen" id="foldopen00040" data-start="" data-end="">
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="constants_8h.html#abaa000f861b5440123c64fd4afef10ff">   40</a></span><span class="preprocessor">#define IS_NUMERIC_TYPE(t)                                                                         \</span></div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="preprocessor">    ((t) &amp;&amp; (IS_INT_TYPE(t) || IS_FLOAT_TYPE(t) || IS_DOUBLE_TYPE(t) || IS_USIZE_TYPE(t)))</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="preprocessor">#define IS_NUMERIC_TYPE(t)                                                                         \</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="preprocessor">    ((t) &amp;&amp; (IS_INT_TYPE(t) || IS_FLOAT_TYPE(t) || IS_DOUBLE_TYPE(t) || IS_USIZE_TYPE(t)))</span></div>
+<div class="foldopen" id="foldopen00043" data-start="" data-end="">
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="constants_8h.html#abaa000f861b5440123c64fd4afef10ff">   43</a></span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="comment">// Pointer type check</span></div>
 </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="comment">// Pointer type check</span></div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="constants_8h.html#acaeec97695058e40f916ac5b798fc6d1">   44</a></span><span class="preprocessor">#define IS_PTR_TYPE(t) ((t) &amp;&amp; strchr((t), &#39;*&#39;) != NULL) </span></div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="comment">// Struct prefix check</span></div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="constants_8h.html#a132e726068f1caf65c4454375e8c0959">   47</a></span><span class="preprocessor">#define IS_STRUCT_PREFIX(t) ((t) &amp;&amp; strncmp((t), &quot;struct &quot;, 7) == 0) </span></div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="constants_8h.html#a2d3f52290df0f0ed25b19c236e0d6e4a">   48</a></span><span class="preprocessor">#define STRIP_STRUCT_PREFIX(t) (IS_STRUCT_PREFIX(t) ? ((t) + 7) : (t)) </span></div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="comment">// Generic type checks</span></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="constants_8h.html#a09464317b889cdaf28fb7d409f4522b5">   51</a></span><span class="preprocessor">#define IS_OPTION_TYPE(t) ((t) &amp;&amp; strncmp((t), &quot;Option_&quot;, 7) == 0) </span></div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="constants_8h.html#ae988778bbb87cbbe1a6610ee480bbc37">   52</a></span><span class="preprocessor">#define IS_RESULT_TYPE(t) ((t) &amp;&amp; strncmp((t), &quot;Result_&quot;, 7) == 0) </span></div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="constants_8h.html#a6a79274b0faa1ddb8e101e15cdb83950">   53</a></span><span class="preprocessor">#define IS_VEC_TYPE(t) ((t) &amp;&amp; strncmp((t), &quot;Vec_&quot;, 4) == 0)       </span></div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="constants_8h.html#abe0a670f523758f503c5235640380587">   54</a></span><span class="preprocessor">#define IS_SLICE_TYPE(t) ((t) &amp;&amp; strncmp((t), &quot;Slice_&quot;, 6) == 0)   </span></div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="preprocessor">#endif </span><span class="comment">// ZEN_CONSTANTS_H</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="preprocessor">#define IS_PTR_TYPE(t) ((t) &amp;&amp; strchr((t), &#39;*&#39;) != NULL) </span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="constants_8h.html#acaeec97695058e40f916ac5b798fc6d1">   47</a></span><span class="comment">// Struct prefix check</span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="preprocessor">#define IS_STRUCT_PREFIX(t)                                                                        \</span></div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="preprocessor">    ((t) &amp;&amp; strncmp((t), &quot;struct &quot;, 7) == 0) </span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="preprocessor">#define STRIP_STRUCT_PREFIX(t)                                                                     \</span></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="preprocessor">    (IS_STRUCT_PREFIX(t) ? ((t) + 7) : (t)) </span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="constants_8h.html#a132e726068f1caf65c4454375e8c0959">   52</a></span> </div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="comment">// Generic type checks</span></div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="preprocessor">#define IS_OPTION_TYPE(t) ((t) &amp;&amp; strncmp((t), &quot;Option_&quot;, 7) == 0) </span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="constants_8h.html#a2d3f52290df0f0ed25b19c236e0d6e4a">   55</a></span><span class="preprocessor">#define IS_RESULT_TYPE(t) ((t) &amp;&amp; strncmp((t), &quot;Result_&quot;, 7) == 0) </span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="preprocessor">#define IS_VEC_TYPE(t) ((t) &amp;&amp; strncmp((t), &quot;Vec_&quot;, 4) == 0)       </span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="preprocessor">#define IS_SLICE_TYPE(t) ((t) &amp;&amp; strncmp((t), &quot;Slice_&quot;, 6) == 0)   </span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="constants_8h.html#a09464317b889cdaf28fb7d409f4522b5">   58</a></span> </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="constants_8h.html#ae988778bbb87cbbe1a6610ee480bbc37">   59</a></span><span class="preprocessor">#endif </span><span class="comment">// ZEN_CONSTANTS_H</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

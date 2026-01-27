@@ -145,8 +145,8 @@ Macros</h2></td></tr>
 <tr class="memitem:a1d05f4edb2eedc30a92122828cd7799e" id="r_a1d05f4edb2eedc30a92122828cd7799e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="constants_8h.html#a1d05f4edb2eedc30a92122828cd7799e">IS_DOUBLE_TYPE</a>(t)&#160;&#160;&#160;((t) &amp;&amp; strcmp((t), &quot;double&quot;) == 0)</td></tr>
 <tr class="memdesc:a1d05f4edb2eedc30a92122828cd7799e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if type is "double".  <br /></td></tr>
 <tr class="separator:a1d05f4edb2eedc30a92122828cd7799e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad22a59179e3343e6da40a0f0f8299194" id="r_ad22a59179e3343e6da40a0f0f8299194"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="constants_8h.html#ad22a59179e3343e6da40a0f0f8299194">IS_USIZE_TYPE</a>(t)&#160;&#160;&#160;((t) &amp;&amp; (strcmp((t), &quot;usize&quot;) == 0 || strcmp((t), &quot;size_t&quot;) == 0))</td></tr>
-<tr class="memdesc:ad22a59179e3343e6da40a0f0f8299194"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if type is "usize" or "size_t".  <br /></td></tr>
+<tr class="memitem:ad22a59179e3343e6da40a0f0f8299194" id="r_ad22a59179e3343e6da40a0f0f8299194"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="constants_8h.html#ad22a59179e3343e6da40a0f0f8299194">IS_USIZE_TYPE</a>(t)</td></tr>
+<tr class="memdesc:ad22a59179e3343e6da40a0f0f8299194"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if type is "usize" or "size_t"./*#end#*&zwj;/.  <br /></td></tr>
 <tr class="separator:ad22a59179e3343e6da40a0f0f8299194"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8bcf32d7712c02c4bf088b754028b778" id="r_a8bcf32d7712c02c4bf088b754028b778"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="constants_8h.html#a8bcf32d7712c02c4bf088b754028b778">IS_STRING_TYPE</a>(t)</td></tr>
 <tr class="memdesc:a8bcf32d7712c02c4bf088b754028b778"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if type is a string type ("string", "char*", "const char*").  <br /></td></tr>
@@ -160,11 +160,11 @@ Macros</h2></td></tr>
 <tr class="memitem:acaeec97695058e40f916ac5b798fc6d1" id="r_acaeec97695058e40f916ac5b798fc6d1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="constants_8h.html#acaeec97695058e40f916ac5b798fc6d1">IS_PTR_TYPE</a>(t)&#160;&#160;&#160;((t) &amp;&amp; strchr((t), '*') != NULL)</td></tr>
 <tr class="memdesc:acaeec97695058e40f916ac5b798fc6d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if type string contains '*'.  <br /></td></tr>
 <tr class="separator:acaeec97695058e40f916ac5b798fc6d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a132e726068f1caf65c4454375e8c0959" id="r_a132e726068f1caf65c4454375e8c0959"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="constants_8h.html#a132e726068f1caf65c4454375e8c0959">IS_STRUCT_PREFIX</a>(t)&#160;&#160;&#160;((t) &amp;&amp; strncmp((t), &quot;struct &quot;, 7) == 0)</td></tr>
-<tr class="memdesc:a132e726068f1caf65c4454375e8c0959"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if type starts with "struct ".  <br /></td></tr>
+<tr class="memitem:a132e726068f1caf65c4454375e8c0959" id="r_a132e726068f1caf65c4454375e8c0959"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="constants_8h.html#a132e726068f1caf65c4454375e8c0959">IS_STRUCT_PREFIX</a>(t)&#160;&#160;&#160;    ((t) &amp;&amp; strncmp((t), &quot;struct &quot;, 7) == 0)</td></tr>
+<tr class="memdesc:a132e726068f1caf65c4454375e8c0959"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if type starts with "struct "./*#end#*&zwj;/.  <br /></td></tr>
 <tr class="separator:a132e726068f1caf65c4454375e8c0959"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d3f52290df0f0ed25b19c236e0d6e4a" id="r_a2d3f52290df0f0ed25b19c236e0d6e4a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="constants_8h.html#a2d3f52290df0f0ed25b19c236e0d6e4a">STRIP_STRUCT_PREFIX</a>(t)&#160;&#160;&#160;(<a class="el" href="constants_8h.html#a132e726068f1caf65c4454375e8c0959">IS_STRUCT_PREFIX</a>(t) ? ((t) + 7) : (t))</td></tr>
-<tr class="memdesc:a2d3f52290df0f0ed25b19c236e0d6e4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns ptr to name after "struct " prefix.  <br /></td></tr>
+<tr class="memitem:a2d3f52290df0f0ed25b19c236e0d6e4a" id="r_a2d3f52290df0f0ed25b19c236e0d6e4a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="constants_8h.html#a2d3f52290df0f0ed25b19c236e0d6e4a">STRIP_STRUCT_PREFIX</a>(t)&#160;&#160;&#160;    (<a class="el" href="constants_8h.html#a132e726068f1caf65c4454375e8c0959">IS_STRUCT_PREFIX</a>(t) ? ((t) + 7) : (t))</td></tr>
+<tr class="memdesc:a2d3f52290df0f0ed25b19c236e0d6e4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns ptr to name after "struct " prefix./*#end#*&zwj;/.  <br /></td></tr>
 <tr class="separator:a2d3f52290df0f0ed25b19c236e0d6e4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09464317b889cdaf28fb7d409f4522b5" id="r_a09464317b889cdaf28fb7d409f4522b5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="constants_8h.html#a09464317b889cdaf28fb7d409f4522b5">IS_OPTION_TYPE</a>(t)&#160;&#160;&#160;((t) &amp;&amp; strncmp((t), &quot;Option_&quot;, 7) == 0)</td></tr>
 <tr class="memdesc:a09464317b889cdaf28fb7d409f4522b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if type is Option&lt;T&gt;.  <br /></td></tr>
@@ -198,12 +198,12 @@ Macros</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line">    ((t) &amp;&amp; (<a class="code hl_define" href="constants_8h.html#a2f88fa30aecaaef0e00b3b4f8abc5809">IS_INT_TYPE</a>(t) || <a class="code hl_define" href="constants_8h.html#a041a8bf541c15b43402cc767b03d3cb6">IS_BOOL_TYPE</a>(t) || <a class="code hl_define" href="constants_8h.html#a7121431dfae77f07be032c3725ccc344">IS_CHAR_TYPE</a>(t) || <a class="code hl_define" href="constants_8h.html#a1a36523405dd7d295d0d65000806b69d">IS_VOID_TYPE</a>(t) ||            \</div>
 <div class="line">             IS_FLOAT_TYPE(t) || <a class="code hl_define" href="constants_8h.html#a1d05f4edb2eedc30a92122828cd7799e">IS_DOUBLE_TYPE</a>(t) || <a class="code hl_define" href="constants_8h.html#ad22a59179e3343e6da40a0f0f8299194">IS_USIZE_TYPE</a>(t) ||                          \</div>
 <div class="line">             strcmp((t), <span class="stringliteral">&quot;ssize_t&quot;</span>) == 0 || strcmp((t), <span class="stringliteral">&quot;__auto_type&quot;</span>) == 0))</div>
-<div class="ttc" id="aconstants_8h_html_a041a8bf541c15b43402cc767b03d3cb6"><div class="ttname"><a href="constants_8h.html#a041a8bf541c15b43402cc767b03d3cb6">IS_BOOL_TYPE</a></div><div class="ttdeci">#define IS_BOOL_TYPE(t)</div><div class="ttdoc">Checks if type is &quot;bool&quot;.</div><div class="ttdef"><b>Definition</b> constants.h:15</div></div>
-<div class="ttc" id="aconstants_8h_html_a1a36523405dd7d295d0d65000806b69d"><div class="ttname"><a href="constants_8h.html#a1a36523405dd7d295d0d65000806b69d">IS_VOID_TYPE</a></div><div class="ttdeci">#define IS_VOID_TYPE(t)</div><div class="ttdoc">Checks if type is &quot;void&quot;.</div><div class="ttdef"><b>Definition</b> constants.h:17</div></div>
-<div class="ttc" id="aconstants_8h_html_a1d05f4edb2eedc30a92122828cd7799e"><div class="ttname"><a href="constants_8h.html#a1d05f4edb2eedc30a92122828cd7799e">IS_DOUBLE_TYPE</a></div><div class="ttdeci">#define IS_DOUBLE_TYPE(t)</div><div class="ttdoc">Checks if type is &quot;double&quot;.</div><div class="ttdef"><b>Definition</b> constants.h:19</div></div>
-<div class="ttc" id="aconstants_8h_html_a2f88fa30aecaaef0e00b3b4f8abc5809"><div class="ttname"><a href="constants_8h.html#a2f88fa30aecaaef0e00b3b4f8abc5809">IS_INT_TYPE</a></div><div class="ttdeci">#define IS_INT_TYPE(t)</div><div class="ttdoc">Checks if type is &quot;int&quot;.</div><div class="ttdef"><b>Definition</b> constants.h:14</div></div>
-<div class="ttc" id="aconstants_8h_html_a7121431dfae77f07be032c3725ccc344"><div class="ttname"><a href="constants_8h.html#a7121431dfae77f07be032c3725ccc344">IS_CHAR_TYPE</a></div><div class="ttdeci">#define IS_CHAR_TYPE(t)</div><div class="ttdoc">Checks if type is &quot;char&quot;.</div><div class="ttdef"><b>Definition</b> constants.h:16</div></div>
-<div class="ttc" id="aconstants_8h_html_ad22a59179e3343e6da40a0f0f8299194"><div class="ttname"><a href="constants_8h.html#ad22a59179e3343e6da40a0f0f8299194">IS_USIZE_TYPE</a></div><div class="ttdeci">#define IS_USIZE_TYPE(t)</div><div class="ttdoc">Checks if type is &quot;usize&quot; or &quot;size_t&quot;.</div><div class="ttdef"><b>Definition</b> constants.h:20</div></div>
+<div class="ttc" id="aconstants_8h_html_a041a8bf541c15b43402cc767b03d3cb6"><div class="ttname"><a href="constants_8h.html#a041a8bf541c15b43402cc767b03d3cb6">IS_BOOL_TYPE</a></div><div class="ttdeci">#define IS_BOOL_TYPE(t)</div><div class="ttdoc">Checks if type is &quot;bool&quot;.</div><div class="ttdef"><b>Definition</b> constants.h:14</div></div>
+<div class="ttc" id="aconstants_8h_html_a1a36523405dd7d295d0d65000806b69d"><div class="ttname"><a href="constants_8h.html#a1a36523405dd7d295d0d65000806b69d">IS_VOID_TYPE</a></div><div class="ttdeci">#define IS_VOID_TYPE(t)</div><div class="ttdoc">Checks if type is &quot;void&quot;.</div><div class="ttdef"><b>Definition</b> constants.h:16</div></div>
+<div class="ttc" id="aconstants_8h_html_a1d05f4edb2eedc30a92122828cd7799e"><div class="ttname"><a href="constants_8h.html#a1d05f4edb2eedc30a92122828cd7799e">IS_DOUBLE_TYPE</a></div><div class="ttdeci">#define IS_DOUBLE_TYPE(t)</div><div class="ttdoc">Checks if type is &quot;double&quot;.</div><div class="ttdef"><b>Definition</b> constants.h:18</div></div>
+<div class="ttc" id="aconstants_8h_html_a2f88fa30aecaaef0e00b3b4f8abc5809"><div class="ttname"><a href="constants_8h.html#a2f88fa30aecaaef0e00b3b4f8abc5809">IS_INT_TYPE</a></div><div class="ttdeci">#define IS_INT_TYPE(t)</div><div class="ttdoc">Checks if type is &quot;int&quot;.</div><div class="ttdef"><b>Definition</b> constants.h:13</div></div>
+<div class="ttc" id="aconstants_8h_html_a7121431dfae77f07be032c3725ccc344"><div class="ttname"><a href="constants_8h.html#a7121431dfae77f07be032c3725ccc344">IS_CHAR_TYPE</a></div><div class="ttdeci">#define IS_CHAR_TYPE(t)</div><div class="ttdoc">Checks if type is &quot;char&quot;.</div><div class="ttdef"><b>Definition</b> constants.h:15</div></div>
+<div class="ttc" id="aconstants_8h_html_ad22a59179e3343e6da40a0f0f8299194"><div class="ttname"><a href="constants_8h.html#ad22a59179e3343e6da40a0f0f8299194">IS_USIZE_TYPE</a></div><div class="ttdeci">#define IS_USIZE_TYPE(t)</div><div class="ttdoc">Checks if type is &quot;usize&quot; or &quot;size_t&quot;./*#end#*‍/.</div><div class="ttdef"><b>Definition</b> constants.h:19</div></div>
 </div><!-- fragment -->
 <p>Checks if type is a basic primitive type. </p>
 
@@ -442,12 +442,12 @@ Macros</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">t</td><td>)</td>
-          <td>&#160;&#160;&#160;((t) &amp;&amp; strncmp((t), &quot;struct &quot;, 7) == 0)</td>
+          <td>&#160;&#160;&#160;    ((t) &amp;&amp; strncmp((t), &quot;struct &quot;, 7) == 0)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Checks if type starts with "struct ". </p>
+<p>Checks if type starts with "struct "./*#end#*&zwj;/. </p>
 
 </div>
 </div>
@@ -462,12 +462,14 @@ Macros</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">t</td><td>)</td>
-          <td>&#160;&#160;&#160;((t) &amp;&amp; (strcmp((t), &quot;usize&quot;) == 0 || strcmp((t), &quot;size_t&quot;) == 0))</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Checks if type is "usize" or "size_t". </p>
+<b>Value:</b><div class="fragment"><div class="line">    ((t) &amp;&amp; (strcmp((t), <span class="stringliteral">&quot;usize&quot;</span>) == 0 ||                                                          \</div>
+<div class="line">             strcmp((t), <span class="stringliteral">&quot;size_t&quot;</span>) == 0))</div>
+</div><!-- fragment -->
+<p>Checks if type is "usize" or "size_t"./*#end#*&zwj;/. </p>
 
 </div>
 </div>
@@ -602,12 +604,12 @@ Macros</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">t</td><td>)</td>
-          <td>&#160;&#160;&#160;(<a class="el" href="constants_8h.html#a132e726068f1caf65c4454375e8c0959">IS_STRUCT_PREFIX</a>(t) ? ((t) + 7) : (t))</td>
+          <td>&#160;&#160;&#160;    (<a class="el" href="constants_8h.html#a132e726068f1caf65c4454375e8c0959">IS_STRUCT_PREFIX</a>(t) ? ((t) + 7) : (t))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns ptr to name after "struct " prefix. </p>
+<p>Returns ptr to name after "struct " prefix./*#end#*&zwj;/. </p>
 
 </div>
 </div>
