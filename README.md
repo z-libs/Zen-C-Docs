@@ -206,7 +206,7 @@ let y: const int = 10;  // Read-only (Type qualified)
 Fixed-size arrays with value semantics.
 ```zc
 def SIZE = 5;
-let ints: int[SIZE] = {1, 2, 3, 4, 5};
+let ints: int[SIZE] = [1, 2, 3, 4, 5];
 let zeros: [int; SIZE]; // Zero-initialized
 ```
 
