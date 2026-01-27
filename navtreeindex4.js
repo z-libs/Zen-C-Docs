@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"structASTNode.html#a10dfd5e9f8dd6cfdcf922027086b3a91":[1,0,1,64],
 "structASTNode.html#a130599e45bd6bf83ff0b9403c0f94f96":[1,0,1,139],
 "structASTNode.html#a1382e9ac68f3a86df763bcef08e97b26":[1,0,1,40],
 "structASTNode.html#a13c3e188f5f73e3637f8197a1002be2b":[1,0,1,210],
@@ -243,11 +244,10 @@ var NAVTREEINDEX4 =
 "structDiagnosticList.html":[1,0,10],
 "structDiagnosticList.html#a7aa58333783b3a10b9e5c9e00aa8763b":[1,0,10,1],
 "structDiagnosticList.html#a8453076d61e3d5615b22c708d85c572a":[1,0,10,0],
-"structEnumVariantReg.html":[1,0,11],
-"structEnumVariantReg.html#a510754171b06a641b81b0e08f1b50977":[1,0,11,3],
-"structEnumVariantReg.html#a6120c4365f1c1fff0f6404a4bde5f995":[1,0,11,0],
-"structEnumVariantReg.html#a6f0e46caf37f75d1f31c4416c0a85509":[1,0,11,1],
-"structEnumVariantReg.html#a8e3b188681176db849512a76cb2a1021":[1,0,11,2],
-"structForthWord.html":[1,0,13],
-"structForthWord.html#a2c989730dd3656a7b0b74dd52b46cf4c":[1,0,13,0]
+"structEmittedContent.html":[1,0,11],
+"structEmittedContent.html#adbf8027dec2225f46ce28c04d3146a26":[1,0,11,1],
+"structEmittedContent.html#ae84726fb56f182c8bc37354447096b01":[1,0,11,0],
+"structEnumVariantReg.html":[1,0,12],
+"structEnumVariantReg.html#a510754171b06a641b81b0e08f1b50977":[1,0,12,3],
+"structEnumVariantReg.html#a6120c4365f1c1fff0f6404a4bde5f995":[1,0,12,0]
 };

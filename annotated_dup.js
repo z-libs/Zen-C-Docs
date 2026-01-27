@@ -11,6 +11,7 @@ var annotated_dup =
     [ "DeprecatedFunc", "structDeprecatedFunc.html", "structDeprecatedFunc" ],
     [ "Diagnostic", "structDiagnostic.html", "structDiagnostic" ],
     [ "DiagnosticList", "structDiagnosticList.html", "structDiagnosticList" ],
+    [ "EmittedContent", "structEmittedContent.html", "structEmittedContent" ],
     [ "EnumVariantReg", "structEnumVariantReg.html", "structEnumVariantReg" ],
     [ "error", "structerror.html", "structerror" ],
     [ "ForthWord", "structForthWord.html", "structForthWord" ],
