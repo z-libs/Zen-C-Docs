@@ -1267,10 +1267,8 @@ make test
 
 ## Attributions
 
-This project uses the following third-party libraries:
-
+This project uses third-party libraries. Full license texts can be found in the `LICENSES/` directory.
 
 *   **[cJSON](https://github.com/DaveGamble/cJSON)** (MIT License): Used for JSON parsing and generation in the Language Server.
-    *   Copyright (c) 2009-2017 Dave Gamble and cJSON contributors
 *   **[zc-ape](https://github.com/OEvgeny/zc-ape)** (MIT License): The original Actually Portable Executable port of Zen-C by [Eugene Olonov](https://github.com/OEvgeny).
 *   **[Cosmopolitan Libc](https://github.com/jart/cosmopolitan)** (ISC License): The foundational library that makes APE possible.
