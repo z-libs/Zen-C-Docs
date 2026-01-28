@@ -521,6 +521,13 @@ Overloadable Operators</h4>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyLeft"></td><td class="markdownTableBodyLeft"><code>a[i] = v</code>   </td><td class="markdownTableBodyLeft"><code>set(a, i, v)</code>   </td></tr>
 </table>
+<blockquote class="doxtable">
+<p>&zwj;<b>Note on String Equality</b>:</p><ul>
+<li><code>string == string</code> performs <b>value comparison</b> (equivalent to <code>strcmp</code>).</li>
+<li><code>char* == char*</code> performs <b>pointer comparison</b> (checks memory addresses).</li>
+<li>Mixed comparisons (e.g. <code>string == char*</code>) default to <b>pointer comparison</b>. </li>
+</ul>
+</blockquote>
 <p><b>Example:</b> </p><div class="fragment"><div class="line">impl Point {</div>
 <div class="line">    fn add(self, other: Point) -&gt; Point {</div>
 <div class="line">        return Point{x: self.x + other.x, y: self.y + other.y};</div>

@@ -478,6 +478,11 @@ Zen C supports operator overloading for user-defined structs by implementing spe
 | **Index** | `a[i]` | `get(a, i)` |
 | | `a[i] = v` | `set(a, i, v)` |
 
+> **Note on String Equality**:
+> - `string == string` performs **value comparison** (equivalent to `strcmp`).
+> - `char* == char*` performs **pointer comparison** (checks memory addresses).
+> - Mixed comparisons (e.g. `string == char*`) default to **pointer comparison**.
+
 **Example:**
 ```zc
 impl Point {
