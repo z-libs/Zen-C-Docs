@@ -72,6 +72,7 @@ var zprep_8h =
       [ "TOK_PREPROC", "zprep_8h.html#aa520fbf142ba1e7e659590c07da31921aca81006bed2d394c83c213c778649e82", null ],
       [ "TOK_ALIAS", "zprep_8h.html#aa520fbf142ba1e7e659590c07da31921ab3ff6aa2ad4d1bc5425e6baa393eee7a", null ],
       [ "TOK_COMMENT", "zprep_8h.html#aa520fbf142ba1e7e659590c07da31921af0f634fe986fc7059ded18291d51ff52", null ],
+      [ "TOK_OPAQUE", "zprep_8h.html#aa520fbf142ba1e7e659590c07da31921a25943134b95a2a4481d2fb65b08b18f8", null ],
       [ "TOK_UNKNOWN", "zprep_8h.html#aa520fbf142ba1e7e659590c07da31921a7d71d1596897e780f46f5c34b7e51ece", null ]
     ] ],
     [ "error_cannot_index", "zprep_8h.html#a74b38590f4c3175db05e7a5448484935", null ],

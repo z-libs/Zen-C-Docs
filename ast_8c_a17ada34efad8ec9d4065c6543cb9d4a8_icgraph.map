@@ -185,7 +185,7 @@
 <area shape="poly" id="edge128_Node000056_Node000057" title=" " alt="" coords="1926,358,1870,218,1839,149,1818,112,1787,94,1790,89,1822,109,1844,147,1875,216,1931,356"/>
 <area shape="rect" id="Node000059" href="$parser__type_8c.html#a89b7e8994389cec19689b46f063ea9cc" title="Parses an embed." alt="" coords="747,269,857,294"/>
 <area shape="poly" id="edge131_Node000056_Node000059" title=" " alt="" coords="1910,364,1868,338,1819,316,1742,294,1679,285,1616,283,1534,284,1179,284,857,284,857,279,1179,279,1534,279,1616,278,1680,280,1743,289,1821,311,1871,333,1913,360"/>
-<area shape="rect" id="Node000060" href="$parser__struct_8c.html#a371022cfecf112c4d166ef17e64a4ae6" title="Parses a struct definition." alt="" coords="1309,167,1412,193"/>
+<area shape="rect" id="Node000060" href="$parser__struct_8c.html#a04d77384faec270b7386f4af243a1252" title="Parses a struct definition." alt="" coords="1309,167,1412,193"/>
 <area shape="poly" id="edge138_Node000056_Node000060" title=" " alt="" coords="1920,360,1878,311,1850,286,1819,265,1766,241,1711,222,1598,197,1494,185,1412,182,1412,177,1494,180,1599,192,1712,217,1768,236,1821,260,1853,281,1882,307,1924,357"/>
 <area shape="rect" id="Node000061" href="$parser__type_8c.html#ad521b9fc8d6582a2b30f9455a17f7266" title="Parses a type." alt="" coords="1683,775,1777,801"/>
 <area shape="poly" id="edge140_Node000056_Node000061" title=" " alt="" coords="1928,409,1740,776,1735,774,1923,407"/>

@@ -18,8 +18,8 @@
 <area shape="poly" id="edge7_Node000004_Node000006" title=" " alt="" coords="306,581,355,572,356,577,307,587"/>
 <area shape="rect" id="Node000007" href="$parser__utils_8c.html#af6803d6083387489a1c7425481cd9b6c" title="Finds a symbol&#39;s entry." alt="" coords="572,752,715,777"/>
 <area shape="poly" id="edge8_Node000004_Node000007" title=" " alt="" coords="259,607,301,639,356,671,411,695,468,716,573,746,571,751,467,721,409,700,353,676,298,643,256,611"/>
-<area shape="rect" id="Node000008" href="$parser__utils_8c.html#a6e57b76e5cfbbb7bbc8c756751a49e9e" title="Finds a type alias." alt="" coords="376,246,496,272"/>
-<area shape="poly" id="edge9_Node000004_Node000008" title=" " alt="" coords="240,583,246,528,263,447,277,403,297,359,322,317,353,281,362,274,366,278,357,285,326,321,301,361,282,405,268,449,251,529,245,584"/>
+<area shape="rect" id="Node000008" href="$parser__utils_8c.html#af7570b1fa7ffaca75286aa395cc20133" title="Registers a type alias." alt="" coords="357,246,515,272"/>
+<area shape="poly" id="edge9_Node000004_Node000008" title=" " alt="" coords="240,583,246,528,263,447,277,403,297,359,322,317,353,281,358,277,361,281,357,285,326,321,301,361,282,405,268,449,251,529,245,584"/>
 <area shape="rect" id="Node000009" href="$parser__utils_8c.html#add6537a95512f326aa5493b59b845493" title="Instantiates a generic struct/function." alt="" coords="363,1365,509,1390"/>
 <area shape="poly" id="edge10_Node000004_Node000009" title=" " alt="" coords="246,609,256,697,277,843,310,1020,332,1112,357,1201,390,1285,423,1352,419,1354,385,1287,352,1203,327,1113,305,1022,271,844,250,697,241,610"/>
 <area shape="rect" id="Node000011" href="$utils_8c.html#af7b6b8fd37a3c4b944c71b783d50fc96" title="Allocate memory." alt="" coords="1793,1152,1868,1177"/>

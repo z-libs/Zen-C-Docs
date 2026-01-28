@@ -69,7 +69,7 @@
 <area shape="poly" id="edge23_Node000016_Node000017" title=" " alt="" coords="494,1098,538,962,570,884,587,854,604,833,621,822,624,826,607,837,591,857,575,887,543,964,499,1099"/>
 <area shape="rect" id="Node000018" href="$parser__utils_8c.html#a44c3faced9b22dc102be787e84294508" title="Finds a selective import." alt="" coords="605,848,768,873"/>
 <area shape="poly" id="edge24_Node000016_Node000018" title=" " alt="" coords="493,1098,504,1056,525,998,557,936,579,908,604,883,610,878,613,882,607,887,583,911,562,939,529,1000,509,1058,498,1099"/>
-<area shape="rect" id="Node000019" href="$parser__utils_8c.html#a6e57b76e5cfbbb7bbc8c756751a49e9e" title="Finds a type alias." alt="" coords="627,897,747,923"/>
+<area shape="rect" id="Node000019" href="$parser__utils_8c.html#af7570b1fa7ffaca75286aa395cc20133" title="Registers a type alias." alt="" coords="607,897,766,923"/>
 <area shape="poly" id="edge26_Node000016_Node000019" title=" " alt="" coords="496,1097,534,1024,565,979,604,940,626,926,629,930,607,944,569,983,538,1027,500,1100"/>
 <area shape="rect" id="Node000020" href="$parser__utils_8c.html#add6537a95512f326aa5493b59b845493" title="Instantiates a generic struct/function." alt="" coords="613,1049,760,1075"/>
 <area shape="poly" id="edge27_Node000016_Node000020" title=" " alt="" coords="542,1096,622,1076,623,1081,543,1101"/>

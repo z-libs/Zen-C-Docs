@@ -52,8 +52,8 @@
 <area shape="poly" id="edge14_Node000008_Node000010" title=" " alt="" coords="403,1120,404,1190,408,1241,416,1298,430,1358,451,1417,480,1473,518,1522,522,1525,518,1529,514,1525,475,1476,446,1419,425,1359,411,1299,403,1242,398,1191,397,1120"/>
 <area shape="rect" id="Node000011" href="$parser__utils_8c.html#af6803d6083387489a1c7425481cd9b6c" title="Finds a symbol&#39;s entry." alt="" coords="740,463,883,488"/>
 <area shape="poly" id="edge15_Node000008_Node000011" title=" " alt="" coords="398,1094,402,1022,417,909,432,844,452,778,479,713,514,654,533,630,551,613,588,590,629,571,677,543,701,524,725,508,761,491,763,496,728,512,704,529,680,547,631,575,591,594,554,617,536,634,518,657,484,716,457,779,437,845,422,910,407,1023,403,1095"/>
-<area shape="rect" id="Node000012" href="$parser__utils_8c.html#a6e57b76e5cfbbb7bbc8c756751a49e9e" title="Finds a type alias." alt="" coords="537,668,657,693"/>
-<area shape="poly" id="edge16_Node000008_Node000012" title=" " alt="" coords="398,1094,399,1026,412,921,427,863,447,805,476,751,514,703,523,695,527,699,518,707,481,754,452,807,432,865,418,922,405,1027,403,1094"/>
+<area shape="rect" id="Node000012" href="$parser__utils_8c.html#af7570b1fa7ffaca75286aa395cc20133" title="Registers a type alias." alt="" coords="518,668,677,693"/>
+<area shape="poly" id="edge16_Node000008_Node000012" title=" " alt="" coords="398,1094,399,1026,412,921,427,863,447,805,476,751,514,703,518,699,522,703,518,707,481,754,452,807,432,865,418,922,405,1027,403,1094"/>
 <area shape="rect" id="Node000013" href="$parser__utils_8c.html#add6537a95512f326aa5493b59b845493" title="Instantiates a generic struct/function." alt="" coords="524,1436,671,1461"/>
 <area shape="poly" id="edge17_Node000008_Node000013" title=" " alt="" coords="410,1119,584,1423,579,1425,406,1122"/>
 <area shape="rect" id="Node000016" href="$parser__utils_8c.html#ae308b282639f07b332240f95b300d3e3" title="Sanitizes a mangled name for use in codegen." alt="" coords="1603,1272,1784,1297"/>

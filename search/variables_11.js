@@ -1,21 +1,21 @@
 var searchData=
 [
   ['range_0',['range',['../structReferenceResult.html#a1df925d0b0cfc91951ffef7a82eebc8b',1,'ReferenceResult::range'],['../structDefinitionResult.html#a5647eeb4548e862848b94c9f55fca85e',1,'DefinitionResult::range']]],
-  ['raw_5fstmt_1',['raw_stmt',['../structASTNode.html#a01158035e9378a6f9320347c71234a87',1,'ASTNode']]],
+  ['raw_5fstmt_1',['raw_stmt',['../structASTNode.html#a915dc1206414f36c03f83861c0d1138c',1,'ASTNode']]],
   ['reason_2',['reason',['../structDeprecatedFunc.html#a5d2cf36802b19df37724e45e7c269459',1,'DeprecatedFunc']]],
   ['recurse_3',['recurse',['../cJSON_8h.html#afc8d1c385c6dc37e1c5b640869ce4ab6',1,'cJSON.h']]],
-  ['reflection_4',['reflection',['../structASTNode.html#a00661ae79244430b8853b7d9b259611e',1,'ASTNode']]],
+  ['reflection_4',['reflection',['../structASTNode.html#add7f4f6a53b1d7742da209953e1d85bd',1,'ASTNode']]],
   ['regex_5fplugin_5',['regex_plugin',['../regex_8c.html#aa31e28205c48b2d8ba80fdc9a67e0226',1,'regex.c']]],
   ['registered_5fimpls_6',['registered_impls',['../structParserContext.html#ab2e07cd94aeeae3bff7d7e17ac94b2b4',1,'ParserContext']]],
-  ['repeat_5fstmt_7',['repeat_stmt',['../structASTNode.html#a288f1e5b0ae00909998b687048f9f8d6',1,'ASTNode']]],
+  ['repeat_5fstmt_7',['repeat_stmt',['../structASTNode.html#a1bdf973042eb4701d556e63fb98ba5e4',1,'ASTNode']]],
   ['repl_5fmode_8',['repl_mode',['../structCompilerConfig.html#a1a4eb2b492ce001fae267429080b7b8c',1,'CompilerConfig']]],
-  ['repl_5fprint_9',['repl_print',['../structASTNode.html#acbda717d685437ace3f6e5aa0aae0b7b',1,'ASTNode']]],
+  ['repl_5fprint_9',['repl_print',['../structASTNode.html#adc2bd18c8f9343f75c84217a5d7a24a9',1,'ASTNode']]],
   ['resolved_5ftype_10',['resolved_type',['../structASTNode.html#ad9cc745e7aae5fcead59991e5746b9fd',1,'ASTNode']]],
-  ['ret_11',['ret',['../structASTNode.html#a56d6df3393b98999e2050da507517410',1,'ASTNode']]],
+  ['ret_11',['ret',['../structASTNode.html#a260adbdc25e3bd4288cfb47426eaf3dc',1,'ASTNode']]],
   ['ret_5ftype_12',['ret_type',['../structASTNode.html#a8bffe314bf7a270775e7d759b59d568f',1,'ASTNode::ret_type'],['../structFuncSig.html#acdcbe26404932275ad8b5cb0b13a64a2',1,'FuncSig::ret_type']]],
   ['ret_5ftype_5finfo_13',['ret_type_info',['../structASTNode.html#a2c6f6af943f220726279087953b8454a',1,'ASTNode']]],
   ['return_5ftype_14',['return_type',['../structASTNode.html#ab1217dffaacc1d11ee6c47119babf26d',1,'ASTNode']]],
   ['right_15',['right',['../structASTNode.html#aaaf0b009c8b63d9ebd6dc58eb9fb43bc',1,'ASTNode']]],
-  ['root_16',['root',['../structASTNode.html#a8e9475d1b9d286843b72de02c4e2bbf9',1,'ASTNode']]],
+  ['root_16',['root',['../structASTNode.html#a88f0d163afec829cd39f3c25ca97eaa8',1,'ASTNode']]],
   ['root_5fpath_17',['root_path',['../structLSPProject.html#ab9edbee06751c89a5917f8b44a8a8dd8',1,'LSPProject']]]
 ];

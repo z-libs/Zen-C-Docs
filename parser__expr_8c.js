@@ -2,6 +2,7 @@ var parser__expr_8c =
 [
     [ "analyze_lambda_captures", "parser__expr_8c.html#a8345bc13d6aa1b299279d3be3ec6df2a", null ],
     [ "check_move_usage", "parser__expr_8c.html#a3a0be76efe9860a0e76f928aec941106", null ],
+    [ "check_opaque_alias_compat", "parser__expr_8c.html#a9224327e34799cdb810124b931c57d38", null ],
     [ "get_field_type", "parser__expr_8c.html#ac29a1d5be7088ec1904d0f79d4190498", null ],
     [ "get_operator_method", "parser__expr_8c.html#a4899f2e00680de9d9208c4eaddbb8bd2", null ],
     [ "get_token_precedence", "parser__expr_8c.html#accb65b0ea98dd936c75a56df1390b721", null ],

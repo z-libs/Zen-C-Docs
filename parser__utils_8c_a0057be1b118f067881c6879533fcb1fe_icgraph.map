@@ -168,7 +168,7 @@
 <area shape="poly" id="edge112_Node000052_Node000053" title=" " alt="" coords="3403,373,3348,354,3278,334,3201,319,3122,312,2949,312,2757,318,2607,328,2458,337,2265,336,2015,320,2015,315,2265,331,2457,332,2607,323,2756,312,2949,307,3122,307,3201,313,3279,329,3349,349,3405,368"/>
 <area shape="rect" id="Node000055" href="$parser__type_8c.html#a89b7e8994389cec19689b46f063ea9cc" title="Parses an embed." alt="" coords="2895,348,3005,373"/>
 <area shape="poly" id="edge118_Node000052_Node000055" title=" " alt="" coords="3363,386,3005,366,3006,361,3364,381"/>
-<area shape="rect" id="Node000056" href="$parser__struct_8c.html#a371022cfecf112c4d166ef17e64a4ae6" title="Parses a struct definition." alt="" coords="2718,94,2821,120"/>
+<area shape="rect" id="Node000056" href="$parser__struct_8c.html#a04d77384faec270b7386f4af243a1252" title="Parses a struct definition." alt="" coords="2718,94,2821,120"/>
 <area shape="poly" id="edge125_Node000052_Node000056" title=" " alt="" coords="3434,364,3384,267,3354,221,3328,192,3265,157,3196,132,3125,114,3054,104,2985,99,2922,98,2821,104,2821,98,2922,93,2985,94,3054,99,3126,109,3198,127,3267,152,3331,188,3359,217,3389,265,3439,361"/>
 <area shape="rect" id="Node000057" href="$parser__type_8c.html#ad521b9fc8d6582a2b30f9455a17f7266" title="Parses a type." alt="" coords="3231,550,3325,576"/>
 <area shape="poly" id="edge127_Node000052_Node000057" title=" " alt="" coords="3428,413,3294,552,3290,548,3424,409"/>
@@ -182,7 +182,7 @@
 <area shape="poly" id="edge129_Node000057_Node000012" title=" " alt="" coords="3273,590,3128,1232,3122,1231,3268,589"/>
 <area shape="poly" id="edge128_Node000057_Node000013" title=" " alt="" coords="3267,589,2960,1207,2955,1205,3262,587"/>
 <area shape="poly" id="edge130_Node000057_Node000054" title=" " alt="" coords="3217,560,3062,543,2279,442,1753,369,1754,364,2279,437,3063,538,3217,554"/>
-<area shape="rect" id="Node000058" href="$parser__decl_8c.html#a1cffb662696530e1686b7746d8af4914" title="Parses a type alias." alt="" coords="2291,297,2423,322"/>
+<area shape="rect" id="Node000058" href="$parser__decl_8c.html#a3d94da42f218dc8c04d9a9a77c1f03ec" title="Parses a type alias." alt="" coords="2291,297,2423,322"/>
 <area shape="poly" id="edge131_Node000057_Node000058" title=" " alt="" coords="3217,549,2404,325,2405,320,3218,544"/>
 <area shape="poly" id="edge132_Node000058_Node000003" title=" " alt="" coords="2329,290,2263,240,2166,180,2110,153,2051,130,1989,115,1926,110,1171,110,1056,107,1008,115,952,141,929,158,907,177,872,222,845,265,829,298,824,295,840,262,867,218,904,173,925,153,949,137,1006,110,1056,101,1171,104,1926,104,1990,110,2052,125,2112,148,2169,176,2266,236,2332,286"/>
 <area shape="poly" id="edge137_Node000059_Node000002" title=" " alt="" coords="3419,207,3328,141,3298,122,3301,118,3331,137,3422,203"/>

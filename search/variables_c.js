@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['match_5fcase_0',['match_case',['../structASTNode.html#a73702d40604fa48c6b8064cd9cb277f0',1,'ASTNode']]],
-  ['match_5fstmt_1',['match_stmt',['../structASTNode.html#a87d70f8c7ff1284174c421d347dace55',1,'ASTNode']]],
-  ['member_2',['member',['../structASTNode.html#a55a4411a91e9c080a8f521fa3451c88d',1,'ASTNode']]],
+  ['match_5fcase_0',['match_case',['../structASTNode.html#af2301365a79037d6727619afb58e055c',1,'ASTNode']]],
+  ['match_5fstmt_1',['match_stmt',['../structASTNode.html#a0c1cfd3845075585057910f6287a62d9',1,'ASTNode']]],
+  ['member_2',['member',['../structASTNode.html#a41420f4770cdb47adfd9e5727c78dcf9',1,'ASTNode']]],
   ['message_3',['message',['../structASTNode.html#ad3c98218ee9c3aac94fc045faeac5520',1,'ASTNode::message'],['../structDiagnostic.html#a743d1a0b09e07291ab64470ac0780911',1,'Diagnostic::message'],['../structZenFact.html#a464391fbe6c592014b250a0d05061853',1,'ZenFact::message']]],
   ['methods_4',['methods',['../structASTNode.html#a19dddc6ed8c42b725ef38298c28f60e7',1,'ASTNode']]],
   ['mode_5fcheck_5',['mode_check',['../structCompilerConfig.html#ac3bdeceb6aceda72098233d3cff2abe1',1,'CompilerConfig']]],

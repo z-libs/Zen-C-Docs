@@ -45,98 +45,108 @@ var NAVTREE =
           [ "Arrays", "index.html#autotoc_md19", null ],
           [ "Tuples", "index.html#autotoc_md20", null ],
           [ "Structs", "index.html#autotoc_md21", null ],
-          [ "Enums", "index.html#autotoc_md22", null ],
-          [ "Unions", "index.html#autotoc_md23", null ],
-          [ "Type Aliases", "index.html#autotoc_md24", null ]
+          [ "Opaque Structs", "index.html#autotoc_md22", null ],
+          [ "Enums", "index.html#autotoc_md23", null ],
+          [ "Unions", "index.html#autotoc_md24", null ],
+          [ "Type Aliases", "index.html#autotoc_md25", null ],
+          [ "Opaque Type Aliases", "index.html#autotoc_md26", null ]
         ] ],
-        [ "4. Functions & Lambdas", "index.html#autotoc_md25", [
-          [ "Functions", "index.html#autotoc_md26", null ],
-          [ "Const Arguments", "index.html#autotoc_md27", null ],
-          [ "Default Arguments", "index.html#autotoc_md28", null ],
-          [ "Lambdas (Closures)", "index.html#autotoc_md29", null ],
-          [ "Raw Function Pointers", "index.html#autotoc_md30", null ],
-          [ "Variadic Functions", "index.html#autotoc_md31", null ]
+        [ "4. Functions & Lambdas", "index.html#autotoc_md27", [
+          [ "Functions", "index.html#autotoc_md28", null ],
+          [ "Const Arguments", "index.html#autotoc_md29", null ],
+          [ "Default Arguments", "index.html#autotoc_md30", null ],
+          [ "Lambdas (Closures)", "index.html#autotoc_md31", null ],
+          [ "Raw Function Pointers", "index.html#autotoc_md32", null ],
+          [ "Variadic Functions", "index.html#autotoc_md33", null ]
         ] ],
-        [ "5. Control Flow", "index.html#autotoc_md32", [
-          [ "Conditionals", "index.html#autotoc_md33", null ],
-          [ "Pattern Matching", "index.html#autotoc_md34", null ],
-          [ "Reference Binding", "index.html#autotoc_md35", null ],
-          [ "Loops", "index.html#autotoc_md36", null ],
-          [ "Advanced Control", "index.html#autotoc_md37", null ]
+        [ "5. Control Flow", "index.html#autotoc_md34", [
+          [ "Conditionals", "index.html#autotoc_md35", null ],
+          [ "Pattern Matching", "index.html#autotoc_md36", null ],
+          [ "Reference Binding", "index.html#autotoc_md37", null ],
+          [ "Loops", "index.html#autotoc_md38", null ],
+          [ "Advanced Control", "index.html#autotoc_md39", null ]
         ] ],
-        [ "6. Operators", "index.html#autotoc_md38", [
-          [ "Overloadable Operators", "index.html#autotoc_md39", null ],
-          [ "Syntactic Sugar", "index.html#autotoc_md40", null ]
+        [ "6. Operators", "index.html#autotoc_md40", [
+          [ "Overloadable Operators", "index.html#autotoc_md41", null ],
+          [ "Syntactic Sugar", "index.html#autotoc_md42", null ]
         ] ],
-        [ "7. Printing and String Interpolation", "index.html#autotoc_md41", [
-          [ "Keywords", "index.html#autotoc_md42", null ],
-          [ "Shorthands", "index.html#autotoc_md43", null ],
-          [ "String Interpolation (F-strings)", "index.html#autotoc_md44", null ],
-          [ "Input Prompts (<tt>?</tt>)", "index.html#autotoc_md45", null ]
+        [ "7. Printing and String Interpolation", "index.html#autotoc_md43", [
+          [ "Keywords", "index.html#autotoc_md44", null ],
+          [ "Shorthands", "index.html#autotoc_md45", null ],
+          [ "String Interpolation (F-strings)", "index.html#autotoc_md46", null ],
+          [ "Input Prompts (<tt>?</tt>)", "index.html#autotoc_md47", null ]
         ] ],
-        [ "8. Memory Management", "index.html#autotoc_md46", [
-          [ "Defer", "index.html#autotoc_md47", null ],
-          [ "Autofree", "index.html#autotoc_md48", null ],
-          [ "Resource Semantics (Move by Default)", "index.html#autotoc_md49", null ],
-          [ "RAII / Drop Trait", "index.html#autotoc_md50", null ]
+        [ "8. Memory Management", "index.html#autotoc_md48", [
+          [ "Defer", "index.html#autotoc_md49", null ],
+          [ "Autofree", "index.html#autotoc_md50", null ],
+          [ "Resource Semantics (Move by Default)", "index.html#autotoc_md51", null ],
+          [ "RAII / Drop Trait", "index.html#autotoc_md52", null ]
         ] ],
-        [ "9. Object Oriented Programming", "index.html#autotoc_md51", [
-          [ "Methods", "index.html#autotoc_md52", null ],
-          [ "Traits", "index.html#autotoc_md53", null ],
-          [ "Standard Traits", "index.html#autotoc_md54", null ],
-          [ "Composition", "index.html#autotoc_md55", null ]
+        [ "9. Object Oriented Programming", "index.html#autotoc_md53", [
+          [ "Methods", "index.html#autotoc_md54", null ],
+          [ "Traits", "index.html#autotoc_md55", null ],
+          [ "Standard Traits", "index.html#autotoc_md56", null ],
+          [ "Composition", "index.html#autotoc_md57", null ]
         ] ],
-        [ "10. Generics", "index.html#autotoc_md56", null ],
-        [ "11. Concurrency (Async/Await)", "index.html#autotoc_md57", null ],
-        [ "12. Metaprogramming", "index.html#autotoc_md58", [
-          [ "Comptime", "index.html#autotoc_md59", null ],
-          [ "Embed", "index.html#autotoc_md60", null ],
-          [ "Plugins", "index.html#autotoc_md61", null ],
-          [ "Generic C Macros", "index.html#autotoc_md62", null ]
+        [ "10. Generics", "index.html#autotoc_md58", null ],
+        [ "11. Concurrency (Async/Await)", "index.html#autotoc_md59", null ],
+        [ "12. Metaprogramming", "index.html#autotoc_md60", [
+          [ "Comptime", "index.html#autotoc_md61", null ],
+          [ "Embed", "index.html#autotoc_md62", null ],
+          [ "Plugins", "index.html#autotoc_md63", null ],
+          [ "Generic C Macros", "index.html#autotoc_md64", null ]
         ] ],
-        [ "13. Attributes", "index.html#autotoc_md63", null ],
-        [ "Custom Attributes", "index.html#autotoc_md64", [
-          [ "Syntax Mapping", "index.html#autotoc_md65", null ]
+        [ "13. Attributes", "index.html#autotoc_md65", null ],
+        [ "Custom Attributes", "index.html#autotoc_md66", [
+          [ "Syntax Mapping", "index.html#autotoc_md67", null ]
         ] ],
-        [ "Smart Derives", "index.html#autotoc_md66", null ],
-        [ "14. Inline Assembly", "index.html#autotoc_md67", [
-          [ "Basic Usage", "index.html#autotoc_md68", null ],
-          [ "Volatile", "index.html#autotoc_md69", null ],
-          [ "Named Constraints", "index.html#autotoc_md70", null ]
+        [ "Smart Derives", "index.html#autotoc_md68", null ],
+        [ "14. Inline Assembly", "index.html#autotoc_md69", [
+          [ "Basic Usage", "index.html#autotoc_md70", null ],
+          [ "Volatile", "index.html#autotoc_md71", null ],
+          [ "Named Constraints", "index.html#autotoc_md72", null ]
         ] ],
-        [ "15. Build Directives", "index.html#autotoc_md71", [
-          [ "Examples", "index.html#autotoc_md72", null ]
+        [ "15. Build Directives", "index.html#autotoc_md73", [
+          [ "Examples", "index.html#autotoc_md74", null ]
+        ] ],
+        [ "16. Keywords", "index.html#autotoc_md75", [
+          [ "Declarations", "index.html#autotoc_md76", null ],
+          [ "Control Flow", "index.html#autotoc_md77", null ],
+          [ "Special", "index.html#autotoc_md78", null ],
+          [ "Constants", "index.html#autotoc_md79", null ],
+          [ "C Reserved", "index.html#autotoc_md80", null ],
+          [ "Operators", "index.html#autotoc_md81", null ]
         ] ]
       ] ],
-      [ "Standard Library", "index.html#autotoc_md74", [
-        [ "Key Modules", "index.html#autotoc_md75", null ]
+      [ "Standard Library", "index.html#autotoc_md83", [
+        [ "Key Modules", "index.html#autotoc_md84", null ]
       ] ],
-      [ "Tooling", "index.html#autotoc_md77", [
-        [ "Language Server (LSP)", "index.html#autotoc_md78", null ],
-        [ "REPL", "index.html#autotoc_md79", [
-          [ "Features", "index.html#autotoc_md80", null ],
-          [ "Commands", "index.html#autotoc_md81", null ]
+      [ "Tooling", "index.html#autotoc_md86", [
+        [ "Language Server (LSP)", "index.html#autotoc_md87", null ],
+        [ "REPL", "index.html#autotoc_md88", [
+          [ "Features", "index.html#autotoc_md89", null ],
+          [ "Commands", "index.html#autotoc_md90", null ]
         ] ]
       ] ],
-      [ "Compiler Support & Compatibility", "index.html#autotoc_md83", [
-        [ "Test Suite Status", "index.html#autotoc_md84", null ],
-        [ "Building with Zig", "index.html#autotoc_md85", null ],
-        [ "C++ Interop", "index.html#autotoc_md86", [
-          [ "Using C++ in Zen C", "index.html#autotoc_md87", null ],
-          [ "CUDA Interop", "index.html#autotoc_md88", null ],
-          [ "CUDA-Specific Attributes", "index.html#autotoc_md89", null ],
-          [ "Kernel Launch Syntax", "index.html#autotoc_md90", null ],
-          [ "Writing CUDA Kernels", "index.html#autotoc_md91", null ],
-          [ "Standard Library (<tt>std/cuda.zc</tt>)", "index.html#autotoc_md92", null ]
+      [ "Compiler Support & Compatibility", "index.html#autotoc_md92", [
+        [ "Test Suite Status", "index.html#autotoc_md93", null ],
+        [ "Building with Zig", "index.html#autotoc_md94", null ],
+        [ "C++ Interop", "index.html#autotoc_md95", [
+          [ "Using C++ in Zen C", "index.html#autotoc_md96", null ],
+          [ "CUDA Interop", "index.html#autotoc_md97", null ],
+          [ "CUDA-Specific Attributes", "index.html#autotoc_md98", null ],
+          [ "Kernel Launch Syntax", "index.html#autotoc_md99", null ],
+          [ "Writing CUDA Kernels", "index.html#autotoc_md100", null ],
+          [ "Standard Library (<tt>std/cuda.zc</tt>)", "index.html#autotoc_md101", null ]
         ] ]
       ] ],
-      [ "</blockquote>", "index.html#autotoc_md93", null ],
-      [ "Contributing", "index.html#autotoc_md94", [
-        [ "How to Contribute", "index.html#autotoc_md95", null ],
-        [ "Running Tests", "index.html#autotoc_md96", null ],
-        [ "Extending the Compiler", "index.html#autotoc_md97", null ]
+      [ "</blockquote>", "index.html#autotoc_md102", null ],
+      [ "Contributing", "index.html#autotoc_md103", [
+        [ "How to Contribute", "index.html#autotoc_md104", null ],
+        [ "Running Tests", "index.html#autotoc_md105", null ],
+        [ "Extending the Compiler", "index.html#autotoc_md106", null ]
       ] ],
-      [ "Attributions", "index.html#autotoc_md99", null ]
+      [ "Attributions", "index.html#autotoc_md108", null ]
     ] ],
     [ "Data Structures", "annotated.html", [
       [ "Data Structures", "annotated.html", "annotated_dup" ],
@@ -165,12 +175,12 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"codegen_8h.html#a4b93522b77d8b2a909089a2add5d215a",
-"index.html#autotoc_md27",
-"parser_8h.html#aa4e7d1a473d0280792d98ddb184d3006a59b5adac5b20fde37b2be48df04b90de",
-"structASTNode.html#a10dfd5e9f8dd6cfdcf922027086b3a91",
-"structEnumVariantReg.html#a6f0e46caf37f75d1f31c4416c0a85509",
-"structparse__buffer.html#a52ee1184576baa3d5171059ab0e942de"
+"codegen_8h.html#a4741aa6235c9282d0fe25c454b6da0b5",
+"index.html#autotoc_md19",
+"parser_8h.html#a9e0c4f1948c7d066554a3ff96fb0a3f8",
+"structASTNode.html#a040e2bf71ceead27e9d8f6e952d5755f",
+"structDeprecatedFunc.html#a5d2cf36802b19df37724e45e7c269459",
+"structcJSON.html#a369cea49494eb5d4409d532a731a0fbf"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

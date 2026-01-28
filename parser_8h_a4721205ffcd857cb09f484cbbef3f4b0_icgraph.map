@@ -1,6 +1,6 @@
 <map id="register_type_alias" name="register_type_alias">
-<area shape="rect" id="Node000001" title="Registers a type alias." alt="" coords="1363,55,1509,80"/>
-<area shape="rect" id="Node000002" href="$parser__decl_8c.html#a1cffb662696530e1686b7746d8af4914" title="Parses a type alias." alt="" coords="1183,55,1315,80"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="1363,55,1509,80"/>
+<area shape="rect" id="Node000002" href="$parser__decl_8c.html#a3d94da42f218dc8c04d9a9a77c1f03ec" title="Parses a type alias." alt="" coords="1183,55,1315,80"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1349,70,1315,70,1315,65,1349,65"/>
 <area shape="rect" id="Node000003" href="$parser__core_8c.html#af215858d72007ab525c1bbb1a1028bea" title="Main loop to parse top&#45;level nodes in a file." alt="" coords="968,55,1135,80"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1169,70,1135,70,1135,65,1169,65"/>

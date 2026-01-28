@@ -6,7 +6,7 @@
 <area shape="poly" id="edge14_Node000001_Node000012" title=" " alt="" coords="3156,1907,3077,1858,3043,1839,3046,1834,3080,1854,3159,1903"/>
 <area shape="rect" id="Node000013" href="$parser__struct_8c.html#a9e0c4f1948c7d066554a3ff96fb0a3f8" title="Parses an implementation." alt="" coords="2817,1862,2912,1887"/>
 <area shape="poly" id="edge128_Node000001_Node000013" title=" " alt="" coords="3113,1915,3078,1909,2912,1884,2912,1879,3079,1904,3114,1910"/>
-<area shape="rect" id="Node000051" href="$parser__struct_8c.html#a371022cfecf112c4d166ef17e64a4ae6" title="Parses a struct definition." alt="" coords="2125,1963,2228,1989"/>
+<area shape="rect" id="Node000051" href="$parser__struct_8c.html#a04d77384faec270b7386f4af243a1252" title="Parses a struct definition." alt="" coords="2125,1963,2228,1989"/>
 <area shape="poly" id="edge129_Node000001_Node000051" title=" " alt="" coords="3126,1944,3006,1967,2936,1975,2866,1979,2538,1979,2228,1979,2228,1973,2538,1973,2866,1973,2936,1970,3005,1962,3125,1939"/>
 <area shape="rect" id="Node000052" href="$parser__struct_8c.html#a773b7cb46c4440b12b4b42737feaaa74" title="Parses a trait definition." alt="" coords="2819,1913,2911,1938"/>
 <area shape="poly" id="edge131_Node000001_Node000052" title=" " alt="" coords="3113,1928,2911,1928,2911,1923,3113,1923"/>

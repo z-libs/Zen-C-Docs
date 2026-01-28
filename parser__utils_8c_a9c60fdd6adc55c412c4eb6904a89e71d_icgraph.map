@@ -26,7 +26,7 @@
 <area shape="poly" id="edge119_Node000003_Node000048" title=" " alt="" coords="2795,1894,2763,1536,2733,1260,2695,962,2649,673,2623,543,2596,428,2567,331,2537,257,2521,230,2505,210,2490,198,2474,194,2095,194,1980,197,1862,205,1634,229,1436,259,1297,284,1296,279,1436,254,1633,224,1862,199,1979,192,2095,189,2474,189,2492,194,2509,206,2526,227,2542,255,2572,329,2601,426,2628,542,2654,672,2700,961,2738,1259,2768,1536,2801,1893"/>
 <area shape="rect" id="Node000054" href="$parser__type_8c.html#a89b7e8994389cec19689b46f063ea9cc" title="Parses an embed." alt="" coords="2245,1995,2356,2020"/>
 <area shape="poly" id="edge115_Node000003_Node000054" title=" " alt="" coords="2731,1938,2531,1978,2357,2004,2356,1998,2530,1973,2730,1933"/>
-<area shape="rect" id="Node000055" href="$parser__struct_8c.html#a371022cfecf112c4d166ef17e64a4ae6" title="Parses a struct definition." alt="" coords="2421,2147,2524,2172"/>
+<area shape="rect" id="Node000055" href="$parser__struct_8c.html#a04d77384faec270b7386f4af243a1252" title="Parses a struct definition." alt="" coords="2421,2147,2524,2172"/>
 <area shape="poly" id="edge122_Node000003_Node000055" title=" " alt="" coords="2788,1946,2683,2130,2644,2149,2603,2161,2561,2166,2524,2166,2524,2161,2561,2160,2602,2155,2643,2144,2679,2126,2784,1943"/>
 <area shape="rect" id="Node000056" href="$parser__type_8c.html#ad521b9fc8d6582a2b30f9455a17f7266" title="Parses a type." alt="" coords="2583,1767,2677,1792"/>
 <area shape="poly" id="edge124_Node000003_Node000056" title=" " alt="" coords="2776,1899,2733,1858,2680,1814,2652,1795,2655,1790,2683,1810,2736,1854,2780,1896"/>
@@ -178,7 +178,7 @@
 <area shape="poly" id="edge126_Node000056_Node000019" title=" " alt="" coords="2622,1754,2473,735,2479,735,2627,1753"/>
 <area shape="poly" id="edge125_Node000056_Node000020" title=" " alt="" coords="2625,1753,2615,1556,2596,1249,2567,930,2549,797,2528,698,2503,629,2474,580,2444,530,2412,463,2400,415,2396,376,2388,339,2379,321,2365,300,2339,281,2342,277,2369,296,2384,318,2393,338,2401,375,2405,415,2417,461,2449,528,2479,577,2508,627,2533,696,2554,796,2572,929,2601,1249,2621,1556,2630,1753"/>
 <area shape="poly" id="edge127_Node000056_Node000053" title=" " alt="" coords="2599,1802,2532,1837,2447,1869,2360,1898,2188,1946,2036,1981,1927,2002,1926,1997,2035,1976,2186,1941,2358,1893,2446,1864,2530,1832,2596,1797"/>
-<area shape="rect" id="Node000057" href="$parser__decl_8c.html#a1cffb662696530e1686b7746d8af4914" title="Parses a type alias." alt="" coords="2235,1843,2367,1868"/>
+<area shape="rect" id="Node000057" href="$parser__decl_8c.html#a3d94da42f218dc8c04d9a9a77c1f03ec" title="Parses a type alias." alt="" coords="2235,1843,2367,1868"/>
 <area shape="poly" id="edge128_Node000056_Node000057" title=" " alt="" coords="2570,1796,2357,1846,2356,1840,2569,1791"/>
 <area shape="poly" id="edge129_Node000057_Node000007" title=" " alt="" coords="2221,1866,903,2002,903,1997,2221,1861"/>
 <area shape="rect" id="Node000059" href="$parser__struct_8c.html#a88213a2cd5985533a2426bd67ed61c2a" title="Parses an enum definition." alt="" coords="2579,2274,2681,2299"/>

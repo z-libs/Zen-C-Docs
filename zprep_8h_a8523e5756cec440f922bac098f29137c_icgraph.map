@@ -4,7 +4,7 @@
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="3906,691,3873,691,3873,685,3906,685"/>
 <area shape="rect" id="Node000005" href="$parser__expr_8c.html#a543e0b0da8ca3c5d53dd4587433e6479" title="Parses a primary expression (literal, variable, grouping)." alt="" coords="1183,270,1299,295"/>
 <area shape="poly" id="edge132_Node000001_Node000005" title=" " alt="" coords="3966,662,3962,597,3953,506,3935,399,3906,287,3887,232,3864,181,3836,134,3805,92,3768,57,3727,31,3680,14,3628,8,1602,8,1525,10,1465,21,1410,46,1348,91,1327,112,1309,136,1279,187,1259,235,1248,271,1243,269,1254,233,1275,184,1304,133,1323,108,1345,87,1407,42,1463,16,1524,5,1602,3,3628,3,3682,9,3729,26,3772,53,3809,88,3841,131,3868,178,3892,231,3911,285,3940,398,3958,505,3968,597,3971,661"/>
-<area shape="rect" id="Node000050" href="$parser__struct_8c.html#a371022cfecf112c4d166ef17e64a4ae6" title="Parses a struct definition." alt="" coords="3575,1626,3678,1651"/>
+<area shape="rect" id="Node000050" href="$parser__struct_8c.html#a04d77384faec270b7386f4af243a1252" title="Parses a struct definition." alt="" coords="3575,1626,3678,1651"/>
 <area shape="poly" id="edge133_Node000001_Node000050" title=" " alt="" coords="3964,715,3866,1033,3787,1266,3697,1502,3665,1573,3637,1627,3633,1624,3660,1571,3692,1500,3782,1264,3861,1032,3959,713"/>
 <area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="3836,665,3827,657,3807,654,3790,656,3781,661,3780,666,3785,674,3780,677,3774,667,3777,657,3789,651,3807,649,3830,652,3839,661"/>
 <area shape="rect" id="Node000003" href="$parser__expr_8c.html#a369d821258af82682e330a8266291a51" title="Parses an expression." alt="" coords="3559,675,3695,701"/>

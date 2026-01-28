@@ -43,9 +43,11 @@ Join the discussion, share demos, ask questions, or report bugs in the official 
         - [Arrays](#arrays)
         - [Tuples](#tuples)
         - [Structs](#structs)
+        - [Opaque Structs](#opaque-structs)
         - [Enums](#enums)
         - [Unions](#unions)
         - [Type Aliases](#type-aliases)
+        - [Opaque Type Aliases](#opaque-type-aliases)
     - [4. Functions & Lambdas](#4-functions--lambdas)
         - [Functions](#functions)
         - [Const Arguments](#const-arguments)
@@ -91,6 +93,7 @@ Join the discussion, share demos, ask questions, or report bugs in the official 
         - [Volatile](#volatile)
         - [Named Constraints](#named-constraints)
     - [15. Build Directives](#15-build-directives)
+    - [16. Keywords](#16-keywords)
 - [Standard Library](#standard-library)
 - [Tooling](#tooling)
     - [Language Server (LSP)](#language-server-lsp)
@@ -261,6 +264,29 @@ struct Flags {
 
 > **Note**: Structs use [Move Semantics](#move-semantics--copy-safety) by default. Fields can be accessed via `.` even on pointers (Auto-Dereference).
 
+#### Opaque Structs
+You can define a struct as `opaque` to restrict access to its fields to the defining module only, while still allowing the struct to be allocated on the stack (size is known).
+
+```zc
+// In user.zc
+opaque struct User {
+    id: int;
+    name: string;
+}
+
+fn new_user(name: string) -> User {
+    return User{id: 1, name: name}; // OK: Inside module
+}
+
+// In main.zc
+import "user.zc";
+
+fn main() {
+    let u = new_user("Alice");
+    // let id = u.id; // Error: Cannot access private field 'id'
+}
+```
+
 #### Enums
 Tagged unions (Sum types) capable of holding data.
 ```zc
@@ -285,6 +311,27 @@ Create a new name for an existing type.
 ```zc
 alias ID = int;
 alias PointMap = Map<string, Point>;
+```
+
+#### Opaque Type Aliases
+You can define a type alias as `opaque` to create a new type that is distinct from its underlying type outside of the defining module. This provides strong encapsulation and type safety without the runtime overhead of a wrapper struct.
+
+```zc
+// In library.zc
+opaque alias Handle = int;
+
+fn make_handle(v: int) -> Handle {
+    return v; // Implicit conversion allowed inside module
+}
+
+// In main.zc
+import "library.zc";
+
+fn main() {
+    let h: Handle = make_handle(42);
+    // let i: int = h; // Error: Type validation failed
+    // let h2: Handle = 10; // Error: Type validation failed
+}
 ```
 
 ### 4. Functions & Lambdas
@@ -980,6 +1027,29 @@ import "raylib.h"
 fn main() { ... }
 ```
 
+### 16. Keywords
+
+The following keywords are reserved in Zen C.
+
+#### Declarations
+`alias`, `def`, `enum`, `fn`, `impl`, `import`, `let`, `module`, `opaque`, `struct`, `trait`, `union`, `use`
+
+#### Control Flow
+`async`, `await`, `break`, `catch`, `continue`, `defer`, `else`, `for`, `goto`, `guard`, `if`, `loop`, `match`, `return`, `try`, `unless`, `while`
+
+#### Special
+`asm`, `assert`, `autofree`, `comptime`, `const`, `embed`, `launch`, `ref`, `sizeof`, `static`, `test`, `volatile`
+
+#### Constants
+`true`, `false`, `null`
+
+#### C Reserved
+The following identifiers are reserved because they are keywords in C11:
+`auto`, `case`, `char`, `default`, `do`, `double`, `extern`, `float`, `inline`, `int`, `long`, `register`, `restrict`, `short`, `signed`, `switch`, `typedef`, `unsigned`, `void`, `_Atomic`, `_Bool`, `_Complex`, `_Generic`, `_Imaginary`, `_Noreturn`, `_Static_assert`, `_Thread_local`
+
+#### Operators
+`and`, `or`
+
 ---
 
 ## Standard Library
@@ -1190,7 +1260,7 @@ fn add_kernel(a: float*, b: float*, c: float*, n: int) {
 }
 
 fn main() {
-    const N = 1024;
+    def N = 1024;
     let d_a = cuda_alloc<float>(N);
     let d_b = cuda_alloc<float>(N); 
     let d_c = cuda_alloc<float>(N);
