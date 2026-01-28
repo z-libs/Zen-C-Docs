@@ -31,8 +31,8 @@
 <area shape="rect" id="Node000023" href="$codegen__stmt_8c.html#a64d800a078e620c04b7cc2320f2ee7b6" title="Walker for list of nodes (calls codegen_node recursively)." alt="" coords="831,267,957,293"/>
 <area shape="poly" id="edge117_Node000002_Node000023" title=" " alt="" coords="246,671,293,616,325,583,361,553,417,515,466,487,557,450,647,414,698,388,754,353,778,331,803,310,833,295,836,300,805,314,781,335,758,357,700,393,649,419,559,455,469,492,419,519,364,557,329,587,297,620,250,674"/>
 <area shape="poly" id="edge118_Node000002_Node000024" title=" " alt="" coords="244,698,254,742,276,802,292,833,312,863,336,890,364,911,424,939,478,949,528,944,576,928,626,904,678,875,737,844,803,816,844,802,845,807,805,821,739,849,681,879,628,908,578,933,529,949,478,954,423,944,361,916,332,894,308,867,288,836,271,804,249,743,238,699"/>
-<area shape="rect" id="Node000127" href="$plugin__manager_8c.html#a9f9625de7cc8b54952cbdf8ce4839b21" title="Find a registered plugin by name." alt="" coords="391,875,517,901"/>
-<area shape="poly" id="edge125_Node000002_Node000127" title=" " alt="" coords="247,697,289,771,323,815,364,854,389,868,386,872,361,858,319,819,285,774,242,700"/>
+<area shape="rect" id="Node000124" href="$plugin__manager_8c.html#a9f9625de7cc8b54952cbdf8ce4839b21" title="Find a registered plugin by name." alt="" coords="391,875,517,901"/>
+<area shape="poly" id="edge125_Node000002_Node000124" title=" " alt="" coords="247,697,289,771,323,815,364,854,389,868,386,872,361,858,319,819,285,774,242,700"/>
 <area shape="poly" id="edge4_Node000003_Node000002" title=" " alt="" coords="597,226,540,232,478,246,417,270,390,287,365,307,330,347,303,394,282,443,266,494,248,589,242,659,237,659,243,588,261,492,277,441,298,391,326,344,361,304,387,283,415,265,477,240,540,226,597,221"/>
 <area shape="rect" id="Node000004" href="$codegen__utils_8c.html#a4741aa6235c9282d0fe25c454b6da0b5" title=" " alt="" coords="804,218,984,243"/>
 <area shape="poly" id="edge5_Node000003_Node000004" title=" " alt="" coords="752,228,790,228,790,233,752,233"/>

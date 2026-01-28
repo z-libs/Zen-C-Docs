@@ -25,8 +25,8 @@
 <area shape="poly" id="edge118_Node000001_Node000022" title=" " alt="" coords="112,645,333,747,650,883,689,897,687,902,648,888,330,751,110,650"/>
 <area shape="rect" id="Node000023" href="$codegen__utils_8c.html#ab4002bec38e299ebb29719048d8121a9" title=" " alt="" coords="677,501,801,526"/>
 <area shape="poly" id="edge119_Node000001_Node000023" title=" " alt="" coords="107,619,153,597,207,576,330,545,455,526,570,515,664,511,664,517,571,521,456,531,331,550,209,581,155,602,109,624"/>
-<area shape="rect" id="Node000126" href="$plugin__manager_8c.html#a9f9625de7cc8b54952cbdf8ce4839b21" title="Find a registered plugin by name." alt="" coords="237,2379,362,2405"/>
-<area shape="poly" id="edge126_Node000001_Node000126" title=" " alt="" coords="87,647,91,957,108,1505,123,1794,145,2052,158,2161,174,2250,191,2318,210,2358,226,2373,223,2377,206,2362,186,2319,168,2251,153,2161,140,2053,118,1794,102,1505,86,958,81,647"/>
+<area shape="rect" id="Node000123" href="$plugin__manager_8c.html#a9f9625de7cc8b54952cbdf8ce4839b21" title="Find a registered plugin by name." alt="" coords="237,2379,362,2405"/>
+<area shape="poly" id="edge126_Node000001_Node000123" title=" " alt="" coords="87,647,91,957,108,1505,123,1794,145,2052,158,2161,174,2250,191,2318,210,2358,226,2373,223,2377,206,2362,186,2319,168,2251,153,2161,140,2053,118,1794,102,1505,86,958,81,647"/>
 <area shape="poly" id="edge3_Node000002_Node000001" title=" " alt="" coords="442,193,386,190,324,195,263,212,235,225,210,243,172,283,143,330,122,381,106,434,96,486,90,534,86,609,81,608,85,534,91,485,101,433,116,379,138,327,168,280,206,239,233,221,261,207,323,190,386,184,443,187"/>
 <area shape="rect" id="Node000003" href="$codegen__utils_8c.html#a4741aa6235c9282d0fe25c454b6da0b5" title=" " alt="" coords="649,145,829,170"/>
 <area shape="poly" id="edge4_Node000002_Node000003" title=" " alt="" coords="597,188,671,171,672,176,598,194"/>
