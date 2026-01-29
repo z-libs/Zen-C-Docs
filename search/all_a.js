@@ -15,7 +15,7 @@ var searchData=
   ['binding_5frefs_12',['binding_refs',['../structASTNode.html#a7b2bf82a34413efc0339207945d01912',1,'ASTNode']]],
   ['bit_5fwidth_13',['bit_width',['../structASTNode.html#aff4c7e65c0cbac2f04292013489664b8',1,'ASTNode']]],
   ['block_14',['block',['../structASTNode.html#acc5af32aa0e9f3bea0a7b781faeee28a',1,'ASTNode::block'],['../structASTNode.html#af38d862838cf8543c467d74aee13f46c',1,'ASTNode::block']]],
-  ['blockquote_15',['&lt;/blockquote&gt;',['../index.html#autotoc_md102',1,'']]],
+  ['blockquote_15',['&lt;/blockquote&gt;',['../index.html#autotoc_md105',1,'']]],
   ['body_16',['body',['../structForthWord.html#a2c989730dd3656a7b0b74dd52b46cf4c',1,'ForthWord::body'],['../structASTNode.html#a929795ceba1c65aa2797fc06ff3fd566',1,'ASTNode::body'],['../structASTNode.html#a069d17badc10f9c3cb227a08fe0b388e',1,'ASTNode::body']]],
   ['brainfuck_2ec_17',['brainfuck.c',['../brainfuck_8c.html',1,'']]],
   ['brainfuck_5fplugin_18',['brainfuck_plugin',['../brainfuck_8c.html#a1ed51015f0946f7be743917f8445dc26',1,'brainfuck.c']]],
@@ -25,6 +25,6 @@ var searchData=
   ['buffer_5flength_22',['buffer_length',['../cJSON_8h.html#a7beaf9b4ef5e4c7254cc3298a3424354',1,'cJSON.h']]],
   ['build_20ape_23',['Portable Build (APE)',['../index.html#autotoc_md9',1,'']]],
   ['build_20directives_24',['15. Build Directives',['../index.html#autotoc_md73',1,'']]],
-  ['building_20with_20zig_25',['Building with Zig',['../index.html#autotoc_md94',1,'']]],
+  ['building_20with_20zig_25',['Building with Zig',['../index.html#autotoc_md95',1,'']]],
   ['by_20default_26',['Resource Semantics (Move by Default)',['../index.html#autotoc_md51',1,'']]]
 ];

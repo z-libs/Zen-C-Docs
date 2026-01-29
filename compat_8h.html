@@ -128,6 +128,10 @@ Macros</h2></td></tr>
 <tr class="separator:afdc3bc4646d2491eeeb5ce5238ffc403"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7fa49f3af80c625248baf2bff1ef6d58" id="r_a7fa49f3af80c625248baf2bff1ef6d58"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compat_8h.html#a7fa49f3af80c625248baf2bff1ef6d58">ZC_TCC_COMPAT_STR</a></td></tr>
 <tr class="separator:a7fa49f3af80c625248baf2bff1ef6d58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4b6f25b20847198ddccbfe4e3aeeb68" id="r_ab4b6f25b20847198ddccbfe4e3aeeb68"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compat_8h.html#ab4b6f25b20847198ddccbfe4e3aeeb68">ZC_C_GENERIC_STR</a></td></tr>
+<tr class="separator:ab4b6f25b20847198ddccbfe4e3aeeb68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13f3112bb5104de6de7ab4da422b6e34" id="r_a13f3112bb5104de6de7ab4da422b6e34"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compat_8h.html#a13f3112bb5104de6de7ab4da422b6e34">ZC_C_ARG_GENERIC_STR</a>&#160;&#160;&#160;    &quot;#define _z_arg(x) _Generic((x), _Bool: _z_bool_str(x) _z_objc_arg_map(x), default: (x))\n&quot;</td></tr>
+<tr class="separator:a13f3112bb5104de6de7ab4da422b6e34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a1b9c54de6629359e4503d492f4ac42d7" name="a1b9c54de6629359e4503d492f4ac42d7"></a>
@@ -144,6 +148,49 @@ Macros</h2></td></tr>
 
 <p>Auto type inference. </p>
 
+</div>
+</div>
+<a id="a13f3112bb5104de6de7ab4da422b6e34" name="a13f3112bb5104de6de7ab4da422b6e34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13f3112bb5104de6de7ab4da422b6e34">&#9670;&#160;</a></span>ZC_C_ARG_GENERIC_STR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ZC_C_ARG_GENERIC_STR&#160;&#160;&#160;    &quot;#define _z_arg(x) _Generic((x), _Bool: _z_bool_str(x) _z_objc_arg_map(x), default: (x))\n&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab4b6f25b20847198ddccbfe4e3aeeb68" name="ab4b6f25b20847198ddccbfe4e3aeeb68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4b6f25b20847198ddccbfe4e3aeeb68">&#9670;&#160;</a></span>ZC_C_GENERIC_STR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ZC_C_GENERIC_STR</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    <span class="stringliteral">&quot;#ifdef __OBJC__\n&quot;</span>                                                                            \</div>
+<div class="line">    <span class="stringliteral">&quot;#define _z_objc_map ,id: \&quot;%s\&quot;, Class: \&quot;%s\&quot;, SEL: \&quot;%s\&quot;\n&quot;</span>                                \</div>
+<div class="line">    <span class="stringliteral">&quot;#define _z_objc_arg_map(x) ,id: [(id)(x) description].UTF8String, Class: &quot;</span>                    \</div>
+<div class="line">    <span class="stringliteral">&quot;class_getName((Class)(x)), SEL: sel_getName((SEL)(x))\n&quot;</span>                                      \</div>
+<div class="line">    <span class="stringliteral">&quot;#else\n&quot;</span>                                                                                      \</div>
+<div class="line">    <span class="stringliteral">&quot;#define _z_objc_map\n&quot;</span>                                                                        \</div>
+<div class="line">    <span class="stringliteral">&quot;#define _z_objc_arg_map(x)\n&quot;</span>                                                                 \</div>
+<div class="line">    <span class="stringliteral">&quot;#endif\n&quot;</span>                                                                                     \</div>
+<div class="line">    <span class="stringliteral">&quot;\n&quot;</span>                                                                                           \</div>
+<div class="line">    <span class="stringliteral">&quot;#define _z_str(x) _Generic((x), _Bool: \&quot;%s\&quot;, char: \&quot;%c\&quot;, &quot;</span>                                \</div>
+<div class="line">    <span class="stringliteral">&quot;signed char: \&quot;%c\&quot;, unsigned char: \&quot;%u\&quot;, short: \&quot;%d\&quot;, &quot;</span>                                  \</div>
+<div class="line">    <span class="stringliteral">&quot;unsigned short: \&quot;%u\&quot;, int: \&quot;%d\&quot;, unsigned int: \&quot;%u\&quot;, &quot;</span>                                  \</div>
+<div class="line">    <span class="stringliteral">&quot;long: \&quot;%ld\&quot;, unsigned long: \&quot;%lu\&quot;, long long: \&quot;%lld\&quot;, &quot;</span>                                 \</div>
+<div class="line">    <span class="stringliteral">&quot;unsigned long long: \&quot;%llu\&quot;, float: \&quot;%f\&quot;, double: \&quot;%f\&quot;, &quot;</span>                                \</div>
+<div class="line">    <span class="stringliteral">&quot;char*: \&quot;%s\&quot;, void*: \&quot;%p\&quot; _z_objc_map)\n&quot;</span></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac82dde955e6b59c99bed7e908bc20e90" name="ac82dde955e6b59c99bed7e908bc20e90"></a>

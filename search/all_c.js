@@ -2,7 +2,7 @@ var searchData=
 [
   ['data_0',['data',['../structArenaBlock.html#a0eddd4ff84fbcb1d2e08715ae6e93f82',1,'ArenaBlock']]],
   ['decl_5ftoken_1',['decl_token',['../structZenSymbol.html#a4699aaf94dbe9c7f4798e284b43291e2',1,'ZenSymbol::decl_token'],['../structFuncSig.html#a3aebc4737aeaf843306ef9c5afc7d66b',1,'FuncSig::decl_token']]],
-  ['declarations_2',['Declarations',['../index.html#autotoc_md76',1,'']]],
+  ['declarations_2',['Declarations',['../index.html#autotoc_md77',1,'']]],
   ['def_20tt_3',['Manifest Constants (&lt;tt&gt;def&lt;/tt&gt;)',['../index.html#autotoc_md15',1,'']]],
   ['def_5fcol_4',['def_col',['../structLSPRange.html#ad17eade8758c7a112b8b7c82651f5d42',1,'LSPRange']]],
   ['def_5fline_5',['def_line',['../structLSPRange.html#a54d431567c30ebf24085d6235d0224d3',1,'LSPRange']]],

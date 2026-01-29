@@ -1,6 +1,8 @@
 var compat_8h =
 [
     [ "ZC_AUTO", "compat_8h.html#a1b9c54de6629359e4503d492f4ac42d7", null ],
+    [ "ZC_C_ARG_GENERIC_STR", "compat_8h.html#a13f3112bb5104de6de7ab4da422b6e34", null ],
+    [ "ZC_C_GENERIC_STR", "compat_8h.html#ab4b6f25b20847198ddccbfe4e3aeeb68", null ],
     [ "ZC_CAST", "compat_8h.html#ac82dde955e6b59c99bed7e908bc20e90", null ],
     [ "ZC_EXTERN_C", "compat_8h.html#a79202c7eecaa2e637acb86533be25741", null ],
     [ "ZC_EXTERN_C_BEGIN", "compat_8h.html#a1eec0c99cebc5c3f1f96d26022952869", null ],

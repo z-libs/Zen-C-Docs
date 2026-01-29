@@ -1,5 +1,10 @@
 var NAVTREEINDEX4 =
 {
+"sql_8c.html#a8b35f028f131f0c94c3c77e990f4a711":[2,0,0,5,4],
+"sql_8c.html#aa235241c0307bd7952a69edd0113e2b3":[2,0,0,5,5],
+"sql_8c.html#aaa5713bb2ecdf81c430009179b806232":[2,0,0,5,3],
+"sql_8c.html#ae5c4dfc3bd05aaa06eef7f6a551cebb2":[2,0,0,5,6],
+"structASTNode.html":[1,0,1],
 "structASTNode.html#a03222b05e42bbdca84e726f85c406378":[1,0,1,196],
 "structASTNode.html#a040e2bf71ceead27e9d8f6e952d5755f":[1,0,1,4],
 "structASTNode.html#a0448654251663debfdae73bb25b2935f":[1,0,1,163],
@@ -232,6 +237,7 @@ var NAVTREEINDEX4 =
 "structCol.html#acf256187f1e6bc04b945f4637f134c86":[1,0,5,0],
 "structCompilerConfig.html":[1,0,6],
 "structCompilerConfig.html#a0ba32a71202b261dcdea5b7869f8852c":[1,0,6,4],
+"structCompilerConfig.html#a0ed69c898a4ac3dab06e341fe4149190":[1,0,6,14],
 "structCompilerConfig.html#a0fa6158e6e6645963d487963eac726e6":[1,0,6,7],
 "structCompilerConfig.html#a1a4eb2b492ce001fae267429080b7b8c":[1,0,6,11],
 "structCompilerConfig.html#a1c3382a2463245dddad560a07e6fa6d2":[1,0,6,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX4 =
 "structCompilerConfig.html#a8255387d33e0271de7963db9cbc16b88":[1,0,6,12],
 "structCompilerConfig.html#aa66bc8e421a1ffa40a83a6ff40691542":[1,0,6,6],
 "structCompilerConfig.html#ac3bdeceb6aceda72098233d3cff2abe1":[1,0,6,5],
-"structCompilerConfig.html#acd3973719689462053128de470d831a1":[1,0,6,14],
-"structCompilerConfig.html#ad36f50628ac034f1cf2e381ac2f89133":[1,0,6,0],
-"structCompilerConfig.html#ade511af11b5333dd026df1694acae55c":[1,0,6,8],
-"structDefinitionResult.html":[1,0,7],
-"structDefinitionResult.html#a3eb12fa8a8d4f8a05182d321a5e6c5ac":[1,0,7,1],
-"structDefinitionResult.html#a5647eeb4548e862848b94c9f55fca85e":[1,0,7,0],
-"structDeprecatedFunc.html":[1,0,8]
+"structCompilerConfig.html#acd3973719689462053128de470d831a1":[1,0,6,15]
 };

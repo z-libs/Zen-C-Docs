@@ -41,7 +41,7 @@ var searchData=
   ['register_5ftype_5fusage_38',['register_type_usage',['../parser_8h.html#a9c60fdd6adc55c412c4eb6904a89e71d',1,'register_type_usage(ParserContext *ctx, const char *name, Token t):&#160;parser_utils.c'],['../parser__utils_8c.html#a9c60fdd6adc55c412c4eb6904a89e71d',1,'register_type_usage(ParserContext *ctx, const char *name, Token t):&#160;parser_utils.c']]],
   ['registered_5fimpls_39',['registered_impls',['../structParserContext.html#ab2e07cd94aeeae3bff7d7e17ac94b2b4',1,'ParserContext']]],
   ['repeat_5fstmt_40',['repeat_stmt',['../structASTNode.html#a1bdf973042eb4701d556e63fb98ba5e4',1,'ASTNode']]],
-  ['repl_41',['REPL',['../index.html#autotoc_md88',1,'']]],
+  ['repl_41',['REPL',['../index.html#autotoc_md89',1,'']]],
   ['repl_2ec_42',['repl.c',['../repl_8c.html',1,'']]],
   ['repl_2eh_43',['repl.h',['../repl_8h.html',1,'']]],
   ['repl_5fmode_44',['repl_mode',['../structCompilerConfig.html#a1a4eb2b492ce001fae267429080b7b8c',1,'CompilerConfig']]],
@@ -51,7 +51,7 @@ var searchData=
   ['replace_5fstring_5ftype_48',['replace_string_type',['../codegen_8h.html#a4b93522b77d8b2a909089a2add5d215a',1,'replace_string_type(const char *args):&#160;codegen_utils.c'],['../codegen__utils_8c.html#a4b93522b77d8b2a909089a2add5d215a',1,'replace_string_type(const char *args):&#160;codegen_utils.c']]],
   ['replace_5ftype_5fformal_49',['replace_type_formal',['../parser_8h.html#a25300761d164dcccea5580992c10539d',1,'replace_type_formal(Type *t, const char *p, const char *c, const char *os, const char *ns):&#160;parser_utils.c'],['../parser__utils_8c.html#a25300761d164dcccea5580992c10539d',1,'replace_type_formal(Type *t, const char *p, const char *c, const char *os, const char *ns):&#160;parser_utils.c']]],
   ['replace_5ftype_5fstr_50',['replace_type_str',['../parser_8h.html#a39aa5691488d55d1b7967c6340a4eb31',1,'replace_type_str(const char *src, const char *param, const char *concrete, const char *old_struct, const char *new_struct):&#160;parser_utils.c'],['../parser__utils_8c.html#a39aa5691488d55d1b7967c6340a4eb31',1,'replace_type_str(const char *src, const char *param, const char *concrete, const char *old_struct, const char *new_struct):&#160;parser_utils.c']]],
-  ['reserved_51',['C Reserved',['../index.html#autotoc_md80',1,'']]],
+  ['reserved_51',['C Reserved',['../index.html#autotoc_md81',1,'']]],
   ['resolve_5fplugin_52',['resolve_plugin',['../parser__utils_8c.html#aadc3c635eebe9bac0dc9a9565d3ced42',1,'resolve_plugin(ParserContext *ctx, const char *name_or_alias):&#160;parser_utils.c'],['../parser_8h.html#aadc3c635eebe9bac0dc9a9565d3ced42',1,'resolve_plugin(ParserContext *ctx, const char *name_or_alias):&#160;parser_utils.c']]],
   ['resolve_5fstruct_5fname_5ffrom_5ftype_53',['resolve_struct_name_from_type',['../parser__expr_8c.html#a6ab3391301912b753d9c1412b0c2bd93',1,'parser_expr.c']]],
   ['resolved_5ftype_54',['resolved_type',['../structASTNode.html#ad9cc745e7aae5fcead59991e5746b9fd',1,'ASTNode']]],
@@ -66,5 +66,5 @@ var searchData=
   ['root_5fpath_63',['root_path',['../structLSPProject.html#ab9edbee06751c89a5917f8b44a8a8dd8',1,'LSPProject']]],
   ['run_5fcomptime_5fblock_64',['run_comptime_block',['../parser__stmt_8c.html#a4e4d9a9bf8180c587d585e5ab46f43e2',1,'parser_stmt.c']]],
   ['run_5frepl_65',['run_repl',['../repl_8h.html#ac17c246af5c88d533bdd7899e05f0376',1,'run_repl(const char *self_path):&#160;repl.c'],['../repl_8c.html#ac17c246af5c88d533bdd7899e05f0376',1,'run_repl(const char *self_path):&#160;repl.c']]],
-  ['running_20tests_66',['Running Tests',['../index.html#autotoc_md105',1,'']]]
+  ['running_20tests_66',['Running Tests',['../index.html#autotoc_md108',1,'']]]
 ];

@@ -96,57 +96,61 @@ var NAVTREE =
           [ "Plugins", "index.html#autotoc_md63", null ],
           [ "Generic C Macros", "index.html#autotoc_md64", null ]
         ] ],
-        [ "13. Attributes", "index.html#autotoc_md65", null ],
-        [ "Custom Attributes", "index.html#autotoc_md66", [
-          [ "Syntax Mapping", "index.html#autotoc_md67", null ]
+        [ "13. Attributes", "index.html#autotoc_md65", [
+          [ "Custom Attributes", "index.html#autotoc_md66", null ],
+          [ "Syntax Mapping", "index.html#autotoc_md67", null ],
+          [ "Smart Derives", "index.html#autotoc_md68", null ]
         ] ],
-        [ "Smart Derives", "index.html#autotoc_md68", null ],
         [ "14. Inline Assembly", "index.html#autotoc_md69", [
           [ "Basic Usage", "index.html#autotoc_md70", null ],
           [ "Volatile", "index.html#autotoc_md71", null ],
           [ "Named Constraints", "index.html#autotoc_md72", null ]
         ] ],
         [ "15. Build Directives", "index.html#autotoc_md73", [
-          [ "Examples", "index.html#autotoc_md74", null ]
+          [ "Features", "index.html#autotoc_md74", null ],
+          [ "Examples", "index.html#autotoc_md75", null ]
         ] ],
-        [ "16. Keywords", "index.html#autotoc_md75", [
-          [ "Declarations", "index.html#autotoc_md76", null ],
-          [ "Control Flow", "index.html#autotoc_md77", null ],
-          [ "Special", "index.html#autotoc_md78", null ],
-          [ "Constants", "index.html#autotoc_md79", null ],
-          [ "C Reserved", "index.html#autotoc_md80", null ],
-          [ "Operators", "index.html#autotoc_md81", null ]
+        [ "16. Keywords", "index.html#autotoc_md76", [
+          [ "Declarations", "index.html#autotoc_md77", null ],
+          [ "Control Flow", "index.html#autotoc_md78", null ],
+          [ "Special", "index.html#autotoc_md79", null ],
+          [ "Constants", "index.html#autotoc_md80", null ],
+          [ "C Reserved", "index.html#autotoc_md81", null ],
+          [ "Operators", "index.html#autotoc_md82", null ]
         ] ]
       ] ],
-      [ "Standard Library", "index.html#autotoc_md83", [
-        [ "Key Modules", "index.html#autotoc_md84", null ]
+      [ "Standard Library", "index.html#autotoc_md84", [
+        [ "Key Modules", "index.html#autotoc_md85", null ]
       ] ],
-      [ "Tooling", "index.html#autotoc_md86", [
-        [ "Language Server (LSP)", "index.html#autotoc_md87", null ],
-        [ "REPL", "index.html#autotoc_md88", [
-          [ "Features", "index.html#autotoc_md89", null ],
-          [ "Commands", "index.html#autotoc_md90", null ]
+      [ "Tooling", "index.html#autotoc_md87", [
+        [ "Language Server (LSP)", "index.html#autotoc_md88", null ],
+        [ "REPL", "index.html#autotoc_md89", [
+          [ "Features", "index.html#autotoc_md90", null ],
+          [ "Commands", "index.html#autotoc_md91", null ]
         ] ]
       ] ],
-      [ "Compiler Support & Compatibility", "index.html#autotoc_md92", [
-        [ "Test Suite Status", "index.html#autotoc_md93", null ],
-        [ "Building with Zig", "index.html#autotoc_md94", null ],
-        [ "C++ Interop", "index.html#autotoc_md95", [
-          [ "Using C++ in Zen C", "index.html#autotoc_md96", null ],
-          [ "CUDA Interop", "index.html#autotoc_md97", null ],
-          [ "CUDA-Specific Attributes", "index.html#autotoc_md98", null ],
-          [ "Kernel Launch Syntax", "index.html#autotoc_md99", null ],
-          [ "Writing CUDA Kernels", "index.html#autotoc_md100", null ],
-          [ "Standard Library (<tt>std/cuda.zc</tt>)", "index.html#autotoc_md101", null ]
+      [ "Compiler Support & Compatibility", "index.html#autotoc_md93", [
+        [ "Test Suite Status", "index.html#autotoc_md94", null ],
+        [ "Building with Zig", "index.html#autotoc_md95", null ],
+        [ "C++ Interop", "index.html#autotoc_md96", [
+          [ "Using C++ in Zen C", "index.html#autotoc_md97", null ],
+          [ "CUDA Interop", "index.html#autotoc_md98", null ],
+          [ "CUDA-Specific Attributes", "index.html#autotoc_md99", null ],
+          [ "Kernel Launch Syntax", "index.html#autotoc_md100", null ],
+          [ "Writing CUDA Kernels", "index.html#autotoc_md101", null ],
+          [ "Standard Library (<tt>std/cuda.zc</tt>)", "index.html#autotoc_md102", null ]
+        ] ],
+        [ "Objective-C Interop", "index.html#autotoc_md103", [
+          [ "Using Objective-C in Zen C", "index.html#autotoc_md104", null ]
         ] ]
       ] ],
-      [ "</blockquote>", "index.html#autotoc_md102", null ],
-      [ "Contributing", "index.html#autotoc_md103", [
-        [ "How to Contribute", "index.html#autotoc_md104", null ],
-        [ "Running Tests", "index.html#autotoc_md105", null ],
-        [ "Extending the Compiler", "index.html#autotoc_md106", null ]
+      [ "</blockquote>", "index.html#autotoc_md105", null ],
+      [ "Contributing", "index.html#autotoc_md106", [
+        [ "How to Contribute", "index.html#autotoc_md107", null ],
+        [ "Running Tests", "index.html#autotoc_md108", null ],
+        [ "Extending the Compiler", "index.html#autotoc_md109", null ]
       ] ],
-      [ "Attributions", "index.html#autotoc_md108", null ]
+      [ "Attributions", "index.html#autotoc_md111", null ]
     ] ],
     [ "Data Structures", "annotated.html", [
       [ "Data Structures", "annotated.html", "annotated_dup" ],
@@ -176,11 +180,11 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "codegen_8h.html#a4741aa6235c9282d0fe25c454b6da0b5",
-"index.html#autotoc_md18",
-"parser_8h.html#a9de8e63ca1f037bb8418ceaeb5cf05c7",
-"structASTNode.html#a03222b05e42bbdca84e726f85c406378",
-"structDeprecatedFunc.html#a1cc4d7ed120dc47445a1cfe45b621ea1",
-"structcJSON.html"
+"index.html#autotoc_md13",
+"parser_8h.html#a982ef300ceed78052bea8dd470a5a0c5",
+"sql_8c.html#a8b35f028f131f0c94c3c77e990f4a711",
+"structCompilerConfig.html#ad36f50628ac034f1cf2e381ac2f89133",
+"structZenSymbol.html#a8c57dbd1debb0fd5e275dd451931f192"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

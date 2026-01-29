@@ -206,6 +206,7 @@ Index</h2>
 <li>Building with Zig</li>
 <li>C++ Interop</li>
 <li>CUDA Interop</li>
+<li>Objective-C Interop</li>
 </ul>
 </li>
 <li>Contributing</li>
@@ -914,8 +915,8 @@ Generic C Macros</h4>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyLeft"><code>@&lt;custom&gt;</code>   </td><td class="markdownTableBodyLeft">Any   </td><td class="markdownTableBodyLeft">Passes generic attributes to C (e.g. <code>@flatten</code>, <code>@alias("name")</code>).   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md66"></a>
-Custom Attributes</h3>
+<h4><a class="anchor" id="autotoc_md66"></a>
+Custom Attributes</h4>
 <p>Zen C supports a powerful <b>Custom <a class="el" href="structAttribute.html">Attribute</a></b> system that allows you to use any GCC/Clang <code>__attribute__</code> directly in your code. Any attribute that is not explicitly recognized by the Zen C compiler is treated as a generic attribute and passed through to the generated C code.</p>
 <p>This provides access to advanced compiler features, optimizations, and linker directives without needing explicit support in the language core.</p>
 <h4><a class="anchor" id="autotoc_md67"></a>
@@ -925,8 +926,8 @@ Syntax Mapping</h4>
 <li><code>@<a class="el" href="cJSON_8h.html#a25d22ecc7e656d2c59332072684e8766">name(args)</a></code> → <code>__attribute__((<a class="el" href="cJSON_8h.html#a25d22ecc7e656d2c59332072684e8766">name(args)</a>))</code></li>
 <li><code>@name("string")</code> → <code>__attribute__((name("string")))</code></li>
 </ul>
-<h3><a class="anchor" id="autotoc_md68"></a>
-Smart Derives</h3>
+<h4><a class="anchor" id="autotoc_md68"></a>
+Smart Derives</h4>
 <p>Zen C provides "Smart Derives" that respect Move Semantics:</p>
 <ul>
 <li>**<code>@derive(Eq)</code>**: Generates an equality method that takes arguments by reference (<code>fn eq(self, other: T*)</code>).<ul>
@@ -993,17 +994,28 @@ Named Constraints</h4>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyLeft"><code>//&gt; include:</code>   </td><td class="markdownTableBodyLeft"><code>path/to/headers</code>   </td><td class="markdownTableBodyLeft">Add an include search path (<code>-I</code>).    </td></tr>
 <tr class="markdownTableRowEven">
+<td class="markdownTableBodyLeft"><code>//&gt; framework:</code>   </td><td class="markdownTableBodyLeft"><code>Cocoa</code>   </td><td class="markdownTableBodyLeft">Link against a macOS framework.    </td></tr>
+<tr class="markdownTableRowOdd">
 <td class="markdownTableBodyLeft"><code>//&gt; cflags:</code>   </td><td class="markdownTableBodyLeft"><code>-Wall -O3</code>   </td><td class="markdownTableBodyLeft">Pass arbitrary flags to the C compiler.    </td></tr>
-<tr class="markdownTableRowOdd">
+<tr class="markdownTableRowEven">
 <td class="markdownTableBodyLeft"><code>//&gt; define:</code>   </td><td class="markdownTableBodyLeft"><code>MACRO</code> or <code>KEY=VAL</code>   </td><td class="markdownTableBodyLeft">Define a preprocessor macro (<code>-D</code>).    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyLeft"><code>//&gt; pkg-config:</code>   </td><td class="markdownTableBodyLeft"><code>gtk+-3.0</code>   </td><td class="markdownTableBodyLeft">Run <code>pkg-config</code> and append <code>--cflags</code> and <code>--libs</code>.    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyLeft"><code>//&gt; shell:</code>   </td><td class="markdownTableBodyLeft"><code>command</code>   </td><td class="markdownTableBodyLeft">Execute a shell command during the build.    </td></tr>
+<td class="markdownTableBodyLeft"><code>//&gt; pkg-config:</code>   </td><td class="markdownTableBodyLeft"><code>gtk+-3.0</code>   </td><td class="markdownTableBodyLeft">Run <code>pkg-config</code> and append <code>--cflags</code> and <code>--libs</code>.    </td></tr>
 <tr class="markdownTableRowEven">
+<td class="markdownTableBodyLeft"><code>//&gt; shell:</code>   </td><td class="markdownTableBodyLeft"><code>command</code>   </td><td class="markdownTableBodyLeft">Execute a shell command during the build.    </td></tr>
+<tr class="markdownTableRowOdd">
 <td class="markdownTableBodyLeft"><code>//&gt; get:</code>   </td><td class="markdownTableBodyLeft"><code><a href="http://url/file">http://url/file</a></code>   </td><td class="markdownTableBodyLeft">Download a file if specific file does not exist.   </td></tr>
 </table>
 <h4><a class="anchor" id="autotoc_md74"></a>
+Features</h4>
+<p><b>1. OS Guarding</b> Prefix directives with an OS name to apply them only on specific platforms. Supported prefixes: <code>linux:</code>, <code>windows:</code>, <code>macos:</code> (or <code>darwin:</code>).</p>
+<div class="fragment"><div class="line">//&gt; linux: link: -lm</div>
+<div class="line">//&gt; windows: link: -lws2_32</div>
+<div class="line">//&gt; macos: framework: Cocoa</div>
+</div><!-- fragment --><p><b>2. Environment Variable Expansion</b> Use <code>${VAR}</code> syntax to expand environment variables in your directives.</p>
+<div class="fragment"><div class="line">//&gt; include: ${HOME}/mylib/include</div>
+<div class="line">//&gt; lib: ${ZC_ROOT}/std</div>
+</div><!-- fragment --><h4><a class="anchor" id="autotoc_md75"></a>
 Examples</h4>
 <div class="fragment"><div class="line">//&gt; include: ./include</div>
 <div class="line">//&gt; lib: ./libs</div>
@@ -1014,33 +1026,33 @@ Examples</h4>
 <div class="line">import &quot;raylib.h&quot;</div>
 <div class="line"> </div>
 <div class="line">fn main() { ... }</div>
-</div><!-- fragment --><h3><a class="anchor" id="autotoc_md75"></a>
+</div><!-- fragment --><h3><a class="anchor" id="autotoc_md76"></a>
 16. Keywords</h3>
 <p>The following keywords are reserved in Zen C.</p>
-<h4><a class="anchor" id="autotoc_md76"></a>
+<h4><a class="anchor" id="autotoc_md77"></a>
 Declarations</h4>
 <p><code>alias</code>, <code>def</code>, <code>enum</code>, <code>fn</code>, <code>impl</code>, <code>import</code>, <code>let</code>, <code>module</code>, <code>opaque</code>, <code>struct</code>, <code>trait</code>, <code>union</code>, <code>use</code></p>
-<h4><a class="anchor" id="autotoc_md77"></a>
+<h4><a class="anchor" id="autotoc_md78"></a>
 Control Flow</h4>
 <p><code>async</code>, <code>await</code>, <code>break</code>, <code>catch</code>, <code>continue</code>, <code>defer</code>, <code>else</code>, <code>for</code>, <code>goto</code>, <code>guard</code>, <code>if</code>, <code>loop</code>, <code>match</code>, <code>return</code>, <code>try</code>, <code>unless</code>, <code>while</code></p>
-<h4><a class="anchor" id="autotoc_md78"></a>
+<h4><a class="anchor" id="autotoc_md79"></a>
 Special</h4>
 <p><code>asm</code>, <code>assert</code>, <code>autofree</code>, <code>comptime</code>, <code>const</code>, <code>embed</code>, <code>launch</code>, <code>ref</code>, <code>sizeof</code>, <code>static</code>, <code>test</code>, <code>volatile</code></p>
-<h4><a class="anchor" id="autotoc_md79"></a>
+<h4><a class="anchor" id="autotoc_md80"></a>
 Constants</h4>
 <p><code>true</code>, <code>false</code>, <code>null</code></p>
-<h4><a class="anchor" id="autotoc_md80"></a>
+<h4><a class="anchor" id="autotoc_md81"></a>
 C Reserved</h4>
 <p>The following identifiers are reserved because they are keywords in C11: <code>auto</code>, <code>case</code>, <code>char</code>, <code>default</code>, <code>do</code>, <code>double</code>, <code>extern</code>, <code>float</code>, <code>inline</code>, <code>int</code>, <code>long</code>, <code>register</code>, <code>restrict</code>, <code>short</code>, <code>signed</code>, <code>switch</code>, <code>typedef</code>, <code>unsigned</code>, <code>void</code>, <code>_Atomic</code>, <code>_Bool</code>, <code>_Complex</code>, <code>_Generic</code>, <code>_Imaginary</code>, <code>_Noreturn</code>, <code>_Static_assert</code>, <code>_Thread_local</code></p>
-<h4><a class="anchor" id="autotoc_md81"></a>
+<h4><a class="anchor" id="autotoc_md82"></a>
 Operators</h4>
 <p><code>and</code>, <code>or</code></p>
 <hr  />
-<h2><a class="anchor" id="autotoc_md83"></a>
+<h2><a class="anchor" id="autotoc_md84"></a>
 Standard Library</h2>
 <p>Zen C includes a standard library (<code>std</code>) covering essential functionality.</p>
 <p>Browse the Standard Library Documentation</p>
-<h3><a class="anchor" id="autotoc_md84"></a>
+<h3><a class="anchor" id="autotoc_md85"></a>
 Key Modules</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -1064,13 +1076,25 @@ Key Modules</h3>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyLeft">**<code>std/path.zc</code>**   </td><td class="markdownTableBodyLeft">Cross-platform path manipulation.   </td><td class="markdownTableBodyLeft">Docs    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyLeft">**<code>std/env.zc</code>**   </td><td class="markdownTableBodyLeft">Process environment variables.   </td><td class="markdownTableBodyLeft">Docs   </td></tr>
+<td class="markdownTableBodyLeft">**<code>std/env.zc</code>**   </td><td class="markdownTableBodyLeft">Process environment variables.   </td><td class="markdownTableBodyLeft">Docs    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyLeft">**<code>std/net.zc</code>**   </td><td class="markdownTableBodyLeft">TCP networking (Sockets).   </td><td class="markdownTableBodyLeft">Docs    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyLeft">**<code>std/thread.zc</code>**   </td><td class="markdownTableBodyLeft">Threads and Synchronization.   </td><td class="markdownTableBodyLeft">Docs    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyLeft">**<code>std/time.zc</code>**   </td><td class="markdownTableBodyLeft">Time measurement and sleep.   </td><td class="markdownTableBodyLeft">Docs    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyLeft">**<code>std/json.zc</code>**   </td><td class="markdownTableBodyLeft">JSON parsing and serialization.   </td><td class="markdownTableBodyLeft">Docs    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyLeft">**<code>std/stack.zc</code>**   </td><td class="markdownTableBodyLeft">LIFO Stack <code>Stack&lt;T&gt;</code>.   </td><td class="markdownTableBodyLeft">Docs    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyLeft">**<code>std/set.zc</code>**   </td><td class="markdownTableBodyLeft">Generic Hash Set <code>Set&lt;T&gt;</code>.   </td><td class="markdownTableBodyLeft">Docs   </td></tr>
 </table>
 <hr  />
-<h2><a class="anchor" id="autotoc_md86"></a>
+<h2><a class="anchor" id="autotoc_md87"></a>
 Tooling</h2>
 <p>Zen C provides a built-in Language Server and REPL to enhance the development experience.</p>
-<h3><a class="anchor" id="autotoc_md87"></a>
+<h3><a class="anchor" id="autotoc_md88"></a>
 Language Server (LSP)</h3>
 <p>The Zen C Language Server (LSP) supports standard LSP features for editor integration, providing:</p>
 <ul>
@@ -1085,18 +1109,18 @@ Language Server (LSP)</h3>
 <p>To start the language server (typically configured in your editor's LSP settings):</p>
 <div class="fragment"><div class="line">zc lsp</div>
 </div><!-- fragment --><p>It communicates via standard I/O (JSON-RPC 2.0).</p>
-<h3><a class="anchor" id="autotoc_md88"></a>
+<h3><a class="anchor" id="autotoc_md89"></a>
 REPL</h3>
 <p>The Read-Eval-Print Loop allows you to experiment with Zen C code interactively.</p>
 <div class="fragment"><div class="line">zc repl</div>
-</div><!-- fragment --><h4><a class="anchor" id="autotoc_md89"></a>
+</div><!-- fragment --><h4><a class="anchor" id="autotoc_md90"></a>
 Features</h4>
 <ul>
 <li><b>Interactive Coding</b>: <a class="el" href="structType.html" title="Represents a formal type in the type system.">Type</a> expressions or statements for immediate evaluation.</li>
 <li><b>Persistent History</b>: Commands are saved to <code>~/.zprep_history</code>.</li>
 <li><b>Startup Script</b>: Auto-loads commands from <code>~/.zprep_init.zc</code>.</li>
 </ul>
-<h4><a class="anchor" id="autotoc_md90"></a>
+<h4><a class="anchor" id="autotoc_md91"></a>
 Commands</h4>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -1143,12 +1167,12 @@ Commands</h4>
 <td class="markdownTableBodyLeft"><code>! &lt;cmd&gt;</code>   </td><td class="markdownTableBodyLeft">Run a shell command (e.g. <code>!ls</code>).   </td></tr>
 </table>
 <hr  />
-<h2><a class="anchor" id="autotoc_md92"></a>
+<h2><a class="anchor" id="autotoc_md93"></a>
 Compiler Support &amp; Compatibility</h2>
 <p>Zen C is designed to work with most C11 compilers. Some features rely on GNU C extensions, but these often work in other compilers. Use the <code>--cc</code> flag to switch backends.</p>
 <div class="fragment"><div class="line">zc run app.zc --cc clang</div>
 <div class="line">zc run app.zc --cc zig</div>
-</div><!-- fragment --><h3><a class="anchor" id="autotoc_md93"></a>
+</div><!-- fragment --><h3><a class="anchor" id="autotoc_md94"></a>
 Test Suite Status</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -1165,7 +1189,7 @@ Test Suite Status</h3>
 <blockquote class="doxtable">
 <p>&zwj;<b>Recommendation:</b> Use <b>GCC</b>, <b>Clang</b>, or <b>Zig</b> for production builds. TCC is excellent for rapid prototyping due to its compilation speed but misses some advanced C extensions Zen C relies on for full feature support. </p>
 </blockquote>
-<h3><a class="anchor" id="autotoc_md94"></a>
+<h3><a class="anchor" id="autotoc_md95"></a>
 Building with Zig</h3>
 <p>Zig's <code>zig cc</code> command provides a drop-in replacement for GCC/Clang with excellent cross-compilation support. To use Zig:</p>
 <div class="fragment"><div class="line"># Compile and run a Zen C program with Zig</div>
@@ -1173,7 +1197,7 @@ Building with Zig</h3>
 <div class="line"> </div>
 <div class="line"># Build the Zen C compiler itself with Zig</div>
 <div class="line">make zig</div>
-</div><!-- fragment --><h3><a class="anchor" id="autotoc_md95"></a>
+</div><!-- fragment --><h3><a class="anchor" id="autotoc_md96"></a>
 C++ Interop</h3>
 <p>Zen C can generate C++-compatible code with the <code>--cpp</code> flag, allowing seamless integration with C++ libraries.</p>
 <div class="fragment"><div class="line"># Direct compilation with g++</div>
@@ -1182,7 +1206,7 @@ C++ Interop</h3>
 <div class="line"># Or transpile for manual build</div>
 <div class="line">zc transpile app.zc --cpp</div>
 <div class="line">g++ out.c my_cpp_lib.o -o app</div>
-</div><!-- fragment --><h4><a class="anchor" id="autotoc_md96"></a>
+</div><!-- fragment --><h4><a class="anchor" id="autotoc_md97"></a>
 Using C++ in Zen C</h4>
 <p>Include C++ headers and use raw blocks for C++ code:</p>
 <div class="fragment"><div class="line">include &lt;vector&gt;</div>
@@ -1201,7 +1225,7 @@ Using C++ in Zen C</h4>
 </div><!-- fragment --><blockquote class="doxtable">
 <p>&zwj;<b>Note:</b> The <code>--cpp</code> flag switches the backend to <code>g++</code> and emits C++-compatible code (uses <code>auto</code> instead of <code>__auto_type</code>, function overloads instead of <code>_Generic</code>, and explicit casts for <code>void*</code>). </p>
 </blockquote>
-<h4><a class="anchor" id="autotoc_md97"></a>
+<h4><a class="anchor" id="autotoc_md98"></a>
 CUDA Interop</h4>
 <p>Zen C supports GPU programming by transpiling to <b>CUDA C++</b>. This allows you to leverage powerful C++ features (templates, constexpr) within your kernels while maintaining Zen C's ergonomic syntax.</p>
 <div class="fragment"><div class="line"># Direct compilation with nvcc</div>
@@ -1210,7 +1234,7 @@ CUDA Interop</h4>
 <div class="line"># Or transpile for manual build</div>
 <div class="line">zc transpile app.zc --cuda -o app.cu</div>
 <div class="line">nvcc app.cu -o app</div>
-</div><!-- fragment --><h4><a class="anchor" id="autotoc_md98"></a>
+</div><!-- fragment --><h4><a class="anchor" id="autotoc_md99"></a>
 CUDA-Specific Attributes</h4>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -1222,7 +1246,7 @@ CUDA-Specific Attributes</h4>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyLeft"><code>@host</code>   </td><td class="markdownTableBodyLeft"><code>__host__</code>   </td><td class="markdownTableBodyLeft">Host function (explicit CPU-only)   </td></tr>
 </table>
-<h4><a class="anchor" id="autotoc_md99"></a>
+<h4><a class="anchor" id="autotoc_md100"></a>
 Kernel Launch Syntax</h4>
 <p>Zen C provides a clean <code>launch</code> statement for invoking CUDA kernels:</p>
 <div class="fragment"><div class="line">launch kernel_name(args) with {</div>
@@ -1232,7 +1256,7 @@ Kernel Launch Syntax</h4>
 <div class="line">    stream: my_stream   // Optional</div>
 <div class="line">};</div>
 </div><!-- fragment --><p>This transpiles to: <code>kernel_name&lt;&lt;&lt;grid, block, shared, stream&gt;&gt;&gt;(args);</code></p>
-<h4><a class="anchor" id="autotoc_md100"></a>
+<h4><a class="anchor" id="autotoc_md101"></a>
 Writing CUDA Kernels</h4>
 <p>Use Zen C function syntax with <code>@global</code> and the <code>launch</code> statement:</p>
 <div class="fragment"><div class="line">import &quot;std/cuda.zc&quot;</div>
@@ -1263,7 +1287,7 @@ Writing CUDA Kernels</h4>
 <div class="line">    </div>
 <div class="line">    cuda_sync();</div>
 <div class="line">}</div>
-</div><!-- fragment --><h4><a class="anchor" id="autotoc_md101"></a>
+</div><!-- fragment --><h4><a class="anchor" id="autotoc_md102"></a>
 Standard Library (&lt;tt&gt;std/cuda.zc&lt;/tt&gt;)</h4>
 <p>Zen C provides a standard library for common CUDA operations to reduce <code>raw</code> blocks:</p>
 <div class="fragment"><div class="line">import &quot;std/cuda.zc&quot;</div>
@@ -1283,12 +1307,37 @@ Standard Library (&lt;tt&gt;std/cuda.zc&lt;/tt&gt;)</h4>
 </div><!-- fragment --><blockquote class="doxtable">
 <p>&zwj;<b>Note:</b> The <code>--cuda</code> flag sets <code>nvcc</code> as the compiler and implies <code>--cpp</code> mode. Requires the NVIDIA CUDA Toolkit. </p>
 </blockquote>
-<h2><a class="anchor" id="autotoc_md102"></a>
+<h3><a class="anchor" id="autotoc_md103"></a>
+Objective-C Interop</h3>
+<p>Zen C can compile to Objective-C (<code>.m</code>) using the <code>--objc</code> flag, allowing you to use Objective-C frameworks (like Cocoa/Foundation) and syntax.</p>
+<div class="fragment"><div class="line"># Compile with clang (or gcc/gnustep)</div>
+<div class="line">zc app.zc --objc --cc clang</div>
+</div><!-- fragment --><h4><a class="anchor" id="autotoc_md104"></a>
+Using Objective-C in Zen C</h4>
+<p>Use <code>include</code> for headers and <code>raw</code> blocks for Objective-C syntax (<code>@interface</code>, <code>[...]</code>, <code>@""</code>).</p>
+<div class="fragment"><div class="line">//&gt; macos: framework: Foundation</div>
+<div class="line">//&gt; linux: cflags: -fconstant-string-class=NSConstantString -D_NATIVE_OBJC_EXCEPTIONS</div>
+<div class="line">//&gt; linux: link: -lgnustep-base -lobjc</div>
+<div class="line"> </div>
+<div class="line">include &lt;Foundation/Foundation.h&gt;</div>
+<div class="line"> </div>
+<div class="line">fn main() {</div>
+<div class="line">    raw {</div>
+<div class="line">        NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];</div>
+<div class="line">        NSLog(@&quot;Hello from Objective-C!&quot;);</div>
+<div class="line">        [pool drain];</div>
+<div class="line">    }</div>
+<div class="line">    println &quot;Zen C works too!&quot;;</div>
+<div class="line">}</div>
+</div><!-- fragment --><blockquote class="doxtable">
+<p>&zwj;<b>Note:</b> Zen C string interpolation works with Objective-C objects (<code>id</code>) by calling <code>debugDescription</code> or <code>description</code>. </p>
+</blockquote>
+<h2><a class="anchor" id="autotoc_md105"></a>
 &lt;/blockquote&gt;</h2>
-<h2><a class="anchor" id="autotoc_md103"></a>
+<h2><a class="anchor" id="autotoc_md106"></a>
 Contributing</h2>
 <p>We welcome contributions! Whether it's fixing bugs, adding documentation, or proposing new features.</p>
-<h3><a class="anchor" id="autotoc_md104"></a>
+<h3><a class="anchor" id="autotoc_md107"></a>
 How to Contribute</h3>
 <ol type="1">
 <li><b>Fork the Repository</b>: standard GitHub workflow.</li>
@@ -1301,7 +1350,7 @@ How to Contribute</h3>
 </li>
 <li><b>Submit a Pull Request</b>: Describe your changes clearly.</li>
 </ol>
-<h3><a class="anchor" id="autotoc_md105"></a>
+<h3><a class="anchor" id="autotoc_md108"></a>
 Running Tests</h3>
 <p>The test suite is your best friend.</p>
 <div class="fragment"><div class="line"># Run all tests (GCC)</div>
@@ -1314,7 +1363,7 @@ Running Tests</h3>
 <div class="line">./tests/run_tests.sh --cc clang</div>
 <div class="line">./tests/run_tests.sh --cc zig</div>
 <div class="line">./tests/run_tests.sh --cc tcc</div>
-</div><!-- fragment --><h3><a class="anchor" id="autotoc_md106"></a>
+</div><!-- fragment --><h3><a class="anchor" id="autotoc_md109"></a>
 Extending the Compiler</h3>
 <ul>
 <li><b>Parser</b>: <code>src/parser/</code> - Recursive descent parser.</li>
@@ -1322,7 +1371,7 @@ Extending the Compiler</h3>
 <li><b>Standard Library</b>: <code>std/</code> - Written in Zen C itself.</li>
 </ul>
 <hr  />
-<h2><a class="anchor" id="autotoc_md108"></a>
+<h2><a class="anchor" id="autotoc_md111"></a>
 Attributions</h2>
 <p>This project uses third-party libraries. Full license texts can be found in the <code>LICENSES/</code> directory.</p>
 <ul>

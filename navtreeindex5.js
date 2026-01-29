@@ -1,5 +1,11 @@
 var NAVTREEINDEX5 =
 {
+"structCompilerConfig.html#ad36f50628ac034f1cf2e381ac2f89133":[1,0,6,0],
+"structCompilerConfig.html#ade511af11b5333dd026df1694acae55c":[1,0,6,8],
+"structDefinitionResult.html":[1,0,7],
+"structDefinitionResult.html#a3eb12fa8a8d4f8a05182d321a5e6c5ac":[1,0,7,1],
+"structDefinitionResult.html#a5647eeb4548e862848b94c9f55fca85e":[1,0,7,0],
+"structDeprecatedFunc.html":[1,0,8],
 "structDeprecatedFunc.html#a1cc4d7ed120dc47445a1cfe45b621ea1":[1,0,8,0],
 "structDeprecatedFunc.html#a5d2cf36802b19df37724e45e7c269459":[1,0,8,2],
 "structDeprecatedFunc.html#af37dac1243ad4e699646057ee1a6f4de":[1,0,8,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX5 =
 "structZenSymbol.html#a167b7c5c43a115a69b1153d7c804c243":[1,0,51,3],
 "structZenSymbol.html#a4699aaf94dbe9c7f4798e284b43291e2":[1,0,51,1],
 "structZenSymbol.html#a4d1811894498f19f11f2081fca1dec46":[1,0,51,6],
-"structZenSymbol.html#a6401d351a978ac95d3a67a17aeba1b06":[1,0,51,10],
-"structZenSymbol.html#a8c57dbd1debb0fd5e275dd451931f192":[1,0,51,9],
-"structZenSymbol.html#a9a9e026741a70b1bab8552b8f6003946":[1,0,51,2],
-"structZenSymbol.html#aa45aa1b98798a535189a3b8082229da5":[1,0,51,4],
-"structZenSymbol.html#aaf123f4cd4e268734bff2512e7e43e09":[1,0,51,0],
-"structZenSymbol.html#ab1cd3cdea0a248243aa74616e53265ad":[1,0,51,8],
-"structZenSymbol.html#af0c75594a9905e76097761d9815ec426":[1,0,51,7]
+"structZenSymbol.html#a6401d351a978ac95d3a67a17aeba1b06":[1,0,51,10]
 };

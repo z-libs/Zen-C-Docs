@@ -14,5 +14,6 @@ var structCompilerConfig =
     [ "repl_mode", "structCompilerConfig.html#a1a4eb2b492ce001fae267429080b7b8c", null ],
     [ "use_cpp", "structCompilerConfig.html#a8255387d33e0271de7963db9cbc16b88", null ],
     [ "use_cuda", "structCompilerConfig.html#a6d88e00a94b4f5b418b80cb6533cb3ef", null ],
+    [ "use_objc", "structCompilerConfig.html#a0ed69c898a4ac3dab06e341fe4149190", null ],
     [ "verbose", "structCompilerConfig.html#acd3973719689462053128de470d831a1", null ]
 ];

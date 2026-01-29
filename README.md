@@ -103,6 +103,7 @@ Join the discussion, share demos, ask questions, or report bugs in the official 
     - [Building with Zig](#building-with-zig)
     - [C++ Interop](#c-interop)
     - [CUDA Interop](#cuda-interop)
+    - [Objective-C Interop](#objective-c-interop)
 - [Contributing](#contributing)
 - [Attributions](#attributions)
 
@@ -929,7 +930,7 @@ Decorate functions and structs to modify compiler behavior.
 | `@derive(...)` | Struct | Auto-implement traits. Supports `Debug`, `Eq` (Smart Derive), `Copy`, `Clone`. |
 | `@<custom>` | Any | Passes generic attributes to C (e.g. `@flatten`, `@alias("name")`). |
 
-### Custom Attributes
+#### Custom Attributes
 
 Zen C supports a powerful **Custom Attribute** system that allows you to use any GCC/Clang `__attribute__` directly in your code. Any attribute that is not explicitly recognized by the Zen C compiler is treated as a generic attribute and passed through to the generated C code.
 
@@ -941,7 +942,7 @@ Zen C attributes are mapped directly to C attributes:
 - `@name(args)` → `__attribute__((name(args)))`
 - `@name("string")` → `__attribute__((name("string")))`
 
-### Smart Derives
+#### Smart Derives
 
 Zen C provides "Smart Derives" that respect Move Semantics:
 
@@ -1007,11 +1008,32 @@ Zen C supports special comments at the top of your source file to configure the 
 | `//> link:` | `-lfoo` or `path/to/lib.a` | Link against a library or object file. |
 | `//> lib:` | `path/to/libs` | Add a library search path (`-L`). |
 | `//> include:` | `path/to/headers` | Add an include search path (`-I`). |
+| `//> framework:` | `Cocoa` | Link against a macOS framework. |
 | `//> cflags:` | `-Wall -O3` | Pass arbitrary flags to the C compiler. |
 | `//> define:` | `MACRO` or `KEY=VAL` | Define a preprocessor macro (`-D`). |
 | `//> pkg-config:` | `gtk+-3.0` | Run `pkg-config` and append `--cflags` and `--libs`. |
 | `//> shell:` | `command` | Execute a shell command during the build. |
 | `//> get:` | `http://url/file` | Download a file if specific file does not exist. |
+
+#### Features
+
+**1. OS Guarding**
+Prefix directives with an OS name to apply them only on specific platforms.
+Supported prefixes: `linux:`, `windows:`, `macos:` (or `darwin:`).
+
+```zc
+//> linux: link: -lm
+//> windows: link: -lws2_32
+//> macos: framework: Cocoa
+```
+
+**2. Environment Variable Expansion**
+Use `${VAR}` syntax to expand environment variables in your directives.
+
+```zc
+//> include: ${HOME}/mylib/include
+//> lib: ${ZC_ROOT}/std
+```
 
 #### Examples
 
@@ -1072,6 +1094,12 @@ Zen C includes a standard library (`std`) covering essential functionality.
 | **`std/result.zc`** | Error handling (`Ok`/`Err`). | [Docs](docs/std/result.md) |
 | **`std/path.zc`** | Cross-platform path manipulation. | [Docs](docs/std/path.md) |
 | **`std/env.zc`** | Process environment variables. | [Docs](docs/std/env.md) |
+| **`std/net.zc`** | TCP networking (Sockets). | [Docs](docs/std/net.md) |
+| **`std/thread.zc`** | Threads and Synchronization. | [Docs](docs/std/thread.md) |
+| **`std/time.zc`** | Time measurement and sleep. | [Docs](docs/std/time.md) |
+| **`std/json.zc`** | JSON parsing and serialization. | [Docs](docs/std/json.md) |
+| **`std/stack.zc`** | LIFO Stack `Stack<T>`. | [Docs](docs/std/stack.md) |
+| **`std/set.zc`** | Generic Hash Set `Set<T>`. | [Docs](docs/std/set.md) |
 
 ---
 
@@ -1301,6 +1329,38 @@ let tid = local_id();
 
 
 > **Note:** The `--cuda` flag sets `nvcc` as the compiler and implies `--cpp` mode. Requires the NVIDIA CUDA Toolkit.
+
+### Objective-C Interop
+
+Zen C can compile to Objective-C (`.m`) using the `--objc` flag, allowing you to use Objective-C frameworks (like Cocoa/Foundation) and syntax.
+
+```bash
+# Compile with clang (or gcc/gnustep)
+zc app.zc --objc --cc clang
+```
+
+#### Using Objective-C in Zen C
+
+Use `include` for headers and `raw` blocks for Objective-C syntax (`@interface`, `[...]`, `@""`).
+
+```zc
+//> macos: framework: Foundation
+//> linux: cflags: -fconstant-string-class=NSConstantString -D_NATIVE_OBJC_EXCEPTIONS
+//> linux: link: -lgnustep-base -lobjc
+
+include <Foundation/Foundation.h>
+
+fn main() {
+    raw {
+        NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+        NSLog(@"Hello from Objective-C!");
+        [pool drain];
+    }
+    println "Zen C works too!";
+}
+```
+
+> **Note:** Zen C string interpolation works with Objective-C objects (`id`) by calling `debugDescription` or `description`.
 
 ---
 
