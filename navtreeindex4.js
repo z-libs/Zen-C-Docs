@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"structASTNode.html#a03222b05e42bbdca84e726f85c406378":[1,0,1,196],
 "structASTNode.html#a040e2bf71ceead27e9d8f6e952d5755f":[1,0,1,4],
 "structASTNode.html#a0448654251663debfdae73bb25b2935f":[1,0,1,163],
 "structASTNode.html#a05007bdb22cba320009d94cf8782fdf2":[1,0,1,97],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "structDefinitionResult.html":[1,0,7],
 "structDefinitionResult.html#a3eb12fa8a8d4f8a05182d321a5e6c5ac":[1,0,7,1],
 "structDefinitionResult.html#a5647eeb4548e862848b94c9f55fca85e":[1,0,7,0],
-"structDeprecatedFunc.html":[1,0,8],
-"structDeprecatedFunc.html#a1cc4d7ed120dc47445a1cfe45b621ea1":[1,0,8,0]
+"structDeprecatedFunc.html":[1,0,8]
 };

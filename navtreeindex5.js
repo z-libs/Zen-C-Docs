@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"structDeprecatedFunc.html#a1cc4d7ed120dc47445a1cfe45b621ea1":[1,0,8,0],
 "structDeprecatedFunc.html#a5d2cf36802b19df37724e45e7c269459":[1,0,8,2],
 "structDeprecatedFunc.html#af37dac1243ad4e699646057ee1a6f4de":[1,0,8,1],
 "structDiagnostic.html":[1,0,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "structZenSymbol.html#aa45aa1b98798a535189a3b8082229da5":[1,0,51,4],
 "structZenSymbol.html#aaf123f4cd4e268734bff2512e7e43e09":[1,0,51,0],
 "structZenSymbol.html#ab1cd3cdea0a248243aa74616e53265ad":[1,0,51,8],
-"structZenSymbol.html#af0c75594a9905e76097761d9815ec426":[1,0,51,7],
-"structcJSON.html":[1,0,3]
+"structZenSymbol.html#af0c75594a9905e76097761d9815ec426":[1,0,51,7]
 };

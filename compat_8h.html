@@ -95,7 +95,17 @@ $(document).ready(function(){initNavTree('compat_8h.html',''); initResizable(); 
   <div class="headertitle"><div class="title">compat.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
+<div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
+<div class="center"><img src="compat_8h__dep__incl.png" border="0" usemap="#asrc_2codegen_2compat_8hdep" alt=""/></div>
+<map name="asrc_2codegen_2compat_8hdep" id="asrc_2codegen_2compat_8hdep">
+<area shape="rect" title=" " alt="" coords="5,5,171,31"/>
+<area shape="rect" href="codegen__decl_8c.html" title=" " alt="" coords="9,79,167,119"/>
+<area shape="poly" title=" " alt="" coords="91,44,91,79,85,79,85,44"/>
+</map>
+</div>
+</div>
 <p><a href="compat_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
@@ -116,6 +126,8 @@ Macros</h2></td></tr>
 <tr class="separator:a1eec0c99cebc5c3f1f96d26022952869"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdc3bc4646d2491eeeb5ce5238ffc403" id="r_afdc3bc4646d2491eeeb5ce5238ffc403"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compat_8h.html#afdc3bc4646d2491eeeb5ce5238ffc403">ZC_EXTERN_C_END</a></td></tr>
 <tr class="separator:afdc3bc4646d2491eeeb5ce5238ffc403"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fa49f3af80c625248baf2bff1ef6d58" id="r_a7fa49f3af80c625248baf2bff1ef6d58"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compat_8h.html#a7fa49f3af80c625248baf2bff1ef6d58">ZC_TCC_COMPAT_STR</a></td></tr>
+<tr class="separator:a7fa49f3af80c625248baf2bff1ef6d58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a1b9c54de6629359e4503d492f4ac42d7" name="a1b9c54de6629359e4503d492f4ac42d7"></a>
@@ -236,6 +248,33 @@ Macros</h2></td></tr>
 
 <p>Reinterpret cast. </p>
 
+</div>
+</div>
+<a id="a7fa49f3af80c625248baf2bff1ef6d58" name="a7fa49f3af80c625248baf2bff1ef6d58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fa49f3af80c625248baf2bff1ef6d58">&#9670;&#160;</a></span>ZC_TCC_COMPAT_STR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ZC_TCC_COMPAT_STR</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    <span class="stringliteral">&quot;#ifdef __TINYC__\n&quot;</span>                                                                           \</div>
+<div class="line">    <span class="stringliteral">&quot;#ifndef __auto_type\n&quot;</span>                                                                        \</div>
+<div class="line">    <span class="stringliteral">&quot;#define __auto_type __typeof__\n&quot;</span>                                                             \</div>
+<div class="line">    <span class="stringliteral">&quot;#endif\n&quot;</span>                                                                                     \</div>
+<div class="line">    <span class="stringliteral">&quot;\n&quot;</span>                                                                                           \</div>
+<div class="line">    <span class="stringliteral">&quot;#ifndef __builtin_expect\n&quot;</span>                                                                   \</div>
+<div class="line">    <span class="stringliteral">&quot;#define __builtin_expect(x, v) (x)\n&quot;</span>                                                         \</div>
+<div class="line">    <span class="stringliteral">&quot;#endif\n&quot;</span>                                                                                     \</div>
+<div class="line">    <span class="stringliteral">&quot;\n&quot;</span>                                                                                           \</div>
+<div class="line">    <span class="stringliteral">&quot;#ifndef __builtin_unreachable\n&quot;</span>                                                              \</div>
+<div class="line">    <span class="stringliteral">&quot;#define __builtin_unreachable()\n&quot;</span>                                                            \</div>
+<div class="line">    <span class="stringliteral">&quot;#endif\n&quot;</span>                                                                                     \</div>
+<div class="line">    <span class="stringliteral">&quot;#endif\n&quot;</span></div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
