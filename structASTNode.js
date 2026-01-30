@@ -23,6 +23,7 @@ var structASTNode =
     [ "body", "structASTNode.html#a069d17badc10f9c3cb227a08fe0b388e", null ],
     [ "body", "structASTNode.html#a929795ceba1c65aa2797fc06ff3fd566", null ],
     [ "break_stmt", "structASTNode.html#a0e542090371047e9133f7b8a53e414ea", null ],
+    [ "c_type_overrides", "structASTNode.html#adef8acf87b8b66ea6caae52b9b428c78", null ],
     [ "call", "structASTNode.html#aabcc10a282a6a7b7a83cf7756be69b27", null ],
     [ "call", "structASTNode.html#af868980e63b02c80a53bb70e2c427590", null ],
     [ "callee", "structASTNode.html#ab502117eb0d9375a5a32f406667532dc", null ],

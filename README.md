@@ -939,6 +939,7 @@ Decorate functions and structs to modify compiler behavior.
 | `@host` | Fn | CUDA: Host function (`__host__`). |
 | `@comptime` | Fn | Helper function available for compile-time execution. |
 | `@derive(...)` | Struct | Auto-implement traits. Supports `Debug`, `Eq` (Smart Derive), `Copy`, `Clone`. |
+| `@ctype("type")` | Fn Param | Overrides generated C type for a parameter. |
 | `@<custom>` | Any | Passes generic attributes to C (e.g. `@flatten`, `@alias("name")`). |
 
 #### Custom Attributes

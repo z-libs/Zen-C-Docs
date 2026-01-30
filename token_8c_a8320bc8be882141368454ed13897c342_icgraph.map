@@ -2,7 +2,7 @@
 <area shape="rect" id="Node000001" title="Get the next token without advancing." alt="" coords="2735,1348,2828,1373"/>
 <area shape="rect" id="Node000002" href="$parser__utils_8c.html#ad0bdedbd785ab29dc8c84f1f6336d704" title="Consumes tokens until a semicolon is found." alt="" coords="2496,5,2687,31"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="2777,1334,2774,1073,2761,665,2749,456,2733,270,2711,129,2699,81,2685,52,2674,41,2660,33,2663,28,2677,37,2689,48,2704,79,2717,128,2738,270,2754,456,2766,665,2779,1073,2783,1334"/>
-<area shape="rect" id="Node000004" href="$parser__utils_8c.html#afdcbb8440e2073745c30844aa6bd2aca" title="Parses and converts arguments." alt="" coords="2055,1248,2235,1273"/>
+<area shape="rect" id="Node000004" href="$parser__utils_8c.html#a8ac92e9b2156da9ebfa02cfc6c039a90" title="Parses and converts arguments." alt="" coords="2055,1248,2235,1273"/>
 <area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="2753,1341,2722,1319,2686,1302,2627,1285,2567,1272,2444,1258,2330,1254,2235,1256,2235,1251,2330,1248,2445,1252,2568,1267,2629,1280,2688,1297,2725,1315,2756,1337"/>
 <area shape="rect" id="Node000005" href="$parser__decl_8c.html#a15ebe5b05ccc332791ecf31b8c7fdb93" title="Parses a function definition." alt="" coords="1885,1348,2003,1373"/>
 <area shape="poly" id="edge112_Node000001_Node000005" title=" " alt="" coords="2721,1363,2004,1363,2004,1358,2721,1358"/>

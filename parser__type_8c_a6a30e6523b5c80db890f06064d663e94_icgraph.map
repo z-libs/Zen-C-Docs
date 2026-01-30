@@ -1,7 +1,7 @@
 <map id="parse_type_formal" name="parse_type_formal">
 <area shape="rect" id="Node000001" title="Parses a type formal." alt="" coords="2853,2047,2997,2073"/>
 <area shape="poly" id="edge135_Node000001_Node000001" title=" " alt="" coords="2962,2038,2952,2029,2925,2026,2903,2028,2891,2033,2889,2038,2895,2046,2891,2049,2884,2039,2888,2029,2902,2023,2925,2021,2954,2024,2966,2033"/>
-<area shape="rect" id="Node000002" href="$parser__utils_8c.html#afdcbb8440e2073745c30844aa6bd2aca" title="Parses and converts arguments." alt="" coords="2625,2047,2805,2073"/>
+<area shape="rect" id="Node000002" href="$parser__utils_8c.html#a8ac92e9b2156da9ebfa02cfc6c039a90" title="Parses and converts arguments." alt="" coords="2625,2047,2805,2073"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="2840,2063,2805,2063,2805,2057,2840,2057"/>
 <area shape="rect" id="Node000003" href="$parser__decl_8c.html#a15ebe5b05ccc332791ecf31b8c7fdb93" title="Parses a function definition." alt="" coords="2457,2149,2576,2174"/>
 <area shape="poly" id="edge118_Node000001_Node000003" title=" " alt="" coords="2898,2083,2856,2109,2806,2132,2746,2148,2685,2157,2576,2165,2576,2159,2684,2152,2745,2142,2804,2127,2854,2105,2895,2078"/>

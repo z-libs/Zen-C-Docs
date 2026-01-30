@@ -1,6 +1,6 @@
 <map id="token_strdup" name="token_strdup">
 <area shape="rect" id="Node000001" title="Duplicates a token." alt="" coords="3236,1971,3343,1996"/>
-<area shape="rect" id="Node000002" href="$parser__utils_8c.html#afdcbb8440e2073745c30844aa6bd2aca" title="Parses and converts arguments." alt="" coords="2636,1522,2816,1547"/>
+<area shape="rect" id="Node000002" href="$parser__utils_8c.html#a8ac92e9b2156da9ebfa02cfc6c039a90" title="Parses and converts arguments." alt="" coords="2636,1522,2816,1547"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="3259,1964,2742,1549,2745,1545,3263,1960"/>
 <area shape="rect" id="Node000003" href="$parser__decl_8c.html#a15ebe5b05ccc332791ecf31b8c7fdb93" title="Parses a function definition." alt="" coords="2469,1172,2588,1198"/>
 <area shape="poly" id="edge117_Node000001_Node000003" title=" " alt="" coords="3271,1961,3234,1904,3186,1837,3089,1716,3009,1625,2925,1538,2814,1430,2738,1359,2660,1293,2545,1200,2548,1196,2664,1289,2741,1355,2818,1426,2929,1534,3013,1621,3093,1713,3190,1834,3238,1900,3275,1958"/>

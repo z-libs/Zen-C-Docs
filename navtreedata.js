@@ -182,10 +182,10 @@ var NAVTREEINDEX =
 "annotated.html",
 "codegen_8h.html#a251e0cccd5109927579b23472a7f4bb7",
 "index.html#autotoc_md11",
-"parser_8h.html#a95f66c9c982a908024e38aff53b17e6d",
+"parser_8h.html#a95d9551d4f69ec68950e64432b5e24d3",
 "repl_8h_source.html",
-"structCompilerConfig.html#aa66bc8e421a1ffa40a83a6ff40691542",
-"structZenSymbol.html#a4699aaf94dbe9c7f4798e284b43291e2"
+"structCompilerConfig.html#a8255387d33e0271de7963db9cbc16b88",
+"structZenSymbol.html#a167b7c5c43a115a69b1153d7c804c243"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
