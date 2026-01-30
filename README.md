@@ -1106,6 +1106,7 @@ Zen C includes a standard library (`std`) covering essential functionality.
 | **`std/json.zc`** | JSON parsing and serialization. | [Docs](docs/std/json.md) |
 | **`std/stack.zc`** | LIFO Stack `Stack<T>`. | [Docs](docs/std/stack.md) |
 | **`std/set.zc`** | Generic Hash Set `Set<T>`. | [Docs](docs/std/set.md) |
+| **`std/process.zc`** | Process execution and management. | [Docs](docs/std/process.md) |
 
 ---
 
