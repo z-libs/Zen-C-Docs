@@ -607,7 +607,7 @@ Zen C supports a shorthand for prompting user input using the `?` prefix.
 - `? "Enter age: " (age)`: Prints prompt and scans input into the variable `age`.
     - Format specifiers are automatically inferred based on variable type.
 
-```c
+```zc
 let age: int;
 ? "How old are you? " (age);
 println "You are {age} years old.";
