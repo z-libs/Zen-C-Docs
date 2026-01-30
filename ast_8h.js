@@ -107,6 +107,8 @@ var ast_8h =
       [ "TYPE_FUNCTION", "ast_8h.html#ab4dd8308e08805aedfe646096be0e4e7ae40264fa7bcc3bc4091d70ddd42bd542", null ],
       [ "TYPE_GENERIC", "ast_8h.html#ab4dd8308e08805aedfe646096be0e4e7a4f74931a0777fe02f117e27129382837", null ],
       [ "TYPE_ALIAS", "ast_8h.html#ab4dd8308e08805aedfe646096be0e4e7a56f5fe628d63ce8e31d676c6271ede3c", null ],
+      [ "TYPE_BITINT", "ast_8h.html#ab4dd8308e08805aedfe646096be0e4e7a143debbba63858bd35e66454596ad462", null ],
+      [ "TYPE_UBITINT", "ast_8h.html#ab4dd8308e08805aedfe646096be0e4e7ade6e4fa6325ab0149264efd6896629fe", null ],
       [ "TYPE_UNKNOWN", "ast_8h.html#ab4dd8308e08805aedfe646096be0e4e7a64599dea7071bc28732936e0bfddff3e", null ]
     ] ],
     [ "ast_create", "ast_8h.html#a3e6cca014bf90f3ffa91c0e78fc6883f", null ],

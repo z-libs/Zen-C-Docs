@@ -13,7 +13,7 @@ var searchData=
   ['zc_5fextern_5fc_5fend_10',['ZC_EXTERN_C_END',['../compat_8h.html#afdc3bc4646d2491eeeb5ce5238ffc403',1,'compat.h']]],
   ['zc_5freinterpret_11',['ZC_REINTERPRET',['../compat_8h.html#a39410c2c1f5aab1f68da23fe8ff2ec14',1,'compat.h']]],
   ['zc_5ftcc_5fcompat_5fstr_12',['ZC_TCC_COMPAT_STR',['../compat_8h.html#a7fa49f3af80c625248baf2bff1ef6d58',1,'compat.h']]],
-  ['zen_20c_13',['zen c',['../index.html#autotoc_md97',1,'Using C++ in Zen C'],['../index.html#autotoc_md104',1,'Using Objective-C in Zen C'],['../index.html#autotoc_md0',1,'Zen C'],['../index.html',1,'Zen-C']]],
+  ['zen_20c_13',['zen c',['../index.html#autotoc_md97',1,'Using C++ in Zen C'],['../index.html#autotoc_md105',1,'Using Objective-C in Zen C'],['../index.html#autotoc_md0',1,'Zen C'],['../index.html',1,'Zen-C']]],
   ['zen_5ffacts_2ec_14',['zen_facts.c',['../zen__facts_8c.html',1,'']]],
   ['zen_5ffacts_2eh_15',['zen_facts.h',['../zen__facts_8h.html',1,'']]],
   ['zen_5fget_5ffact_16',['zen_get_fact',['../zen__facts_8h.html#a4c90f6d205ab581c321804e758e1de35',1,'zen_facts.h']]],

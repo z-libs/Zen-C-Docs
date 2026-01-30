@@ -207,6 +207,7 @@ Index</h2>
 <li>C++ Interop</li>
 <li>CUDA Interop</li>
 <li>Objective-C Interop</li>
+<li>C23 Support</li>
 </ul>
 </li>
 <li>Contributing</li>
@@ -268,7 +269,10 @@ Variables (&lt;tt&gt;let&lt;/tt&gt;)</h4>
 <div class="line"> </div>
 <div class="line">let y: const int = 10;  // Read-only (Type qualified)</div>
 <div class="line">// y = 20;              // Error: cannot assign to const</div>
-</div><!-- fragment --><h3><a class="anchor" id="autotoc_md17"></a>
+</div><!-- fragment --><blockquote class="doxtable">
+<p>&zwj;<b><a class="el" href="structType.html" title="Represents a formal type in the type system.">Type</a> Inference</b>: Zen C automatically infers types for initialized variables. It compiles to C23 <code>auto</code> on supported compilers, or GCC's <code>__auto_type</code> extension otherwise. </p>
+</blockquote>
+<h3><a class="anchor" id="autotoc_md17"></a>
 2. Primitive Types</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -292,7 +296,11 @@ Variables (&lt;tt&gt;let&lt;/tt&gt;)</h4>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyLeft"><code>string</code>   </td><td class="markdownTableBodyLeft"><code>char*</code>   </td><td class="markdownTableBodyLeft">C-string (null-terminated)    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyLeft"><code>U0</code>, <code>u0</code>, <code>void</code>   </td><td class="markdownTableBodyLeft"><code>void</code>   </td><td class="markdownTableBodyLeft">Empty type   </td></tr>
+<td class="markdownTableBodyLeft"><code>U0</code>, <code>u0</code>, <code>void</code>   </td><td class="markdownTableBodyLeft"><code>void</code>   </td><td class="markdownTableBodyLeft">Empty type    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyLeft"><code>iN</code> (for example, <code>i256</code>)   </td><td class="markdownTableBodyLeft"><code>_BitInt(N)</code>   </td><td class="markdownTableBodyLeft">Arbitrary bit-width signed integer (C23)    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyLeft"><code>uN</code> (for example, <code>u42</code>)   </td><td class="markdownTableBodyLeft"><code>unsigned _BitInt(N)</code>   </td><td class="markdownTableBodyLeft">Arbitrary bit-width unsigned integer (C23)   </td></tr>
 </table>
 <h3><a class="anchor" id="autotoc_md18"></a>
 3. Aggregate Types</h3>
@@ -1310,11 +1318,18 @@ Standard Library (&lt;tt&gt;std/cuda.zc&lt;/tt&gt;)</h4>
 <p>&zwj;<b>Note:</b> The <code>--cuda</code> flag sets <code>nvcc</code> as the compiler and implies <code>--cpp</code> mode. Requires the NVIDIA CUDA Toolkit. </p>
 </blockquote>
 <h3><a class="anchor" id="autotoc_md103"></a>
+C23 Support</h3>
+<p>Zen C supports modern C23 features when using a compatible backend compiler (GCC 14+, Clang 14+, TCC (partial)).</p>
+<ul>
+<li>**<code>auto</code>**: Zen C automatically maps type inference to standard C23 <code>auto</code> if <code>__STDC_VERSION__ &gt;= 202300L</code>.</li>
+<li>**<code>_BitInt(N)</code>**: Use <code>iN</code> and <code>uN</code> types (e.g., <code>i256</code>, <code>u12</code>, <code>i24</code>) to access C23 arbitrary-width integers.</li>
+</ul>
+<h3><a class="anchor" id="autotoc_md104"></a>
 Objective-C Interop</h3>
 <p>Zen C can compile to Objective-C (<code>.m</code>) using the <code>--objc</code> flag, allowing you to use Objective-C frameworks (like Cocoa/Foundation) and syntax.</p>
 <div class="fragment"><div class="line"># Compile with clang (or gcc/gnustep)</div>
 <div class="line">zc app.zc --objc --cc clang</div>
-</div><!-- fragment --><h4><a class="anchor" id="autotoc_md104"></a>
+</div><!-- fragment --><h4><a class="anchor" id="autotoc_md105"></a>
 Using Objective-C in Zen C</h4>
 <p>Use <code>include</code> for headers and <code>raw</code> blocks for Objective-C syntax (<code>@interface</code>, <code>[...]</code>, <code>@""</code>).</p>
 <div class="fragment"><div class="line">//&gt; macos: framework: Foundation</div>
@@ -1334,12 +1349,12 @@ Using Objective-C in Zen C</h4>
 </div><!-- fragment --><blockquote class="doxtable">
 <p>&zwj;<b>Note:</b> Zen C string interpolation works with Objective-C objects (<code>id</code>) by calling <code>debugDescription</code> or <code>description</code>. </p>
 </blockquote>
-<h2><a class="anchor" id="autotoc_md105"></a>
-&lt;/blockquote&gt;</h2>
 <h2><a class="anchor" id="autotoc_md106"></a>
+&lt;/blockquote&gt;</h2>
+<h2><a class="anchor" id="autotoc_md107"></a>
 Contributing</h2>
 <p>We welcome contributions! Whether it's fixing bugs, adding documentation, or proposing new features.</p>
-<h3><a class="anchor" id="autotoc_md107"></a>
+<h3><a class="anchor" id="autotoc_md108"></a>
 How to Contribute</h3>
 <ol type="1">
 <li><b>Fork the Repository</b>: standard GitHub workflow.</li>
@@ -1352,7 +1367,7 @@ How to Contribute</h3>
 </li>
 <li><b>Submit a Pull Request</b>: Describe your changes clearly.</li>
 </ol>
-<h3><a class="anchor" id="autotoc_md108"></a>
+<h3><a class="anchor" id="autotoc_md109"></a>
 Running Tests</h3>
 <p>The test suite is your best friend.</p>
 <div class="fragment"><div class="line"># Run all tests (GCC)</div>
@@ -1365,7 +1380,7 @@ Running Tests</h3>
 <div class="line">./tests/run_tests.sh --cc clang</div>
 <div class="line">./tests/run_tests.sh --cc zig</div>
 <div class="line">./tests/run_tests.sh --cc tcc</div>
-</div><!-- fragment --><h3><a class="anchor" id="autotoc_md109"></a>
+</div><!-- fragment --><h3><a class="anchor" id="autotoc_md110"></a>
 Extending the Compiler</h3>
 <ul>
 <li><b>Parser</b>: <code>src/parser/</code> - Recursive descent parser.</li>
@@ -1373,7 +1388,7 @@ Extending the Compiler</h3>
 <li><b>Standard Library</b>: <code>std/</code> - Written in Zen C itself.</li>
 </ul>
 <hr  />
-<h2><a class="anchor" id="autotoc_md111"></a>
+<h2><a class="anchor" id="autotoc_md112"></a>
 Attributions</h2>
 <p>This project uses third-party libraries. Full license texts can be found in the <code>LICENSES/</code> directory.</p>
 <ul>

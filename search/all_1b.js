@@ -37,7 +37,7 @@ var searchData=
   ['static_5fstrlen_34',['static_strlen',['../cJSON_8c.html#a5714bac836668a1b9af55465b78531ef',1,'cJSON.c']]],
   ['status_35',['Test Suite Status',['../index.html#autotoc_md94',1,'']]],
   ['std_20cuda_20zc_20tt_36',['Standard Library (&lt;tt&gt;std/cuda.zc&lt;/tt&gt;)',['../index.html#autotoc_md102',1,'']]],
-  ['step_37',['step',['../structASTNode.html#a9b150d070c7459679a59c51ef607512e',1,'ASTNode::step'],['../structASTNode.html#a05d188df4fde613c0c849031def31843',1,'ASTNode::step']]],
+  ['step_37',['step',['../structASTNode.html#a05d188df4fde613c0c849031def31843',1,'ASTNode::step'],['../structASTNode.html#a9b150d070c7459679a59c51ef607512e',1,'ASTNode::step']]],
   ['stmt_38',['stmt',['../structASTNode.html#a6f57ca92f29538f7079b37a5bbb497f3',1,'ASTNode']]],
   ['strct_39',['strct',['../structImplReg.html#aa299a3fe9358df173cc836314d916cc4',1,'ImplReg::strct'],['../structASTNode.html#af44d79b54562a213f3130359b95af70d',1,'ASTNode::strct']]],
   ['stream_40',['stream',['../structASTNode.html#a4c2e07e97810bcf998b1969811c668e3',1,'ASTNode']]],
@@ -58,10 +58,11 @@ var searchData=
   ['sugar_55',['Syntactic Sugar',['../index.html#autotoc_md42',1,'']]],
   ['suggestion_56',['suggestion',['../structASTNode.html#ade2b0eb73d256746e85cecfc9500c402',1,'ASTNode']]],
   ['suite_20status_57',['Test Suite Status',['../index.html#autotoc_md94',1,'']]],
-  ['support_20compatibility_58',['Compiler Support &amp; Compatibility',['../index.html#autotoc_md93',1,'']]],
-  ['symbol_59',['symbol',['../structSelectiveImport.html#aba9fe7ef605db5268b2679e38e6406a6',1,'SelectiveImport']]],
-  ['symbols_60',['symbols',['../structScope.html#a4c50f6b176aa732320b714fff762ed07',1,'Scope']]],
-  ['syntactic_20sugar_61',['Syntactic Sugar',['../index.html#autotoc_md42',1,'']]],
-  ['syntax_62',['Kernel Launch Syntax',['../index.html#autotoc_md100',1,'']]],
-  ['syntax_20mapping_63',['Syntax Mapping',['../index.html#autotoc_md67',1,'']]]
+  ['support_58',['C23 Support',['../index.html#autotoc_md103',1,'']]],
+  ['support_20compatibility_59',['Compiler Support &amp; Compatibility',['../index.html#autotoc_md93',1,'']]],
+  ['symbol_60',['symbol',['../structSelectiveImport.html#aba9fe7ef605db5268b2679e38e6406a6',1,'SelectiveImport']]],
+  ['symbols_61',['symbols',['../structScope.html#a4c50f6b176aa732320b714fff762ed07',1,'Scope']]],
+  ['syntactic_20sugar_62',['Syntactic Sugar',['../index.html#autotoc_md42',1,'']]],
+  ['syntax_63',['Kernel Launch Syntax',['../index.html#autotoc_md100',1,'']]],
+  ['syntax_20mapping_64',['Syntax Mapping',['../index.html#autotoc_md67',1,'']]]
 ];

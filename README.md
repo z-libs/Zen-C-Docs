@@ -110,6 +110,7 @@ Join the discussion, share demos, ask questions, or report bugs in the official 
     - [C++ Interop](#c-interop)
     - [CUDA Interop](#cuda-interop)
     - [Objective-C Interop](#objective-c-interop)
+    - [C23 Support](#c23-support)
 - [Contributing](#contributing)
 - [Attributions](#attributions)
 
@@ -197,6 +198,8 @@ let y: const int = 10;  // Read-only (Type qualified)
 // y = 20;              // Error: cannot assign to const
 ```
 
+> **Type Inference**: Zen C automatically infers types for initialized variables. It compiles to C23 `auto` on supported compilers, or GCC's `__auto_type` extension otherwise.
+
 ### 2. Primitive Types
 
 | Type | C Equivalent | Description |
@@ -211,6 +214,8 @@ let y: const int = 10;  // Read-only (Type qualified)
 | `char` | `char` | Single character |
 | `string` | `char*` | C-string (null-terminated) |
 | `U0`, `u0`, `void` | `void` | Empty type |
+| `iN` (for example, `i256`) | `_BitInt(N)` | Arbitrary bit-width signed integer (C23) |
+| `uN` (for example, `u42`) | `unsigned _BitInt(N)` | Arbitrary bit-width unsigned integer (C23) |
 
 ### 3. Aggregate Types
 
@@ -1336,6 +1341,13 @@ let tid = local_id();
 
 
 > **Note:** The `--cuda` flag sets `nvcc` as the compiler and implies `--cpp` mode. Requires the NVIDIA CUDA Toolkit.
+
+### C23 Support
+
+Zen C supports modern C23 features when using a compatible backend compiler (GCC 14+, Clang 14+, TCC (partial)).
+
+- **`auto`**: Zen C automatically maps type inference to standard C23 `auto` if `__STDC_VERSION__ >= 202300L`.
+- **`_BitInt(N)`**: Use `iN` and `uN` types (e.g., `i256`, `u12`, `i24`) to access C23 arbitrary-width integers.
 
 ### Objective-C Interop
 

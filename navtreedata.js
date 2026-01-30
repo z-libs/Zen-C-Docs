@@ -140,17 +140,18 @@ var NAVTREE =
           [ "Writing CUDA Kernels", "index.html#autotoc_md101", null ],
           [ "Standard Library (<tt>std/cuda.zc</tt>)", "index.html#autotoc_md102", null ]
         ] ],
-        [ "Objective-C Interop", "index.html#autotoc_md103", [
-          [ "Using Objective-C in Zen C", "index.html#autotoc_md104", null ]
+        [ "C23 Support", "index.html#autotoc_md103", null ],
+        [ "Objective-C Interop", "index.html#autotoc_md104", [
+          [ "Using Objective-C in Zen C", "index.html#autotoc_md105", null ]
         ] ]
       ] ],
-      [ "</blockquote>", "index.html#autotoc_md105", null ],
-      [ "Contributing", "index.html#autotoc_md106", [
-        [ "How to Contribute", "index.html#autotoc_md107", null ],
-        [ "Running Tests", "index.html#autotoc_md108", null ],
-        [ "Extending the Compiler", "index.html#autotoc_md109", null ]
+      [ "</blockquote>", "index.html#autotoc_md106", null ],
+      [ "Contributing", "index.html#autotoc_md107", [
+        [ "How to Contribute", "index.html#autotoc_md108", null ],
+        [ "Running Tests", "index.html#autotoc_md109", null ],
+        [ "Extending the Compiler", "index.html#autotoc_md110", null ]
       ] ],
-      [ "Attributions", "index.html#autotoc_md111", null ]
+      [ "Attributions", "index.html#autotoc_md112", null ]
     ] ],
     [ "Data Structures", "annotated.html", [
       [ "Data Structures", "annotated.html", "annotated_dup" ],
@@ -179,12 +180,12 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"codegen_8h.html#a4741aa6235c9282d0fe25c454b6da0b5",
-"index.html#autotoc_md13",
-"parser_8h.html#a982ef300ceed78052bea8dd470a5a0c5",
-"sql_8c.html#a8b35f028f131f0c94c3c77e990f4a711",
-"structCompilerConfig.html#ad36f50628ac034f1cf2e381ac2f89133",
-"structZenSymbol.html#a8c57dbd1debb0fd5e275dd451931f192"
+"codegen_8h.html#a251e0cccd5109927579b23472a7f4bb7",
+"index.html#autotoc_md11",
+"parser_8h.html#a95f66c9c982a908024e38aff53b17e6d",
+"repl_8h_source.html",
+"structCompilerConfig.html#aa66bc8e421a1ffa40a83a6ff40691542",
+"structZenSymbol.html#a4699aaf94dbe9c7f4798e284b43291e2"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
