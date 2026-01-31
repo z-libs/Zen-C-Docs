@@ -7,7 +7,7 @@ var codegen__decl_8c =
     [ "emit_includes_and_aliases", "codegen__decl_8c.html#ae7fac75f7aaf80c0108ef6519234ae20", null ],
     [ "emit_lambda_defs", "codegen__decl_8c.html#a3e234caf735537bbd863708cd7eb7865", null ],
     [ "emit_preamble", "codegen__decl_8c.html#a9615aaced51f77bc22fe6f163cb1768e", null ],
-    [ "emit_protos", "codegen__decl_8c.html#a8ee63a9ace076a3ad4bfa0df3d3b3357", null ],
+    [ "emit_protos", "codegen__decl_8c.html#a5b740b620c6f2f53dbac2608e32040b0", null ],
     [ "emit_struct_defs", "codegen__decl_8c.html#a1dc1a80da53946471765480bdf052ca2", null ],
     [ "emit_tests_and_runner", "codegen__decl_8c.html#a6a9a4e87a970245ab032348b4533aabd", null ],
     [ "emit_trait_defs", "codegen__decl_8c.html#af13d7ebf2e5b430c14e1fb20be93ce07", null ],

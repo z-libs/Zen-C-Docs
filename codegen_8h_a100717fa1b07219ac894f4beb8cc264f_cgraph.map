@@ -1,5 +1,7 @@
 <map id="emit_var_decl_type" name="emit_var_decl_type">
 <area shape="rect" id="Node000001" title=" " alt="" coords="5,5,156,31"/>
-<area shape="rect" id="Node000002" href="$codegen__utils_8c.html#a7bdd3f63bbdd681b56222800fabea95f" title=" " alt="" coords="204,5,304,31"/>
+<area shape="rect" id="Node000002" href="$codegen__utils_8c.html#a06652c4e67e15db928c76581f5259dee" title=" " alt="" coords="204,5,304,31"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,15,190,15,190,21,156,21"/>
+<area shape="rect" id="Node000003" href="$codegen__utils_8c.html#a02fb96f9998ee6a83d5d23504abc50bb" title=" " alt="" coords="352,5,532,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="304,15,338,15,338,21,304,21"/>
 </map>
