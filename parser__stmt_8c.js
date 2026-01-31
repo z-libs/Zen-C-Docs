@@ -23,5 +23,6 @@ var parser__stmt_8c =
     [ "parse_while", "parser__stmt_8c.html#ae0447e01393aca44d208266f004fad23", null ],
     [ "process_printf_sugar", "parser__stmt_8c.html#a40645880f7d89544e4f2031611373e5b", null ],
     [ "run_comptime_block", "parser__stmt_8c.html#a4e4d9a9bf8180c587d585e5ab46f43e2", null ],
-    [ "curr_func_ret", "parser__stmt_8c.html#a863680028ce5111f272cb821fd1bab21", null ]
+    [ "curr_func_ret", "parser__stmt_8c.html#a863680028ce5111f272cb821fd1bab21", null ],
+    [ "g_current_filename", "parser__stmt_8c.html#a16ef8c789f465ec58d7c3d87e3cdbab2", null ]
 ];
