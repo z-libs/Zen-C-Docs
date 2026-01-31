@@ -522,8 +522,15 @@ Loops</h4>
 <div class="line">for i in 0..=10 { ... }     // Inclusive (0 to 10)</div>
 <div class="line">for i in 0..10 step 2 { ... }</div>
 <div class="line"> </div>
-<div class="line">// Iterator (Vec, Array, or custom Iterable)</div>
-<div class="line">for item in collection { ... }</div>
+<div class="line">// Iterator (Vec or custom Iterable)</div>
+<div class="line">for item in vec { ... }</div>
+<div class="line"> </div>
+<div class="line">// Iterate over fixed-size arrays directly</div>
+<div class="line">let arr: int[5] = [1, 2, 3, 4, 5];</div>
+<div class="line">for val in arr {</div>
+<div class="line">    // val is int</div>
+<div class="line">    println &quot;{val}&quot;;</div>
+<div class="line">}</div>
 <div class="line"> </div>
 <div class="line">// While</div>
 <div class="line">while x &lt; 10 { ... }</div>

@@ -494,8 +494,15 @@ for i in 0..<10 { ... }     // Exclusive (Explicit)
 for i in 0..=10 { ... }     // Inclusive (0 to 10)
 for i in 0..10 step 2 { ... }
 
-// Iterator (Vec, Array, or custom Iterable)
-for item in collection { ... }
+// Iterator (Vec or custom Iterable)
+for item in vec { ... }
+
+// Iterate over fixed-size arrays directly
+let arr: int[5] = [1, 2, 3, 4, 5];
+for val in arr {
+    // val is int
+    println "{val}";
+}
 
 // While
 while x < 10 { ... }
