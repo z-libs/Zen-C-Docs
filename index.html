@@ -973,12 +973,13 @@ Named Constraints</h4>
 <div class="fragment"><div class="line">// Syntax: : out(variable) : in(variable) : clobber(reg)</div>
 <div class="line">// Uses {variable} placeholder syntax for readability</div>
 <div class="line"> </div>
-<div class="line">fn add(a: int, b: int) -&gt; int {</div>
+<div class="line">fn add_five(x: int) -&gt; int {</div>
 <div class="line">    let result: int;</div>
 <div class="line">    asm {</div>
-<div class="line">        &quot;add {result}, {a}, {b}&quot;</div>
+<div class="line">        &quot;mov {x}, {result}&quot;</div>
+<div class="line">        &quot;add $5, {result}&quot;</div>
 <div class="line">        : out(result)</div>
-<div class="line">        : in(a), in(b)</div>
+<div class="line">        : in(x)</div>
 <div class="line">        : clobber(&quot;cc&quot;)</div>
 <div class="line">    }</div>
 <div class="line">    return result;</div>
