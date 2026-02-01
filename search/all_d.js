@@ -46,10 +46,11 @@ var searchData=
   ['examples_43',['Examples',['../index.html#autotoc_md75',1,'']]],
   ['exit_5fscope_44',['exit_scope',['../parser_8h.html#a0569582d01081d151cccce55f22eebad',1,'exit_scope(ParserContext *ctx):&#160;parser_utils.c'],['../parser__utils_8c.html#a0569582d01081d151cccce55f22eebad',1,'exit_scope(ParserContext *ctx):&#160;parser_utils.c']]],
   ['expect_45',['expect',['../parser_8h.html#ab6fa1e59803418baae632d08486a5d6c',1,'expect(Lexer *l, TokenType type, const char *msg):&#160;parser_utils.c'],['../parser__utils_8c.html#ab6fa1e59803418baae632d08486a5d6c',1,'expect(Lexer *l, TokenType type, const char *msg):&#160;parser_utils.c']]],
-  ['expr_46',['expr',['../structASTNode.html#ac95e07b534a6d9e87920fdffb42c5b7c',1,'ASTNode']]],
-  ['extending_20the_20compiler_47',['Extending the Compiler',['../index.html#autotoc_md110',1,'']]],
-  ['extern_5fsymbol_5fcount_48',['extern_symbol_count',['../structParserContext.html#aa3c3562b292b2103459b0c546738c6e9',1,'ParserContext']]],
-  ['extern_5fsymbols_49',['extern_symbols',['../structParserContext.html#a36f7d5e064e54358c8d755b63462dca3',1,'ParserContext']]],
-  ['extract_5fcall_5fargs_50',['extract_call_args',['../codegen__utils_8c.html#afd7120015049a4a149f0ff2c680924ae',1,'extract_call_args(const char *args):&#160;codegen_utils.c'],['../codegen_8h.html#afd7120015049a4a149f0ff2c680924ae',1,'extract_call_args(const char *args):&#160;codegen_utils.c']]],
-  ['extract_5fmodule_5fname_51',['extract_module_name',['../parser__utils_8c.html#a95f66c9c982a908024e38aff53b17e6d',1,'extract_module_name(const char *path):&#160;parser_utils.c'],['../parser_8h.html#a95f66c9c982a908024e38aff53b17e6d',1,'extract_module_name(const char *path):&#160;parser_utils.c']]]
+  ['explicit_20ffi_20safe_46',['Method 2: Explicit FFI (Safe)',['../index.html#autotoc_md85',1,'']]],
+  ['expr_47',['expr',['../structASTNode.html#ac95e07b534a6d9e87920fdffb42c5b7c',1,'ASTNode']]],
+  ['extending_20the_20compiler_48',['Extending the Compiler',['../index.html#autotoc_md114',1,'']]],
+  ['extern_5fsymbol_5fcount_49',['extern_symbol_count',['../structParserContext.html#aa3c3562b292b2103459b0c546738c6e9',1,'ParserContext']]],
+  ['extern_5fsymbols_50',['extern_symbols',['../structParserContext.html#a36f7d5e064e54358c8d755b63462dca3',1,'ParserContext']]],
+  ['extract_5fcall_5fargs_51',['extract_call_args',['../codegen__utils_8c.html#afd7120015049a4a149f0ff2c680924ae',1,'extract_call_args(const char *args):&#160;codegen_utils.c'],['../codegen_8h.html#afd7120015049a4a149f0ff2c680924ae',1,'extract_call_args(const char *args):&#160;codegen_utils.c']]],
+  ['extract_5fmodule_5fname_52',['extract_module_name',['../parser__utils_8c.html#a95f66c9c982a908024e38aff53b17e6d',1,'extract_module_name(const char *path):&#160;parser_utils.c'],['../parser_8h.html#a95f66c9c982a908024e38aff53b17e6d',1,'extract_module_name(const char *path):&#160;parser_utils.c']]]
 ];

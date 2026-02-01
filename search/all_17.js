@@ -1,8 +1,8 @@
 var searchData=
 [
   ['object_20oriented_20programming_0',['9. Object Oriented Programming',['../index.html#autotoc_md53',1,'']]],
-  ['objective_20c_20in_20zen_20c_1',['Using Objective-C in Zen C',['../index.html#autotoc_md105',1,'']]],
-  ['objective_20c_20interop_2',['Objective-C Interop',['../index.html#autotoc_md104',1,'']]],
+  ['objective_20c_20in_20zen_20c_1',['Using Objective-C in Zen C',['../index.html#autotoc_md109',1,'']]],
+  ['objective_20c_20interop_2',['Objective-C Interop',['../index.html#autotoc_md108',1,'']]],
   ['offset_3',['offset',['../structprintbuffer.html#a3ed6f9d24d6591047680492a962dc7c9',1,'printbuffer::offset'],['../structparse__buffer.html#af727920073077579942a79de519bb31a',1,'parse_buffer::offset']]],
   ['on_5ferror_4',['on_error',['../structParserContext.html#ad3dcf52a3a76c68602be7393eb78b1dd',1,'ParserContext']]],
   ['op_5',['op',['../structASTNode.html#a9e19d9d53241850463f6a43d5121ec0d',1,'ASTNode']]],

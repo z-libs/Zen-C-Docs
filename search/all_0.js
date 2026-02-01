@@ -7,5 +7,7 @@ var searchData=
   ['13_20attributes_4',['13. Attributes',['../index.html#autotoc_md65',1,'']]],
   ['14_20inline_20assembly_5',['14. Inline Assembly',['../index.html#autotoc_md69',1,'']]],
   ['15_20build_20directives_6',['15. Build Directives',['../index.html#autotoc_md73',1,'']]],
-  ['16_20keywords_7',['16. Keywords',['../index.html#autotoc_md76',1,'']]]
+  ['16_20keywords_7',['16. Keywords',['../index.html#autotoc_md76',1,'']]],
+  ['17_20c_20interoperability_8',['17. C Interoperability',['../index.html#autotoc_md83',1,'']]],
+  ['1_3a_20trusted_20imports_20convenient_9',['Method 1: Trusted Imports (Convenient)',['../index.html#autotoc_md84',1,'']]]
 ];

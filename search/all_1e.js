@@ -8,7 +8,7 @@ var searchData=
   ['value_5',['value',['../structASTNode.html#a720ba69a087fbfc5c954022c47cc3ae7',1,'ASTNode']]],
   ['valuedouble_6',['valuedouble',['../structcJSON.html#a4b21817d0fd2919901abadac73214e7f',1,'cJSON']]],
   ['valueint_7',['valueint',['../structcJSON.html#a369cea49494eb5d4409d532a731a0fbf',1,'cJSON']]],
-  ['valuestring_8',['valuestring',['../cJSON_8h.html#aa770d5dc55a1031ccff9aee4e96acf8f',1,'valuestring:&#160;cJSON.h'],['../structcJSON.html#ad43f8de2571e504c4c5ce0a36990e6e1',1,'cJSON::valuestring']]],
+  ['valuestring_8',['valuestring',['../structcJSON.html#ad43f8de2571e504c4c5ce0a36990e6e1',1,'cJSON::valuestring'],['../cJSON_8h.html#aa770d5dc55a1031ccff9aee4e96acf8f',1,'valuestring:&#160;cJSON.h']]],
   ['var_5fdecl_9',['var_decl',['../structASTNode.html#a9884a69ce695c990531da5ed68d6f20d',1,'ASTNode']]],
   ['var_5fname_10',['var_name',['../structASTNode.html#a96254ebf86f497b91e5132017caa4062',1,'ASTNode']]],
   ['var_5fref_11',['var_ref',['../structASTNode.html#ad6e82ac4822e36c8b38e894d00be51ba',1,'ASTNode']]],
@@ -21,5 +21,6 @@ var searchData=
   ['variants_18',['variants',['../structASTNode.html#a411309b570ff2f6c7ee6fdd148c5fdec',1,'ASTNode']]],
   ['verbose_19',['verbose',['../structCompilerConfig.html#acd3973719689462053128de470d831a1',1,'CompilerConfig']]],
   ['void_20',['void',['../structcJSON__Hooks.html#a42c96b388103ffb466e7335b9fc710c3',1,'cJSON_Hooks::void()'],['../structinternal__hooks.html#a5cc2dd5383da5f20b19e0f27fa59e123',1,'internal_hooks::void()']]],
-  ['volatile_21',['Volatile',['../index.html#autotoc_md71',1,'']]]
+  ['volatile_21',['Volatile',['../index.html#autotoc_md71',1,'']]],
+  ['vs_20tt_20include_20tt_22',['&lt;tt&gt;import&lt;/tt&gt; vs &lt;tt&gt;include&lt;/tt&gt;',['../index.html#autotoc_md86',1,'']]]
 ];

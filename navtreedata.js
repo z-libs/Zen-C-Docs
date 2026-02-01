@@ -117,41 +117,46 @@ var NAVTREE =
           [ "Constants", "index.html#autotoc_md80", null ],
           [ "C Reserved", "index.html#autotoc_md81", null ],
           [ "Operators", "index.html#autotoc_md82", null ]
-        ] ]
-      ] ],
-      [ "Standard Library", "index.html#autotoc_md84", [
-        [ "Key Modules", "index.html#autotoc_md85", null ]
-      ] ],
-      [ "Tooling", "index.html#autotoc_md87", [
-        [ "Language Server (LSP)", "index.html#autotoc_md88", null ],
-        [ "REPL", "index.html#autotoc_md89", [
-          [ "Features", "index.html#autotoc_md90", null ],
-          [ "Commands", "index.html#autotoc_md91", null ]
-        ] ]
-      ] ],
-      [ "Compiler Support & Compatibility", "index.html#autotoc_md93", [
-        [ "Test Suite Status", "index.html#autotoc_md94", null ],
-        [ "Building with Zig", "index.html#autotoc_md95", null ],
-        [ "C++ Interop", "index.html#autotoc_md96", [
-          [ "Using C++ in Zen C", "index.html#autotoc_md97", null ],
-          [ "CUDA Interop", "index.html#autotoc_md98", null ],
-          [ "CUDA-Specific Attributes", "index.html#autotoc_md99", null ],
-          [ "Kernel Launch Syntax", "index.html#autotoc_md100", null ],
-          [ "Writing CUDA Kernels", "index.html#autotoc_md101", null ],
-          [ "Standard Library (<tt>std/cuda.zc</tt>)", "index.html#autotoc_md102", null ]
         ] ],
-        [ "C23 Support", "index.html#autotoc_md103", null ],
-        [ "Objective-C Interop", "index.html#autotoc_md104", [
-          [ "Using Objective-C in Zen C", "index.html#autotoc_md105", null ]
+        [ "17. C Interoperability", "index.html#autotoc_md83", [
+          [ "Method 1: Trusted Imports (Convenient)", "index.html#autotoc_md84", null ],
+          [ "Method 2: Explicit FFI (Safe)", "index.html#autotoc_md85", null ],
+          [ "<tt>import</tt> vs <tt>include</tt>", "index.html#autotoc_md86", null ]
         ] ]
       ] ],
-      [ "</blockquote>", "index.html#autotoc_md106", null ],
-      [ "Contributing", "index.html#autotoc_md107", [
-        [ "How to Contribute", "index.html#autotoc_md108", null ],
-        [ "Running Tests", "index.html#autotoc_md109", null ],
-        [ "Extending the Compiler", "index.html#autotoc_md110", null ]
+      [ "Standard Library", "index.html#autotoc_md88", [
+        [ "Key Modules", "index.html#autotoc_md89", null ]
       ] ],
-      [ "Attributions", "index.html#autotoc_md112", null ]
+      [ "Tooling", "index.html#autotoc_md91", [
+        [ "Language Server (LSP)", "index.html#autotoc_md92", null ],
+        [ "REPL", "index.html#autotoc_md93", [
+          [ "Features", "index.html#autotoc_md94", null ],
+          [ "Commands", "index.html#autotoc_md95", null ]
+        ] ]
+      ] ],
+      [ "Compiler Support & Compatibility", "index.html#autotoc_md97", [
+        [ "Test Suite Status", "index.html#autotoc_md98", null ],
+        [ "Building with Zig", "index.html#autotoc_md99", null ],
+        [ "C++ Interop", "index.html#autotoc_md100", [
+          [ "Using C++ in Zen C", "index.html#autotoc_md101", null ],
+          [ "CUDA Interop", "index.html#autotoc_md102", null ],
+          [ "CUDA-Specific Attributes", "index.html#autotoc_md103", null ],
+          [ "Kernel Launch Syntax", "index.html#autotoc_md104", null ],
+          [ "Writing CUDA Kernels", "index.html#autotoc_md105", null ],
+          [ "Standard Library (<tt>std/cuda.zc</tt>)", "index.html#autotoc_md106", null ]
+        ] ],
+        [ "C23 Support", "index.html#autotoc_md107", null ],
+        [ "Objective-C Interop", "index.html#autotoc_md108", [
+          [ "Using Objective-C in Zen C", "index.html#autotoc_md109", null ]
+        ] ]
+      ] ],
+      [ "</blockquote>", "index.html#autotoc_md110", null ],
+      [ "Contributing", "index.html#autotoc_md111", [
+        [ "How to Contribute", "index.html#autotoc_md112", null ],
+        [ "Running Tests", "index.html#autotoc_md113", null ],
+        [ "Extending the Compiler", "index.html#autotoc_md114", null ]
+      ] ],
+      [ "Attributions", "index.html#autotoc_md116", null ]
     ] ],
     [ "Data Structures", "annotated.html", [
       [ "Data Structures", "annotated.html", "annotated_dup" ],
@@ -180,12 +185,13 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"codegen_8h.html#a251e0cccd5109927579b23472a7f4bb7",
-"index.html#autotoc_md11",
-"parser_8h.html#a95d9551d4f69ec68950e64432b5e24d3",
-"repl_8h.html",
-"structCompilerConfig.html#a6d88e00a94b4f5b418b80cb6533cb3ef",
-"structZenSymbol.html"
+"codegen_8c.html",
+"index.html#autotoc_md102",
+"parser_8h.html#a8345bc13d6aa1b299279d3be3ec6df2a",
+"plugin__manager_8h.html#a7be425961e63d476d0070a391c82851f",
+"structCol.html#a2ced31b5d6861312c8dc100cb10ff406",
+"structZApi.html",
+"zprep__plugin_8h.html#a652a7cb00f16d60a23ed69474f0f9738"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
