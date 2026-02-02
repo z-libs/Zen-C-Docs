@@ -515,9 +515,9 @@ Pattern Matching</h4>
 <div class="line"> </div>
 <div class="line">// Destructuring Enums</div>
 <div class="line">match shape {</div>
-<div class="line">    Shape::Circle(r)   =&gt; println &quot;Radius: {r}&quot;,</div>
-<div class="line">    Shape::Rect(w, h)  =&gt; println &quot;Area: {w*h}&quot;,</div>
-<div class="line">    Shape::Point       =&gt; println &quot;Point&quot;</div>
+<div class="line">    Shape::Circle(r)   =&gt; { println &quot;Radius: {r}&quot; },</div>
+<div class="line">    Shape::Rect(w, h)  =&gt; { println &quot;Area: {w*h}&quot; },</div>
+<div class="line">    Shape::Point       =&gt; { println &quot;Point&quot; },</div>
 <div class="line">}</div>
 </div><!-- fragment --><h4><a class="anchor" id="autotoc_md37"></a>
 Reference Binding</h4>
