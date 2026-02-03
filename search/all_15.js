@@ -31,10 +31,11 @@ var searchData=
   ['method_202_3a_20explicit_20ffi_20safe_28',['Method 2: Explicit FFI (Safe)',['../index.html#autotoc_md85',1,'']]],
   ['methods_29',['methods',['../structASTNode.html#a19dddc6ed8c42b725ef38298c28f60e7',1,'ASTNode::methods'],['../index.html#autotoc_md54',1,'Methods']]],
   ['mode_5fcheck_30',['mode_check',['../structCompilerConfig.html#ac3bdeceb6aceda72098233d3cff2abe1',1,'CompilerConfig']]],
-  ['mode_5frun_31',['mode_run',['../structCompilerConfig.html#aa66bc8e421a1ffa40a83a6ff40691542',1,'CompilerConfig']]],
-  ['mode_5ftranspile_32',['mode_transpile',['../structCompilerConfig.html#a0fa6158e6e6645963d487963eac726e6',1,'CompilerConfig']]],
-  ['module_33',['module',['../structModule.html',1,'Module'],['../parser_8h.html#af3a26d1aa4a6eb8196181f1b6bab5ff7',1,'Module:&#160;parser.h']]],
-  ['modules_34',['modules',['../index.html#autotoc_md89',1,'Key Modules'],['../structParserContext.html#a183187d6df986a529cdacd1fa913440e',1,'ParserContext::modules']]],
-  ['move_20by_20default_35',['Resource Semantics (Move by Default)',['../index.html#autotoc_md51',1,'']]],
-  ['must_5fuse_36',['must_use',['../structASTNode.html#a8a262ac7947d900cd3729778237cb8d6',1,'ASTNode::must_use'],['../structFuncSig.html#a06bb1aee7a868654c9a7bc9930f64257',1,'FuncSig::must_use']]]
+  ['mode_5flsp_31',['mode_lsp',['../structCompilerConfig.html#ad6ca96660e744a1e299bbddfd9502663',1,'CompilerConfig']]],
+  ['mode_5frun_32',['mode_run',['../structCompilerConfig.html#aa66bc8e421a1ffa40a83a6ff40691542',1,'CompilerConfig']]],
+  ['mode_5ftranspile_33',['mode_transpile',['../structCompilerConfig.html#a0fa6158e6e6645963d487963eac726e6',1,'CompilerConfig']]],
+  ['module_34',['module',['../structModule.html',1,'Module'],['../parser_8h.html#af3a26d1aa4a6eb8196181f1b6bab5ff7',1,'Module:&#160;parser.h']]],
+  ['modules_35',['modules',['../index.html#autotoc_md89',1,'Key Modules'],['../structParserContext.html#a183187d6df986a529cdacd1fa913440e',1,'ParserContext::modules']]],
+  ['move_20by_20default_36',['Resource Semantics (Move by Default)',['../index.html#autotoc_md51',1,'']]],
+  ['must_5fuse_37',['must_use',['../structFuncSig.html#a06bb1aee7a868654c9a7bc9930f64257',1,'FuncSig::must_use'],['../structASTNode.html#a8a262ac7947d900cd3729778237cb8d6',1,'ASTNode::must_use']]]
 ];

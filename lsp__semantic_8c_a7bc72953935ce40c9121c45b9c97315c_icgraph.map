@@ -1,0 +1,9 @@
+<map id="lsp_semantic_tokens_full" name="lsp_semantic_tokens_full">
+<area shape="rect" id="Node000001" title=" " alt="" coords="408,5,595,31"/>
+<area shape="rect" id="Node000002" href="$json__rpc_8c.html#ad284af82d5e4c69729c2ee916bf90fc2" title="Handle a raw JSON&#45;RPC request string." alt="" coords="237,5,360,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="394,21,360,21,360,15,394,15"/>
+<area shape="rect" id="Node000003" href="$lsp__main_8c.html#aac1b8e59e20ecd81d23a82f62cdf4e3d" title=" " alt="" coords="108,5,189,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="223,21,189,21,189,15,223,15"/>
+<area shape="rect" id="Node000004" href="$main_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,5,60,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="94,21,60,21,60,15,94,15"/>
+</map>

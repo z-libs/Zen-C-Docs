@@ -10,5 +10,6 @@ var lsp__analysis_8c =
     [ "lsp_hover", "lsp__analysis_8c.html#af99e842d17af3ac5ba753d8b0ebd39ee", null ],
     [ "lsp_on_error", "lsp__analysis_8c.html#a7f946fb53b3732dd7e026e9939d37bc0", null ],
     [ "lsp_references", "lsp__analysis_8c.html#a86ea95155a6ff4204383d179e3f27abf", null ],
+    [ "lsp_rename", "lsp__analysis_8c.html#a818c0b0ec37e88491b1d55d3a8c34fa9", null ],
     [ "lsp_signature_help", "lsp__analysis_8c.html#a77d427689d8dc3dbe49399714ba90c57", null ]
 ];

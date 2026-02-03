@@ -9,5 +9,6 @@ var dir_46354631072136ba50f9f8bd6a895813 =
     [ "lsp_index.h", "lsp__index_8h.html", "lsp__index_8h" ],
     [ "lsp_main.c", "lsp__main_8c.html", "lsp__main_8c" ],
     [ "lsp_project.c", "lsp__project_8c.html", "lsp__project_8c" ],
-    [ "lsp_project.h", "lsp__project_8h.html", "lsp__project_8h" ]
+    [ "lsp_project.h", "lsp__project_8h.html", "lsp__project_8h" ],
+    [ "lsp_semantic.c", "lsp__semantic_8c.html", "lsp__semantic_8c" ]
 ];

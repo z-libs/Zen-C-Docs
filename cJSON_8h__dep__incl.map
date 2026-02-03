@@ -1,9 +1,11 @@
 <map id="src/lsp/cJSON.h" name="src/lsp/cJSON.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="156,5,275,31"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="241,5,360,31"/>
 <area shape="rect" id="Node000002" href="$cJSON_8c.html" title=" " alt="" coords="5,79,124,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,39,90,81,88,76,178,34"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="250,37,104,81,102,76,249,32"/>
 <area shape="rect" id="Node000003" href="$json__rpc_8c.html" title=" " alt="" coords="149,79,282,104"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="218,44,218,79,213,79,213,44"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="278,41,231,80,228,76,275,37"/>
 <area shape="rect" id="Node000004" href="$lsp__analysis_8c.html" title=" " alt="" coords="307,79,465,104"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="257,33,359,76,357,81,254,38"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="326,37,374,76,370,80,323,41"/>
+<area shape="rect" id="Node000005" href="$lsp__semantic_8c.html" title=" " alt="" coords="490,79,655,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="358,32,529,76,528,81,357,37"/>
 </map>

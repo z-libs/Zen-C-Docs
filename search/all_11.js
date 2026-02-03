@@ -66,7 +66,7 @@ var searchData=
   ['is_5fextern_5fsymbol_63',['is_extern_symbol',['../parser__utils_8c.html#a10b744c3be20036894711e5bc15e248d',1,'is_extern_symbol(ParserContext *ctx, const char *name):&#160;parser_utils.c'],['../parser_8h.html#a10b744c3be20036894711e5bc15e248d',1,'is_extern_symbol(ParserContext *ctx, const char *name):&#160;parser_utils.c']]],
   ['is_5ffault_5ftolerant_64',['is_fault_tolerant',['../structParserContext.html#a3e150f924cf57a28591700fb66b974ae',1,'ParserContext']]],
   ['is_5ffile_5fimported_65',['is_file_imported',['../parser__utils_8c.html#a9149d6212f2fb516aabcc904f00bd4e3',1,'is_file_imported(ParserContext *ctx, const char *p):&#160;parser_utils.c'],['../parser_8h.html#a111ce6d74b8936e8a2a140aae394273f',1,'is_file_imported(ParserContext *ctx, const char *path):&#160;parser_utils.c']]],
-  ['is_5ffloat_5ftype_66',['is_float_type',['../ast_8c.html#af19f435b43e4182fd648a2d19fa51ded',1,'is_float_type(Type *t):&#160;ast.c'],['../constants_8h.html#a7354220acfbb13727d11ec9aab833d4f',1,'IS_FLOAT_TYPE:&#160;constants.h']]],
+  ['is_5ffloat_5ftype_66',['is_float_type',['../constants_8h.html#a7354220acfbb13727d11ec9aab833d4f',1,'IS_FLOAT_TYPE:&#160;constants.h'],['../ast_8c.html#af19f435b43e4182fd648a2d19fa51ded',1,'is_float_type(Type *t):&#160;ast.c']]],
   ['is_5ffreestanding_67',['is_freestanding',['../structCompilerConfig.html#a0ba32a71202b261dcdea5b7869f8852c',1,'CompilerConfig']]],
   ['is_5fguard_68',['is_guard',['../structASTNode.html#a149b90c8bdd7bddb791533ed4f6f5759',1,'ASTNode']]],
   ['is_5fident_5fchar_69',['is_ident_char',['../parser__utils_8c.html#a2f8ff8e493e5dbbf6cca8d5e5972ae25',1,'parser_utils.c']]],

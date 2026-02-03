@@ -107,14 +107,11 @@ Collaboration diagram for ProjectFile:</div>
 <map name="aProjectFile_coll__map" id="aProjectFile_coll__map">
 <area shape="rect" title="Represents a tracked file in the LSP project." alt="" coords="123,571,214,596"/>
 <area shape="poly" title=" " alt="" coords="228,574,237,577,241,584,232,592,214,594,214,589,230,587,235,583,234,581,227,579"/>
-<area shape="rect" href="structLSPIndex.html" title="Index of a single file." alt="" coords="128,483,209,508"/>
-<area shape="poly" title=" " alt="" coords="171,522,171,570,166,570,166,522"/>
-<area shape="rect" href="structLSPRange.html" title="A range in the source code mapping to semantic info." alt="" coords="125,380,212,405"/>
-<area shape="poly" title=" " alt="" coords="171,419,171,483,166,483,166,419"/>
-<area shape="poly" title=" " alt="" coords="226,383,235,386,239,393,230,401,212,403,212,398,228,396,233,392,232,391,225,388"/>
 <area shape="rect" href="structASTNode.html" title=" " alt="" coords="128,224,209,249"/>
-<area shape="poly" title=" " alt="" coords="171,263,171,380,166,380,166,263"/>
+<area shape="poly" title=" " alt="" coords="171,263,171,571,166,571,166,263"/>
 <area shape="poly" title=" " alt="" coords="195,215,209,213,222,216,232,224,236,237,231,252,217,260,199,259,182,252,184,247,200,254,216,254,227,249,231,237,228,226,220,220,209,218,195,221"/>
+<area shape="rect" href="structLSPRange.html" title="A range in the source code mapping to semantic info." alt="" coords="185,380,272,405"/>
+<area shape="poly" title=" " alt="" coords="181,261,227,379,222,381,176,263"/>
 <area shape="rect" href="structType.html" title="Represents a formal type in the type system." alt="" coords="5,7,57,33"/>
 <area shape="poly" title=" " alt="" coords="41,45,57,86,79,131,120,183,158,222,154,226,116,187,74,133,52,89,36,47"/>
 <area shape="poly" title=" " alt="" coords="67,4,79,9,84,20,81,29,73,35,53,35,53,30,72,30,77,26,79,20,75,12,66,9"/>
@@ -123,6 +120,10 @@ Collaboration diagram for ProjectFile:</div>
 <area shape="rect" href="structAttribute.html" title=" " alt="" coords="269,7,348,33"/>
 <area shape="poly" title=" " alt="" coords="309,47,300,89,282,133,260,163,235,189,188,226,184,222,231,185,256,159,277,131,295,87,303,46"/>
 <area shape="poly" title=" " alt="" coords="350,3,367,8,375,20,371,29,362,35,336,35,336,30,360,30,367,26,369,20,364,12,349,9"/>
+<area shape="rect" href="structLSPIndex.html" title="Index of a single file." alt="" coords="187,483,268,508"/>
+<area shape="poly" title=" " alt="" coords="214,521,179,572,175,569,209,518"/>
+<area shape="poly" title=" " alt="" coords="231,419,230,483,225,483,226,419"/>
+<area shape="poly" title=" " alt="" coords="286,383,295,386,299,393,290,401,272,403,272,398,288,396,293,392,292,391,285,388"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -137,6 +138,9 @@ Data Fields</h2></td></tr>
 <tr class="memitem:a43e3f82303c4bfe324a62d7ce7167922" id="r_a43e3f82303c4bfe324a62d7ce7167922"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProjectFile.html#a43e3f82303c4bfe324a62d7ce7167922">source</a></td></tr>
 <tr class="memdesc:a43e3f82303c4bfe324a62d7ce7167922"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cached source content (in-memory).  <br /></td></tr>
 <tr class="separator:a43e3f82303c4bfe324a62d7ce7167922"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ee66aff161cf20c6a937edabbf67dd9" id="r_a3ee66aff161cf20c6a937edabbf67dd9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structASTNode.html">ASTNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProjectFile.html#a3ee66aff161cf20c6a937edabbf67dd9">ast</a></td></tr>
+<tr class="memdesc:a3ee66aff161cf20c6a937edabbf67dd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cached AST for semantic analysis.  <br /></td></tr>
+<tr class="separator:a3ee66aff161cf20c6a937edabbf67dd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c3d27dab149d70a894eec868ae24967" id="r_a7c3d27dab149d70a894eec868ae24967"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structLSPIndex.html">LSPIndex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProjectFile.html#a7c3d27dab149d70a894eec868ae24967">index</a></td></tr>
 <tr class="memdesc:a7c3d27dab149d70a894eec868ae24967"><td class="mdescLeft">&#160;</td><td class="mdescRight">File-specific symbol index.  <br /></td></tr>
 <tr class="separator:a7c3d27dab149d70a894eec868ae24967"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -146,6 +150,22 @@ Data Fields</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Represents a tracked file in the LSP project. </p>
 </div><h2 class="groupheader">Field Documentation</h2>
+<a id="a3ee66aff161cf20c6a937edabbf67dd9" name="a3ee66aff161cf20c6a937edabbf67dd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ee66aff161cf20c6a937edabbf67dd9">&#9670;&#160;</a></span>ast</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structASTNode.html">ASTNode</a>* ProjectFile::ast</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Cached AST for semantic analysis. </p>
+
+</div>
+</div>
 <a id="a7c3d27dab149d70a894eec868ae24967" name="a7c3d27dab149d70a894eec868ae24967"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7c3d27dab149d70a894eec868ae24967">&#9670;&#160;</a></span>index</h2>
 

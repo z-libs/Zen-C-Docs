@@ -11,5 +11,6 @@ var lsp__project_8h =
     [ "lsp_project_get_file", "lsp__project_8h.html#a836c8aa4ff60d338a94923ce82f61cf8", null ],
     [ "lsp_project_init", "lsp__project_8h.html#a62196fdb96de63db4eda99dbbb440c95", null ],
     [ "lsp_project_update_file", "lsp__project_8h.html#a14f0d7a1c6d0a9077e908ae80b3cc633", null ],
+    [ "lsp_semantic_tokens_full", "lsp__project_8h.html#a7bc72953935ce40c9121c45b9c97315c", null ],
     [ "g_project", "lsp__project_8h.html#a0a4955c9686b0a4650ae0b915b46a49e", null ]
 ];

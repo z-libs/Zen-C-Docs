@@ -7,5 +7,6 @@ var json__rpc_8c =
     [ "lsp_goto_definition", "json__rpc_8c.html#ac3dcf8ab7f8b756f52fc20d8c679a540", null ],
     [ "lsp_hover", "json__rpc_8c.html#af99e842d17af3ac5ba753d8b0ebd39ee", null ],
     [ "lsp_references", "json__rpc_8c.html#a86ea95155a6ff4204383d179e3f27abf", null ],
+    [ "lsp_rename", "json__rpc_8c.html#a818c0b0ec37e88491b1d55d3a8c34fa9", null ],
     [ "lsp_signature_help", "json__rpc_8c.html#a77d427689d8dc3dbe49399714ba90c57", null ]
 ];
