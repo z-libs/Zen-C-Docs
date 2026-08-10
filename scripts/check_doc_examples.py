@@ -87,7 +87,7 @@ def compile_code(code, file_hint="example"):
             stderr = result.stderr.decode('utf-8', errors='replace')
             if result.returncode != 0:
                 if "error:" in stderr:
-                    return (False, stderr[:500])
+                    return (False, stderr[:2000])
                 return (True, "")
             return (True, "")
         except subprocess.TimeoutExpired:
