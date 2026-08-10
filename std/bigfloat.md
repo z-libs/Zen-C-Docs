@@ -76,5 +76,6 @@ struct BigFloat {
 
 | Method | Signature | Description |
 | :--- | :--- | :--- |
-| **free_mem** | `free_mem(self)` | Manually frees the underlying `BigInt` memory. |
-| **Trait** | `impl Drop for BigFloat` | Automatically calls `free_mem()` when out of scope. |
+| **free** | `free(self)` | Manually frees the underlying `BigInt` memory. |
+| **free_mem** | `free_mem(self)` | Deprecated alias for `free`. |
+| **Trait** | `impl Drop for BigFloat` | Automatically calls `free()` when out of scope. |

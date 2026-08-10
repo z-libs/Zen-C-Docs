@@ -31,7 +31,7 @@ fn main() {
 
 ```zc
 struct BigInt {
-    digits: Vec<u8>*;
+    digits: Vec<u8>;
 }
 ```
 
@@ -81,5 +81,6 @@ struct BigInt {
 
 | Method | Signature | Description |
 | :--- | :--- | :--- |
-| **free_mem** | `free_mem(self)` | Manually frees the underlying `Vec` and `BigInt` storage. |
-| **Trait** | `impl Drop for BigInt` | Automatically calls `free_mem()` when out of scope. |
+| **free** | `free(self)` | Manually frees the underlying `Vec` and `BigInt` storage. |
+| **free_mem** | `free_mem(self)` | Deprecated alias for `free`. |
+| **Trait** | `impl Drop for BigInt` | Automatically calls `free()` when out of scope. |
