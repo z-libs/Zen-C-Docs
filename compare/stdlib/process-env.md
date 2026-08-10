@@ -4,6 +4,7 @@ weight = 55
 +++
 
 # Process & Env vs system()/getenv()
+<!-- zc-check: skip-file: prints environment variables (machine-specific) -->
 
 Process execution, environment variables, and system info vs C
 system(), popen(), getenv().
