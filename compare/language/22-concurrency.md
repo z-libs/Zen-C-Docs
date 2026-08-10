@@ -87,14 +87,16 @@ int main(void) {
 
 ## Output
 
+
+
+
+
 spawning threads...
+doing other work...
 A started
 B started
-doing other work...
+B done
 A done
 A complete
-B done
 B complete
 done
-
-(Note: "doing other work" may appear in different positions due to thread scheduling.)

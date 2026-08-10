@@ -316,6 +316,7 @@ Use `${VAR}` syntax to expand environment variables in your directives.
 
 #### Examples
 
+<!-- zc-check: skip: build-directive example requiring external GTK/raylib headers -->
 ```zc
 //> include: ./include
 //> lib: ./libs

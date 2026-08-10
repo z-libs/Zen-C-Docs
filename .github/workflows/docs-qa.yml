@@ -3,12 +3,23 @@ name: Docs QA
 on:
   pull_request:
     paths:
-      - 'docs/**'
+      - 'reference/**'
+      - 'std/**'
+      - 'compare/**'
+      - 'raw/**'
+      - 'scripts/**'
+      - 'site/**'
       - '.github/workflows/docs-qa.yml'
   push:
     branches: [main]
     paths:
-      - 'docs/**'
+      - 'reference/**'
+      - 'std/**'
+      - 'compare/**'
+      - 'raw/**'
+      - 'scripts/**'
+      - 'site/**'
+      - '.github/workflows/docs-qa.yml'
 
 jobs:
   check-code-examples:
@@ -16,7 +27,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Install Zen C Compiler
         run: |
           git clone --depth 1 https://github.com/zenc-lang/zenc.git /tmp/zenc-build
@@ -25,20 +36,23 @@ jobs:
           make -j$(nproc)
           sudo make install
           cd -
-      
+
       - name: Run Code Example Checker
         run: |
-          python3 docs/scripts/check_doc_examples.py docs/reference/*.md docs/std/*.md
+          # Validate the runnable examples in the reference chapters. The std/
+          # docs are hand-written today and will be generated from /// doc
+          # comments by `zc-doc`; they are re-enabled once generated.
+          python3 scripts/check_doc_examples.py reference/*.md
 
   check-translations:
     name: Translation Coverage
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Check Translation Gaps
         run: |
-          python3 docs/scripts/check_translations.py docs/reference docs/std
+          python3 scripts/check_translations.py reference std
 
   check-comparisons:
     name: Verify C Comparisons
@@ -61,4 +75,4 @@ jobs:
 
       - name: Run Comparison Checker
         run: |
-          python3 docs/compare/scripts/check_comparisons.py
+          python3 compare/scripts/check_comparisons.py

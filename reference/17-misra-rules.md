@@ -4,6 +4,7 @@ weight = 17
 +++
 
 # 17. MISRA Rules
+<!-- zc-check: skip-file: this chapter's code blocks are intentional error/warning demos -->
 
 Zen C includes a **MISRA C:2012 compliance mode** activated with the `--misra` flag.
 In addition to standard MISRA checks, the compiler enforces several **Zen-specific rules**

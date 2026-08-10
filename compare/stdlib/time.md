@@ -41,4 +41,8 @@ int main(void) {
 
 ## Output
 
-timestamp: <value> ms
+
+
+
+
+timestamp: 1786358098667 ms

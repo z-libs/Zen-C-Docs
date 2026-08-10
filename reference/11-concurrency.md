@@ -15,7 +15,7 @@ async fn fetch_data() -> string {
 }
 
 fn main() {
-    let future = fetch_data();
-    let result = await future;
+    let result = await fetch_data();
+    println "{result}";
 }
 ```

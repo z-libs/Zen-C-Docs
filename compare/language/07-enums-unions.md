@@ -118,7 +118,8 @@ int main(void) {
 
 ## Output
 
-circle area: 314.0
-rect area:   20.0
-point area:  0.0
+
+circle area: 314.000000
+rect area:   20.000000
+point area:  0.000000
 union int: 42

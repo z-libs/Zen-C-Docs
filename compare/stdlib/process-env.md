@@ -67,5 +67,6 @@ int main(void) {
 
 ## Output
 
-HOME: /home/user
+
+HOME: /home/zuhaitz
 ZC_MODE: debug

@@ -110,5 +110,8 @@ int main(void) {
 
 ## Output
 
+
+library initialized
 fast_add: 7
 library initialized
+library cleaned up

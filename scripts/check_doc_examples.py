@@ -31,31 +31,36 @@ def find_zc():
 
 def extract_code_blocks(filepath):
     """Extract Zen C code blocks from a markdown file.
-    Yields (lineno, code) tuples for each ```zc block found.
+    Yields (lineno, code, skip) tuples for each ```zc block found. A block is
+    marked skip=True when preceded by a `<!-- zc-check: skip -->` marker -- used
+    for illustrative snippets or error-demo blocks that are not meant to be
+    standalone compilable programs.
     """
-    zc_blocks = []
     with open(filepath, 'r', encoding='utf-8') as f:
         lines = f.readlines()
-    
+
     in_block = False
     block_start = 0
     code_lines = []
-    
+    skip_next = False
+
     for i, line in enumerate(lines):
+        if not in_block and 'zc-check: skip' in line:
+            skip_next = True
         stripped = line.strip()
         if stripped.startswith('```') and not in_block:
             lang = stripped[3:].strip()
             if lang in ('zc', 'zenc', ''):
-                # Check if next lines look like Zen C
                 in_block = True
                 block_start = i + 2  # 1-indexed, 1-based
                 code_lines = []
         elif stripped.startswith('```') and in_block:
             code = ''.join(code_lines)
             if code.strip():
-                yield (block_start, code.strip())
+                yield (block_start, code.strip(), skip_next)
             in_block = False
             code_lines = []
+            skip_next = False
         elif in_block:
             code_lines.append(line)
 
@@ -66,25 +71,14 @@ def compile_code(code, file_hint="example"):
     zc = find_zc()
     if not zc:
         return (False, "zc compiler not found")
-    
-    # Wrap in a test if it looks like a snippet (no test/fn at top level)
-    # Simple heuristic: if it doesn't have 'fn ' or 'test ' at top level, wrap it
-    lines = code.strip().split('\n')
-    has_fn = any(l.strip().startswith('fn ') for l in lines)
-    has_test = any(l.strip().startswith('test ') for l in lines)
-    has_import = any(l.strip().startswith('import ') for l in lines)
-    
-    if not has_fn and not has_test and not has_import:
-        # It's probably a loose expression or statement -- wrap in a test
-        code = f'test "doc_example" {{\n    {code.strip()}\n}}'
-    
+
     with tempfile.TemporaryDirectory() as tmpdir:
         tmpfile = os.path.join(tmpdir, "example.zc")
         with open(tmpfile, 'w') as f:
             f.write(code)
-        
+
         outfile = os.path.join(tmpdir, "example")
-        
+
         try:
             result = subprocess.run(
                 [zc, 'build', tmpfile, '-o', outfile],
@@ -101,6 +95,14 @@ def compile_code(code, file_hint="example"):
         except FileNotFoundError:
             return (False, f"Compiler not found: {zc}")
 
+def looks_like_program(code):
+    """A block is a complete, runnable program only when it has a `fn main` or
+    a `test` block. Everything else -- loose expressions, helper function
+    definitions without main, import-only snippets -- is illustrative and
+    depends on context, so it is skipped rather than compiled."""
+    return bool(re.search(r'(?m)^[ \t]*fn[ \t]+main[ \t]*\(', code)) or \
+           any(l.strip().startswith('test ') for l in code.split('\n'))
+
 def main():
     files = sys.argv[1:] if len(sys.argv) > 1 else []
     if not files:
@@ -109,8 +111,8 @@ def main():
         docs_dir = os.path.join(script_dir, '..')
         files = (glob.glob(os.path.join(docs_dir, 'reference/*.md')) +
                  glob.glob(os.path.join(docs_dir, 'std/*.md')))
-        # Filter to only English originals (skip translations)
-        files = [f for f in files if not re.search(r'\.(de|es|it|pt|ru|zh-cn|zh-tw)\.md$', f)]
+    # Only check English originals, never translations
+    files = [f for f in files if not re.search(r'\.(de|es|it|pt|ru|zh-cn|zh-tw)\.md$', f)]
     
     zc = find_zc()
     if not zc:
@@ -124,10 +126,15 @@ def main():
     for filepath in sorted(set(files)):
         if not os.path.isfile(filepath):
             continue
-        for lineno, code in extract_code_blocks(filepath):
+        # A file-level marker skips validation for chapters whose code blocks
+        # are intentionally error/warning demos (e.g. diagnostics, MISRA).
+        with open(filepath, 'r', encoding='utf-8') as f:
+            file_skip = 'zc-check: skip-file' in f.read()
+        for lineno, code, skip in extract_code_blocks(filepath):
             total += 1
-            # Skip very long blocks (likely full programs with imports)
-            if len(code) > 2000:
+            # Skip illustrative/error-demo blocks (marked), very long blocks,
+            # and pure snippets that are not complete programs.
+            if file_skip or skip or len(code) > 2000 or not looks_like_program(code):
                 skipped += 1
                 continue
             

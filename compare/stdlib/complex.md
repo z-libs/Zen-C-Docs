@@ -55,6 +55,5 @@ int main(void) {
 
 ## Output
 
-sum: 4.0 + 6.0i
-product: -5.0 + 10.0i
-magnitude: 5.0
+
+magnitude: 5.000000

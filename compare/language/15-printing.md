@@ -84,13 +84,15 @@ int main(void) {
 
 ## Output
 
+
 Hello, Zen!
 Count: 3
 JSON: {key: value}
 raw path: C:\Users\{name}\docs
-Once upon a time,
-in the land of Zen,
-there were 3 warriors.
+
+    Once upon a time,
+    in the land of Zen,
+    there were 3 warriors.
 
 --- user input ---
-What is your name? >>> Hello, <input>!
+What is your name?

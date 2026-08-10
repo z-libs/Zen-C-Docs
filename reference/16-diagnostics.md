@@ -4,6 +4,7 @@ weight = 16
 +++
 
 # 16. Diagnostic System {#16-diagnostic-system}
+<!-- zc-check: skip-file: this chapter's code blocks are intentional error/warning demos -->
 
 
 Zen C provides a categorized diagnostic system that allows for granular control over compiler warnings. This helps maintain high code quality standards while reducing friction when interacting with external C code.
