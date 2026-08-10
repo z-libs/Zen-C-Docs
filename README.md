@@ -12,6 +12,7 @@ The core of Zen C's power lies in its standard library. Detailed documentation f
 | **[vec](std/vec.md)** | Dynamic array implementation. |
 | **[string](std/string.md)** | Modern, safe string handling. |
 | **[net](std/net.md)** | High-level networking (TCP, HTTP). |
+| **[cuda](std/cuda.md)** | First-class GPU programming support. |
 | **[thread](std/thread.md)** | Concurrency and parallelism. |
 | **[json](std/json.md)** | Built-in JSON serialization/deserialization. |
 

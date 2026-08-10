@@ -11,6 +11,7 @@ La Biblioteca Estándar de Zen C proporciona una colección completa de módulos
 | **[Bits](./bits.md)** | Operaciones bit a bit de bajo nivel (`rotl`, `rotr`). |
 | **[Complex](./complex.md)** | Operaciones con números complejos. |
 | **[Crypto](./crypto.md)** | Primitivas criptográficas (SHA1). |
+| **[CUDA](./cuda.md)** | Operaciones e interoperabilidad de CUDA GPGPU. |
 | **[Encoding](./encoding.md)** | Utilidades de codificación de datos (Base64). |
 | **[Env](./env.md)** | Acceso a las variables de entorno del proceso. |
 | **[FS](./fs.md)** | E/S del sistema de archivos y operaciones de directorio. |

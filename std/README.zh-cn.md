@@ -11,6 +11,7 @@ Zen C 标准库提供了一系列全面的模块和类型，用于处理常见�
 | **[Bits](./bits.md)** | 低层位运算 (`rotl`, `rotr`)。 |
 | **[Complex](./complex.md)** | 复数运算。 |
 | **[Crypto](./crypto.md)** | 加密原语 (SHA1)。 |
+| **[CUDA](./cuda.md)** | CUDA GPGPU 操作及互操作性。 |
 | **[Encoding](./encoding.md)** | 数据编码工具 (Base64)。 |
 | **[Env](./env.md)** | 进程环境变量访问。 |
 | **[FS](./fs.md)** | 文件系统 I/O 及目录操作。 |
