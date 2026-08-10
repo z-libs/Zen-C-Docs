@@ -54,6 +54,8 @@ struct Result<T> {
 | :--- | :--- | :--- |
 | **is_ok** | `is_ok(self) -> bool` | Returns `true` if the result is `Ok`. |
 | **is_err** | `is_err(self) -> bool` | Returns `true` if the result is `Err`. |
+| **is_ok_and** | `is_ok_and(self, f: fn(T) -> bool) -> bool` | Returns `true` when `Ok` and `f` accepts the contained value. |
+| **is_err_and** | `is_err_and(self, f: fn(char*) -> bool) -> bool` | Returns `true` when `Err` and `f` accepts the error message. |
 
 ### Extraction
 
@@ -62,6 +64,17 @@ struct Result<T> {
 | **unwrap** | `unwrap(self) -> T` | Returns the ok value. Panics with the error message if `Err`. |
 | **unwrap_ref** | `unwrap_ref(self) -> T*` | Returns a pointer to the ok value. Panics if `Err`. |
 | **expect** | `expect(self, msg: char*) -> T` | Returns the value or panics with `msg` and the error message if `Err`. |
+| **unwrap_or** | `unwrap_or(self, def: T) -> T` | Returns the ok value or `def` when `Err`. |
+| **unwrap_or_else** | `unwrap_or_else(self, f: fn() -> T) -> T` | Returns the ok value or the result of `f` when `Err`. |
+| **expect_err** | `expect_err(self, msg: char*) -> char*` | Returns the error message, or panics with `msg` when `Ok`. |
+
+### Conversion
+
+| Method | Signature | Description |
+| :--- | :--- | :--- |
+| **ok** | `ok(self) -> Option<T>` | Converts to an `Option`, mapping `Ok` to `Some` and discarding the error. |
+| **err** | `err(self) -> Option<char*>` | Converts to an `Option` holding the error message, when `Err`. |
+| **map_err** | `map_err(self, f: fn(char*) -> char*) -> Result<T>` | Applies `f` to the error message, leaving the value untouched. |
 
 ## Memory Management
 

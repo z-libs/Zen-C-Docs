@@ -48,7 +48,7 @@ fn main() {
 
 | Method | Signature | Description |
 | :--- | :--- | :--- |
-| **format** | `format(fmt: char*, ...) -> char*` | Formats into a internal static buffer. **Warning**: Not thread-safe. |
+| **format** | `format(fmt: char*, ...) -> char*` | Formats into a thread-local buffer. A ring of buffers makes nested `format()` calls safe; each returned pointer stays valid until 4 further `format()` calls on the same thread. |
 | **format_into** | `format_into(buf: char*, size: usize, fmt: char*, ...) -> int` | Formats into a user-provided buffer of specific size. |
 | **format_new** | `format_new(fmt: char*, ...) -> char*` | Formats into a new heap-allocated buffer. Caller must free. |
 

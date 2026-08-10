@@ -101,6 +101,24 @@ Zen-C supports operator overloading. `Vec<T>` implements the following:
 | **iterator** | `iterator(self) -> VecIter<T>` | Returns an iterator yielding copies. Used by `for x in v`. |
 | **iter_ref** | `iter_ref(self) -> VecIterRef<T>` | Returns an iterator yielding pointers. Used by `for x in &v` (sugar) or `for x in v.iter_ref()`. Allows in-place mod. |
 
+### Iterator Combinators
+
+The `VecIter<T>` returned by `iterator()` drains the vector as it is consumed. The methods below operate on the remaining items.
+
+| Method | Signature | Description |
+| :--- | :--- | :--- |
+| **next** | `next(self) -> Option<T>` | Yields the next item, or `None` when exhausted. |
+| **count** | `count(self) -> usize` | Number of items still to be yielded. |
+| **collect** | `collect(self) -> Vec<T>` | Drains the remaining items into a new `Vec`. |
+| **forEach** | `forEach(self, f: fn(T))` | Calls `f` for each remaining item. |
+| **find** | `find(self, pred: fn(T) -> bool) -> Option<T>` | Returns the first item accepted by `pred`. |
+| **any** | `any(self, pred: fn(T) -> bool) -> bool` | Returns `true` when `pred` accepts at least one remaining item. |
+| **all** | `all(self, pred: fn(T) -> bool) -> bool` | Returns `true` when `pred` accepts every remaining item. |
+| **filter** | `filter(self, pred: fn(T) -> bool) -> Vec<T>` | Collects the remaining items accepted by `pred` into a new `Vec`. |
+| **fold** | `fold(self, init: T, f: fn(T, T) -> T) -> T` | Reduces the remaining items with `f` starting from `init`. |
+
+`VecIterRef<T>` also provides `next`, `count`, and `find` (yielding item pointers via `VecIterResult<T>`).
+
 ## Memory Management
 
 | Method | Signature | Description |

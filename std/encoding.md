@@ -4,7 +4,7 @@ The `std/encoding` module provides data encoding and decoding utilities.
 
 ## Base64 (`std/encoding/base64.zc`)
 
-Base64 encoding implementation (RFC 4648).
+Base64 encoding implementation (RFC 4648). See [Base64](./base64.md) for the full reference.
 
 ### Usage
 
@@ -22,8 +22,8 @@ fn main() {
 
 | Method | Signature | Description |
 | :--- | :--- | :--- |
-| **encode** | `Base64::encode(data: u8*, len: usize) -> char*` | Encodes data into a Base64 string. |
-| **decode** | `Base64::decode(s: char*) -> Vec<u8>` | Decodes a Base64 string into raw bytes. |
+| **encode** | `Base64::encode(data: u8*, len: usize) -> String` | Encodes data into a Base64 string. |
+| **decode** | `Base64::decode(data: char*) -> Result<Vec<u8>>` | Decodes a Base64 string into raw bytes, validating length and characters. |
 
 ## Hex (`std/encoding/hex.zc`)
 

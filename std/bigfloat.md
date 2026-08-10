@@ -46,12 +46,22 @@ struct BigFloat {
 | :--- | :--- | :--- |
 | **new** | `BigFloat::new() -> BigFloat` | Creates a new `BigFloat` initialized to 0.0. |
 | **from_int** | `BigFloat::from_int(val: u64) -> BigFloat` | Creates a `BigFloat` from an integer with scale 0. |
+| **from_bigint** | `BigFloat::from_bigint(val: BigInt, scale: int) -> BigFloat` | Creates a `BigFloat` from a `BigInt` magnitude and a scale. |
+| **from_string** | `BigFloat::from_string(s: char*) -> Result<BigFloat>` | Parses a decimal string such as `"12.5"` into a `BigFloat`. |
+
+### Arithmetic
+
+| Method | Signature | Description |
+| :--- | :--- | :--- |
+| **add** | `add(self, other: BigFloat) -> BigFloat` | Adds two `BigFloat` values, automatically aligning their scales. Returns a new `BigFloat`. |
+| **sub** | `sub(self, other: BigFloat*) -> BigFloat` | Subtracts `other` from `self`. Panics if the result would be negative. |
+| **mul** | `mul(self, other: BigFloat*) -> BigFloat` | Returns the product of two `BigFloat` values. |
+| **div** | `div(self, other: BigFloat*, precision: int) -> BigFloat` | Divides `self` by `other`, producing `precision` fractional digits. |
 
 ### Modification
 
 | Method | Signature | Description |
 | :--- | :--- | :--- |
-| **add** | `add(self, other: BigFloat) -> BigFloat` | Adds two `BigFloat` values, automatically aligning their scales. Returns a new `BigFloat`. |
 | **align_scale** | `align_scale(self, target_scale: int)` | Increases the scale of the `BigFloat` to `target_scale` by shifting the magnitude. |
 
 ### Utility
@@ -59,6 +69,7 @@ struct BigFloat {
 | Method | Signature | Description |
 | :--- | :--- | :--- |
 | **clone** | `clone(self) -> BigFloat` | Returns a deep copy of the `BigFloat`. |
+| **compare** | `compare(self, other: BigFloat*) -> int` | Returns `-1`, `0`, or `1` when `self` is less than, equal to, or greater than `other`. |
 | **to_string** | `to_string(self) -> char*` | Returns a heap-allocated string representation with the decimal point. |
 
 ## Memory Management

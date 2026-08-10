@@ -94,8 +94,13 @@ struct String {
 | :--- | :--- | :--- |
 | **to_lowercase** | `to_lowercase(self) -> String` | Returns a new string converted into lowercase. |
 | **to_uppercase** | `to_uppercase(self) -> String` | Returns a new string converted into uppercase. |
+| **to_int** | `to_int(self) -> int` | Parses the string as a decimal integer. Returns `0` when not a valid integer. |
+| **repeated** | `repeated(self, count: usize) -> String` | Returns a new string with this string repeated `count` times. |
+| **reverse** | `reverse(self) -> String` | Returns a new string with the characters in reverse order. |
 | **split** | `split(self, delim: char) -> Vec<String>` | Splits the string into a vector of substrings. |
 | **trim** | `trim(self) -> String` | Returns a new string with leading/trailing whitespace removed. |
+| **trim_start** | `trim_start(self) -> String` | Returns a new string with leading whitespace removed. |
+| **trim_end** | `trim_end(self) -> String` | Returns a new string with trailing whitespace removed. |
 | **replace** | `replace(self, target: char*, replacement: char*) -> String` | Returns a new string with replacements. |
 | **pad_left** | `pad_left(self, target_len: usize, pad_char: char) -> String` | Returns a new string padded on the left. |
 | **pad_right** | `pad_right(self, target_len: usize, pad_char: char) -> String` | Returns a new string padded on the right. |

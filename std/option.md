@@ -50,6 +50,8 @@ struct Option<T> {
 | :--- | :--- | :--- |
 | **is_some** | `is_some(self) -> bool` | Returns `true` if the option is `Some`. |
 | **is_none** | `is_none(self) -> bool` | Returns `true` if the option is `None`. |
+| **is_some_and** | `is_some_and(self, f: fn(T) -> bool) -> bool` | Returns `true` when `Some` and `f` accepts the contained value. |
+| **is_none_or** | `is_none_or(self, f: fn(T) -> bool) -> bool` | Returns `true` when `None`, or when `Some` and `f` accepts the value. |
 
 ### Extraction
 
@@ -58,8 +60,15 @@ struct Option<T> {
 | **unwrap** | `unwrap(self) -> T` | Returns the contained value. Panics if `None`. |
 | **unwrap_ref** | `unwrap_ref(self) -> T*` | Returns a pointer to the contained value. Panics if `None`. |
 | **unwrap_or** | `unwrap_or(self, def: T) -> T` | Returns the contained value or `def`. |
+| **unwrap_or_else** | `unwrap_or_else(self, f: fn() -> T) -> T` | Returns the contained value or the result of `f` when `None`. |
 | **expect** | `expect(self, msg: char*) -> T` | Returns the value or panics with `msg`. |
 | **or_else** | `or_else(self, other: Option<T>) -> Option<T>` | Returns the option if `Some`, otherwise returns `other`. |
+
+### Conversion
+
+| Method | Signature | Description |
+| :--- | :--- | :--- |
+| **filter** | `filter(self, f: fn(T) -> bool) -> Option<T>` | Keeps the value when `Some` and `f` accepts it, otherwise `None`. |
 
 ## Memory Management
 

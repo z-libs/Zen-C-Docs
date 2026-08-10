@@ -43,6 +43,17 @@ struct BigInt {
 | :--- | :--- | :--- |
 | **new** | `BigInt::new() -> BigInt` | Creates a new `BigInt` initialized to 0. |
 | **from_int** | `BigInt::from_int(val: u64) -> BigInt` | Creates a new `BigInt` from a 64-bit integer. |
+| **from_string** | `BigInt::from_string(s: char*) -> Result<BigInt>` | Parses a decimal string (digits only) into a `BigInt`. |
+
+### Arithmetic
+
+| Method | Signature | Description |
+| :--- | :--- | :--- |
+| **add** | `add(self, other: BigInt*) -> BigInt` | Returns the sum of two values. |
+| **sub** | `sub(self, other: BigInt*) -> BigInt` | Subtracts `other` from `self`. Panics if the result would be negative. |
+| **mul** | `mul(self, other: BigInt*) -> BigInt` | Returns the product of two values. |
+| **div** | `div(self, divisor: BigInt*) -> BigInt` | Returns the integer quotient of `self / divisor`. |
+| **rem** | `rem(self, divisor: BigInt*) -> BigInt` | Returns the remainder of `self / divisor`. |
 
 ### Modification
 
@@ -55,6 +66,8 @@ struct BigInt {
 | Method | Signature | Description |
 | :--- | :--- | :--- |
 | **clone** | `clone(self) -> BigInt` | Returns a deep copy of the `BigInt`. |
+| **compare** | `compare(self, other: BigInt*) -> int` | Returns `-1`, `0`, or `1` when `self` is less than, equal to, or greater than `other`. |
+| **is_zero** | `is_zero(self) -> bool` | Returns `true` when the value is zero. |
 | **to_string** | `to_string(self) -> char*` | Returns a heap-allocated string representation. |
 
 ## Operators
