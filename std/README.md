@@ -11,7 +11,6 @@ The Zen C Standard Library provides a comprehensive collection of modules and ty
 | **[Bits](./bits.md)** | Low-level bitwise operations (`rotl`, `rotr`). |
 | **[Complex](./complex.md)** | Complex number operations. |
 | **[Crypto](./crypto.md)** | Cryptographic primitives (SHA1). |
-| **[CUDA](./cuda.md)** | CUDA GPGPU operations and interoperability. |
 | **[Encoding](./encoding.md)** | Data encoding utilities (Base64). |
 | **[Env](./env.md)** | Process environment variables access. |
 | **[FS](./fs.md)** | File system I/O and directory operations. |

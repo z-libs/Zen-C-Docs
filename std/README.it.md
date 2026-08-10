@@ -11,7 +11,6 @@ La Libreria Standard di Zen C fornisce una raccolta completa di moduli e tipi pe
 | **[Bits](./bits.md)** | Operazioni bitwise a basso livello (`rotl`, `rotr`). |
 | **[Complex](./complex.md)** | Operazioni con numeri complessi. |
 | **[Crypto](./crypto.md)** | Primitive crittografiche (SHA1). |
-| **[CUDA](./cuda.md)** | Operazioni GPGPU CUDA e interoperabilità. |
 | **[Encoding](./encoding.md)** | Utilità di codifica dei dati (Base64). |
 | **[Env](./env.md)** | Accesso alle variabili d'ambiente del processo. |
 | **[FS](./fs.md)** | I/O del file system e operazioni sulle directory. |
