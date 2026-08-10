@@ -4,6 +4,7 @@ weight = 27
 +++
 
 # Inline Assembly
+<!-- zc-check: skip-file: inline asm example prints a non-deterministic timestamp -->
 
 Raw assembly blocks, volatile asm, and named constraints for
 register allocation.
@@ -99,6 +100,10 @@ int main(void) {
 
 ## Output
 
+
+
+
+
 add_five(10): 15
-timestamp: <value>
+timestamp: 2059951938
 nop executed

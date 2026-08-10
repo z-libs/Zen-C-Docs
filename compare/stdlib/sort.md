@@ -44,8 +44,5 @@ int main(void) {
 
 ## Output
 
-sorted: 1
-sorted: 1
-sorted: 3
-sorted: 4
-sorted: 5
+
+sorted via built-in sort

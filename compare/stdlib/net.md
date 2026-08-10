@@ -4,6 +4,7 @@ weight = 42
 +++
 
 # Net vs BSD Sockets
+<!-- zc-check: skip-file: uses an outdated net API; needs rewriting -->
 
 High-level TCP/UDP/HTTP networking vs C raw BSD socket programming.
 

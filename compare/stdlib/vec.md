@@ -104,7 +104,8 @@ int main(void) {
 
 ## Output
 
-len: 3, cap: 4
+
+len: 3, cap: 8
 value: 10
 value: 20
 value: 30

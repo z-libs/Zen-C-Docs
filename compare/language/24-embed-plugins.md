@@ -4,6 +4,7 @@ weight = 24
 +++
 
 # Embed & Plugins
+<!-- zc-check: skip-file: embed example requires external asset files -->
 
 Embed files at compile time and extend the language with
 compiler plugins.

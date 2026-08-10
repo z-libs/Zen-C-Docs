@@ -4,6 +4,7 @@ weight = 45
 +++
 
 # Time vs time.h
+<!-- zc-check: skip-file: time example prints a changing timestamp -->
 
 Time measurement and timestamps vs C time.h/clock_gettime.
 
@@ -45,4 +46,9 @@ int main(void) {
 
 
 
-timestamp: 1786358098667 ms
+
+
+
+
+
+timestamp: 1786358929701 ms

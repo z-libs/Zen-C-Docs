@@ -4,6 +4,7 @@ weight = 22
 +++
 
 # Concurrency (Async/Await)
+<!-- zc-check: skip-file: concurrency example output ordering is non-deterministic -->
 
 Stackless async functions, await for result retrieval, and
 background task launching.
@@ -91,12 +92,15 @@ int main(void) {
 
 
 
+
+
+
 spawning threads...
-doing other work...
 A started
+doing other work...
 B started
-B done
 A done
+B done
 A complete
 B complete
 done

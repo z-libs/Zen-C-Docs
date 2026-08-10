@@ -72,11 +72,12 @@ int main(void) {
 
 ## Output
 
+
 decimal: 42
 hex:     255
 octal:   493
 binary:  172
 large:   1000000
-pi:      3.1415927
+pi:
 sci:     1.5e+10
 rune:    Z

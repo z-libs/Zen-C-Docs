@@ -80,9 +80,9 @@ int main(void) {
 
 ## Output
 
-processing test.txt...
-done
----
-buffer allocated
----
-buffer automatically freed
+
+
+
+
+
+

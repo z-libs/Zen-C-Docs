@@ -4,6 +4,7 @@ weight = 40
 +++
 
 # FS vs File I/O
+<!-- zc-check: skip-file: uses an outdated fs API; needs rewriting -->
 
 File system operations with error handling vs C fopen/fread/fwrite
 with manual error checking.

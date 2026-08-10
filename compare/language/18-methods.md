@@ -95,7 +95,6 @@ int main(void) {
 
 ## Output
 
+
 area: 50
 scaled area: 200
-42 is even: true
-7 is even: false

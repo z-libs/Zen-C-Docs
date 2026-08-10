@@ -4,6 +4,7 @@ weight = 43
 +++
 
 # Thread vs pthreads
+<!-- zc-check: skip-file: concurrency example has non-deterministic output -->
 
 Structured threading vs C pthreads with manual joins.
 
@@ -62,6 +63,8 @@ int main(void) {
 - C requires `void*` arg structs for passing data
 
 ## Output
+
+
 
 spawning...
 thread 1 done

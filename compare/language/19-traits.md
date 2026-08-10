@@ -115,5 +115,6 @@ int main(void) {
 
 ## Output
 
-drawing circle r=5.0
-drawing square side=3.0
+
+drawing circle r=5.000000
+drawing square side=3.000000

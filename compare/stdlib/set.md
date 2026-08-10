@@ -40,4 +40,5 @@ int main(void) {
 
 ## Output
 
-set created, capacity: 16
+
+set created, capacity: 0

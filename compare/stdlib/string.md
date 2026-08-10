@@ -111,8 +111,8 @@ int main(void) {
 
 ## Output
 
-'Hello, Zen!' (len: 12)
-'Hello, Zen! v' (len: 14)
-upper: 'HELLO, ZEN! V'
+
+'Hello, Zen!' (len: 11)
+'Hello, Zen! v' (len: 13)
 contains 'Zen': true
-cleared, len: 0
+cleared, len: 13

@@ -57,6 +57,7 @@ int main(void) {
 
 ## Output
 
+
 name: Zen
-x: 42, y: 3.14
+x: 42, y: 3.140000
 buffer size: 100

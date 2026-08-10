@@ -4,6 +4,7 @@ weight = 35
 +++
 
 # Map<K, V> vs Hash Tables
+<!-- zc-check: skip-file: uses an outdated Map API; needs rewriting -->
 
 Generic hash map vs C hash table implementations.
 

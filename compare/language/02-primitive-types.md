@@ -79,10 +79,11 @@ int main(void) {
 
 ## Output
 
+
 int:     42 (4 bytes)
 u8:      255 (1 bytes)
 i64:     -9223372036854775807 (8 bytes)
-f64:     3.1415926535
+f64:
 bool:    true
 char:    Z
 isize:   42

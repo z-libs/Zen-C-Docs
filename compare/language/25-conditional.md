@@ -86,6 +86,6 @@ int main(void) {
 
 ## Output
 
+
 buffer size: 1024
-[DEBUG] running in debug mode
-v2: (1.0, 2.0, 3.0)
+v2: (1.000000, 2.000000, 3.000000)

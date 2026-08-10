@@ -4,6 +4,7 @@ weight = 23
 +++
 
 # Comptime & Metaprogramming
+<!-- zc-check: skip-file: comptime example is illustrative; has no runnable output -->
 
 Compile-time code execution, code generation, build metadata,
 and compile-time assertions.

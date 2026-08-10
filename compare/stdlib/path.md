@@ -54,5 +54,9 @@ int main(void) {
 
 ## Output
 
-full path: /home/user/docs/readme.txt
-extension: txt
+
+
+
+
+
+

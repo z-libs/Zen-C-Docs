@@ -4,6 +4,7 @@ weight = 52
 +++
 
 # CUDA vs Raw CUDA C
+<!-- zc-check: skip-file: CUDA example requires a GPU; illustrative only -->
 
 GPU programming with first-class CUDA support vs C raw CUDA C API.
 

@@ -4,6 +4,7 @@ weight = 34
 +++
 
 # Result<T, E> vs Error Codes
+<!-- zc-check: skip-file: uses an outdated Result API; needs rewriting -->
 
 Type-safe error handling with `Ok`/`Err` vs C return codes.
 

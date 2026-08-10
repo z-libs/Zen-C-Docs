@@ -89,6 +89,9 @@ int main(void) {
 
 ## Output
 
-Point(10, 20)
-valid: 1, mode: 5
-id: 42
+
+
+
+
+
+

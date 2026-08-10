@@ -63,5 +63,5 @@ int main(void) {
 
 ## Output
 
-match: user@example.com
+
 is match: true

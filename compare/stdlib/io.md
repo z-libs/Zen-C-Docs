@@ -47,4 +47,5 @@ int main(void) {
 
 ## Output
 
-Enter your name: > Hello, <input>!
+
+Enter your name:
