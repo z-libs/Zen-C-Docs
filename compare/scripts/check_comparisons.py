@@ -100,8 +100,12 @@ def transpile_zc(code, out_c_file):
 
 def run_binary(binary, timeout=10):
     try:
-        r = subprocess.run([binary], capture_output=True, text=True, timeout=timeout)
-        return (True, r.stdout, r.stderr)
+        # Read raw bytes: program output is not guaranteed to be valid UTF-8
+        # (e.g. binary/encoding examples), so decode lossily.
+        r = subprocess.run([binary], capture_output=True, timeout=timeout)
+        out = r.stdout.decode('utf-8', errors='replace')
+        err = r.stderr.decode('utf-8', errors='replace')
+        return (True, out, err)
     except subprocess.TimeoutExpired:
         return (False, "", "timeout")
     except OSError as e:

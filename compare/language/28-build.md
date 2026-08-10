@@ -4,6 +4,7 @@ weight = 28
 +++
 
 # Build Directives
+<!-- zc-check: skip-file: build-directive example requires external deps (glib/X11) -->
 
 In-source build configuration: linking libraries, include paths,
 flags, and OS-guarded directives.
