@@ -26,6 +26,20 @@ Deep dives into the compiler's internals and tooling protocols.
 - **[LSP Protocol](LSP.md)**: Documentation for the Zen C Language Server integration.
 - **[Plugin System](PLUGINS.md)**: How to extend the compiler with custom plugins.
 
+### Command-Line Tools
+
+Zen C ships a small set of focused binaries, installed alongside `zc`:
+
+| Binary | Purpose |
+| :--- | :--- |
+| `zc` | The compiler (`build`, `transpile`, `run`, `check`, ...). |
+| `zc-lsp` | Language server (JSON-RPC over stdio). |
+| `zc-repl` | Interactive read-eval-print loop (JIT-powered). |
+| `zc-doc` | Generates module documentation from source. |
+| `zc-format` | Source formatter. |
+
+The legacy subcommands `zc lsp`, `zc repl`, `zc doc`, and `zc format` still work as deprecated aliases that launch the standalone binaries.
+
 ## Reference (17 chapters)
 
 | # | Chapter | Description |

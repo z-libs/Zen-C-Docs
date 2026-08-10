@@ -1,13 +1,13 @@
 # Zen C Language Server Protocol (LSP)
 
-Zen C comes with a built-in Language Server (LSP) to provide editor features like autocompletion, go-to-definition, and error diagnostics.
+Zen C ships a Language Server (LSP) binary, `zc-lsp`, that provides editor features like autocompletion, go-to-definition, and error diagnostics.
 
 ## Starting the Server
 
-The Language Server is built into the `zc` compiler key. You can start it manually (though your editor usually handles this) with:
+`zc-lsp` is a standalone binary installed alongside `zc`. (The legacy `zc lsp` subcommand still works as a deprecated alias.) You can start it manually (though your editor usually handles this) with:
 
 ```bash
-zc lsp
+zc-lsp
 ```
 
 It communicates over standard input/output (stdio).
@@ -41,7 +41,7 @@ local configs = require('lspconfig.configs')
 if not configs.zenc then
   configs.zenc = {
     default_config = {
-      cmd = { 'zc', 'lsp' },
+      cmd = { 'zc-lsp' },
       filetypes = { 'zenc', 'zc' },
       root_dir = lspconfig.util.root_pattern('.git', 'build.bat', 'Makefile'),
       settings = {},
@@ -61,8 +61,7 @@ To configure Zen C in Zed, add the following to your `settings.json` or language
   "lsp": {
     "zenc": {
       "binary": {
-        "path": "zc",
-        "arguments": ["lsp"]
+        "path": "zc-lsp"
       }
     }
   },
@@ -78,10 +77,9 @@ To configure Zen C in Zed, add the following to your `settings.json` or language
 
 For any editor that supports generic LSP clients:
 
-1.  **Command**: `zc`
-2.  **Arguments**: `lsp`
-3.  **Transport**: `stdio`
-4.  **File Extensions**: `.zc`
+1.  **Command**: `zc-lsp`
+2.  **Transport**: `stdio`
+3.  **File Extensions**: `.zc`
 
 ## Features
 

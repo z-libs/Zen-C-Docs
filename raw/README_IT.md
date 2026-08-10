@@ -196,10 +196,7 @@ zc run hello.zc
 zc build hello.zc -o hello
 
 # Shell interattiva
-zc repl
-
-# Mostra curiosità Zen
-zc build hello.zc --zen
+zc-repl
 ```
 
 ### Variabili d'ambiente
@@ -1643,7 +1640,7 @@ Il server del linguaggio (LSP) di Zen C supporta le feature standard per l'integ
 Per avviare il server del linguaggio (tipicamente configurato nelle impostazioni LSP del tuo editor):
 
 ```bash
-zc lsp
+zc-lsp
 ```
 
 Il server comunica via lo Standard I/o (JSON-RPC 2.0).
@@ -1653,7 +1650,7 @@ Il server comunica via lo Standard I/o (JSON-RPC 2.0).
 Il Read-Eval-Print-Loop (REPL, lett. _Leggi-Esegui-Stampa-Ripeti_) ti permette ti sperimentare con il codice Zen C in maniera interattiva.
 
 ```bash
-zc repl
+zc-repl
 ```
 
 #### Funzionalità
@@ -1696,7 +1693,7 @@ Zen C include un Server di Linguaggio integrato per l'integrazione con gli edito
 - **[Guida all'Installazione e Configurazione](translations/LSP_IT.md)**
 - **Editor Supportati**: VS Code, Neovim, Vim, Zed, e qualsiasi editor compatibile con LSP.
 
-Usa `zc lsp` per avviare il server.
+Usa `zc-lsp` per avviare il server.
 
 ### Debugging Zen C
 

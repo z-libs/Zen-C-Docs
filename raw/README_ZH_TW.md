@@ -195,9 +195,7 @@ zc run hello.zc
 zc build hello.zc -o hello
 
 # 交互式 Shell
-zc repl
-# 顯示 Zen Facts
-zc build hello.zc --zen
+zc-repl
 ```
 
 ### 環境變量
@@ -1612,7 +1610,7 @@ Zen C 語言服務器 (LSP) 支持標準的 LSP 特性，用於編輯器集成�
 啟動語言服務器（通常在編輯器的 LSP 設置中配置）：
 
 ```bash
-zc lsp
+zc-lsp
 ```
 
 它通過標準 I/O (JSON-RPC 2.0) 進行通信。
@@ -1622,7 +1620,7 @@ zc lsp
 Read-Eval-Print Loop 允許你交互式地嘗試 Zen C 代碼。
 
 ```bash
-zc repl
+zc-repl
 ```
 
 #### 特性
@@ -1665,7 +1663,7 @@ Zen C 包含一個內建的語言伺服器，用於編輯器整合。
 - **[安裝與設定指南](translations/LSP_ZH_TW.md)**
 - **支援的編輯器**: VS Code, Neovim, Vim, Zed, 以及任何支援 LSP 的編輯器。
 
-使用 `zc lsp` 啟動服務器。
+使用 `zc-lsp` 啟動服務器。
 
 ### Zen C 調試
 

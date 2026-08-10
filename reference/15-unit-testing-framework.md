@@ -53,7 +53,7 @@ The Zen C Language Server (LSP) supports standard LSP features for editor integr
 To start the language server (typically configured in your editor's LSP settings):
 
 ```bash
-zc lsp
+zc-lsp
 ```
 
 It communicates via standard I/O (JSON-RPC 2.0).
@@ -63,7 +63,7 @@ It communicates via standard I/O (JSON-RPC 2.0).
 The Read-Eval-Print Loop allows you to experiment with Zen C code interactively.
 
 ```bash
-zc repl
+zc-repl
 ```
 
 #### Features
@@ -106,7 +106,7 @@ Zen C includes a built-in Language Server for editor integration.
 - **[Installation & Setup Guide](docs/LSP.md)**
 - **Supported Editors**: VS Code, Neovim, Vim ([zenc.vim](https://github.com/zenc-lang/zenc.vim)), Zed, and any LSP-capable editor.
 
-Use `zc lsp` to start the server.
+Use `zc-lsp` to start the server.
 
 ### Debugging Zen C
 

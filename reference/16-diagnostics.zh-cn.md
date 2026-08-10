@@ -131,7 +131,7 @@ Zen C 语言服务器 (LSP) 支持标准的 LSP 特性，用于编辑器集成�
 启动语言服务器（通常在编辑器的 LSP 设置中配置）：
 
 ```bash
-zc lsp
+zc-lsp
 ```
 
 它通过标准 I/O (JSON-RPC 2.0) 进行通信。
@@ -141,7 +141,7 @@ zc lsp
 Read-Eval-Print Loop 允许你交互式地尝试 Zen C 代码。
 
 ```bash
-zc repl
+zc-repl
 ```
 
 #### 特性
@@ -184,7 +184,7 @@ Zen C 包含一个内置的语言服务器，用于编辑器集成。
 - **[安装与设置指南](translations/LSP_ZH_CN.md)**
 - **支持的编辑器**: VS Code, Neovim, Vim, Zed, 以及任何支持 LSP 的编辑器。
 
-使用 `zc lsp` 启动服务器。
+使用 `zc-lsp` 启动服务器。
 
 ### Zen C 调试
 

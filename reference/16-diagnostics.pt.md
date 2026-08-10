@@ -114,7 +114,7 @@ O Zen C inclui a biblioteca padrão (`std`), que cobre as funcionalidades essenc
 
 ## Ferramentas
 
-Zen C inclui um Language Server embutido (`zc lsp`) e um REPL para aprimorar a experiência do desenvolvimento.
+Zen C inclui um Language Server embutido (`zc-lsp`) e um REPL para aprimorar a experiência do desenvolvimento.
 
 ### Language Server (LSP)
 
@@ -131,7 +131,7 @@ O Zen C Language Server (LSP) suporta funcionalidades padrão de LSP para integr
 Para inicializar o servidor da linguagem (tipicamente configurado nas configurações LSP do seu editor):
 
 ```bash
-zc lsp
+zc-lsp
 ```
 
 Ele se comunica via I/O padrão (JSON-RPC 2.0).
@@ -180,7 +180,7 @@ O Zen C inclui um Servidor de Linguagem integrado para integração com editores
 - **[Guia de Instalação e Configuração](translations/LSP_PT_BR.md)**
 - **Editores Suportados**: VS Code, Neovim, Vim, Zed, e qualquer editor capaz de LSP.
 
-Use `zc lsp` para iniciar o servidor.
+Use `zc-lsp` para iniciar o servidor.
 
 ### Depuração de Zen C
 
