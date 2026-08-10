@@ -87,6 +87,11 @@ def compile_code(code, file_hint="example"):
             stderr = result.stderr.decode('utf-8', errors='replace')
             if result.returncode != 0:
                 if "error:" in stderr:
+                    # stderr is dominated by warnings from imported std modules;
+                    # report the first real error line.
+                    for line in stderr.splitlines():
+                        if "error:" in line:
+                            return (False, line.strip()[:300])
                     return (False, stderr[:2000])
                 return (True, "")
             return (True, "")
