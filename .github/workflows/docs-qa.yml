@@ -58,7 +58,6 @@ jobs:
   check-comparisons:
     name: Verify C Comparisons
     runs-on: ubuntu-latest
-    if: ${{ hashFiles('compare/**') != '' }}
     steps:
       - uses: actions/checkout@v4
 
