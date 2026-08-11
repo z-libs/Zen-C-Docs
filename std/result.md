@@ -23,8 +23,8 @@ fn divide(a: int, b: int) -> Result<int> {
 
 fn main() {
     match divide(10, 0) {
-        Ok(val) => println "Result: {val}",
-        Err(e)  => println "Error: {e}"
+        Ok(val) => { println "Result: {val}"; },
+        Err(e)  => { println "Error: {e}"; }
     }
 }
 ```

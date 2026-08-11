@@ -24,15 +24,14 @@ fn main() {
     // Serialization
     let json_str = obj.to_string();
     println "Serialized: {json_str}";
-    
-    // Parsing
-    let input = "{\"score\": 100}";
-    match JsonValue::parse(input) {
-        Ok(parsed) => {
-            println "Score: {parsed.get(\"score\").unwrap().as_int().unwrap()}";
-            // parsed is freed automatically when this block ends
-        }
-        Err(e) => println "Error: {e}"
+
+    // Parsing (round trip)
+    let parsed_res = JsonValue::parse(json_str);
+    free(json_str);
+    if (parsed_res.is_ok()) {
+        let parsed = parsed_res.unwrap();
+        let name = (*parsed).get_string("name").unwrap();
+        println "Name: {name}";
     }
 } // obj is freed automatically here
 ```

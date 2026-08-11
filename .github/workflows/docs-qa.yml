@@ -40,10 +40,10 @@ jobs:
 
       - name: Run Code Example Checker
         run: |
-          # Validate the runnable examples in the reference chapters. The std/
-          # docs are hand-written today and will be generated from /// doc
-          # comments by `zc-doc`; they are re-enabled once generated.
-          python3 scripts/check_doc_examples.py reference/*.md
+          # Validate the runnable examples in the reference chapters and the
+          # std module docs. Illustrative / toolchain-dependent snippets opt
+          # out via `zc-check: skip`; translations are excluded by the script.
+          python3 scripts/check_doc_examples.py reference/*.md std/*.md
 
   check-translations:
     name: Translation Coverage

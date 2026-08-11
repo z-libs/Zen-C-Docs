@@ -7,6 +7,7 @@ The `std/cuda` module provides helper functions and types for CUDA interoperabil
 
 ## Usage
 
+<!-- zc-check: skip: requires CUDA toolkit (compile with --cuda) -->
 ```zc
 import "std/cuda.zc"
 

@@ -19,8 +19,8 @@ fn main() {
 
     // Retrieving (Borrowed)
     match Env::get("MY_APP_MODE") {
-        Some(val) => println "Mode: {val}",
-        None => println "Mode not set"
+        Some(val) => { println "Mode: {val}"; },
+        None => { println "Mode not set"; }
     }
 
     // Retrieving (Owned String for RAII)
@@ -29,7 +29,7 @@ fn main() {
              println "Home: {home}";
              // home is freed automatically
         }
-        None => println "HOME not found"
+        None => { println "HOME not found"; }
     }
 }
 ```

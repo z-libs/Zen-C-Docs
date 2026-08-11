@@ -17,17 +17,16 @@ import "std/fs.zc"
 fn main() {
     // Basic file reading using RAII
     match File::read_all("config.txt") {
-        Ok(content) => println "Config: {content}",
-        Err(e) => println "Error reading config: {e}"
+        Ok(content) => { println "Config: {content}"; },
+        Err(e) => { println "Error reading config: {e}"; }
     }
     
     // Explicit file handle with automatic closure
-    match File::open("data.log", "a") {
-        Ok(file) => {
-            file.write_string("Log entry\n");
-            // file is closed automatically here
-        }
-        Err(e) => println "Failed to open log: {e}"
+    let res = File::open("data.log", "a");
+    if (res.is_ok()) {
+        let file = res.unwrap();
+        file.write_string("Log entry\n");
+        // file is closed automatically here
     }
 }
 ```

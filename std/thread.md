@@ -20,7 +20,7 @@ fn worker(id: int) {
 
 fn main() {
     // Spawning with a closure
-    let t = Thread::spawn(|| {
+    let t = Thread::spawn(fn() {
         worker(42);
     }).unwrap();
     

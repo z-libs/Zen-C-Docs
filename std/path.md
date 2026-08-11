@@ -21,8 +21,8 @@ fn main() {
     println "Full path: {full_path.c_str()}";
     
     match full_path.extension() {
-        Some(ext) => println "Extension: {ext}",
-        None => println "No extension found"
+        Some(ext) => { println "Extension: {ext}"; },
+        None => { println "No extension found"; }
     }
 } // full_path and p are freed automatically here
 ```

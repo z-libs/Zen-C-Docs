@@ -4,6 +4,7 @@ The `std/iter` module provides traits for defining custom iterators compatible w
 
 ## Usage
 
+<!-- zc-check: skip: illustrative pseudo-code; my_collection is not defined -->
 ```zc
 import "std/iter.zc"
 

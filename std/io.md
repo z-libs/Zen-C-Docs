@@ -16,14 +16,14 @@ import "std/io.zc"
 
 fn main() {
     // Basic printing
-    println("Hello, %s!", "Zen-C");
+    println "Hello, Zen-C!";
     
     // Reading a line of input
-    print("Enter your name: ");
+    print "Enter your name: ";
     autofree let name = readln();
     
-    if name != NULL {
-        println("Greeting, %s", name);
+    if (name != NULL) {
+        println "Greeting, {name}";
     }
 }
 ```

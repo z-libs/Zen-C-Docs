@@ -26,7 +26,7 @@ fn main() {
     
     // One-time initialization
     let once = Once::new();
-    once.call(|| {
+    once.call(fn() {
         println "Initialized!";
     });
 }

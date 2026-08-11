@@ -11,7 +11,7 @@ The `std/base64` module provides RFC 4648 Base64 encoding and decoding. Encoding
 ## Usage
 
 ```zc
-import "std/base64.zc"
+import "std/encoding/base64.zc"
 import "std/io.zc"
 
 fn main() {
