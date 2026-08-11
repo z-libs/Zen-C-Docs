@@ -26,13 +26,14 @@ fn main() {
     println "Serialized: {json_str}";
 
     // Parsing (round trip)
-    let parsed_res = JsonValue::parse(json_str);
-    free(json_str);
-    if (parsed_res.is_ok()) {
-        let parsed = parsed_res.unwrap();
-        let name = (*parsed).get_string("name").unwrap();
-        println "Name: {name}";
+    match JsonValue::parse(json_str) {
+        Ok(parsed) => {
+            let name = (*parsed).get_string("name").unwrap();
+            println "Name: {name}";
+        },
+        Err(e) => { println "Parse error: {e}"; }
     }
+    free(json_str);
 } // obj is freed automatically here
 ```
 

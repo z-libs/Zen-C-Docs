@@ -22,11 +22,12 @@ fn main() {
     }
     
     // Explicit file handle with automatic closure
-    let res = File::open("data.log", "a");
-    if (res.is_ok()) {
-        let file = res.unwrap();
-        file.write_string("Log entry\n");
-        // file is closed automatically here
+    match File::open("data.log", "a") {
+        Ok(file) => {
+            file.write_string("Log entry\n");
+            // file is closed automatically here
+        },
+        Err(e) => { println "Failed to open log: {e}"; }
     }
 }
 ```
